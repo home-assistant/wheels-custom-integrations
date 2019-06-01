@@ -1,9 +1,9 @@
-# custom-components-wheels
+# Custom Components Wheels
 Custom components wheels hosted by Home Assistant repository
 
 ## Custom component provider
 
-Update the custom_components.txt list like:
+Update the custom_components.json list like:
 
 ```json
 [

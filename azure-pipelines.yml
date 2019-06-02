@@ -77,7 +77,7 @@ jobs:
 
       sudo docker run --rm -v $(pwd):/data:ro -v $(pwd)/.ssh:/root/.ssh:rw \
         homeassistant/$(buildArch)-wheels:$(versionWheels) \
-        --apk "build-base;mariadb-dev;postgresql-dev;freetds-dev;libffi-dev;cmake;ncurses;git" \
+        --apk "build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;linux-headers;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev" \
         --index $(wheelsIndex) \
         --requirement requirements.txt \
         --upload rsync \

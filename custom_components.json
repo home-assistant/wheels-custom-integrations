@@ -1,5 +1,8 @@
-{
-  [
-  
-  ]
-}
+[
+  {
+    "name": "custom_updater",
+    "owner": "ludeeus",
+    "manifest": "https://raw.githubusercontent.com/custom-components/custom_updater/master/custom_components/custom_updater/manifest.json",
+    "url": "https://github.com/custom-components/custom_updater",
+  }
+]

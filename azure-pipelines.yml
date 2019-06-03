@@ -68,10 +68,8 @@ jobs:
   - script: sudo docker pull homeassistant/$(buildArch)-wheels:$(versionWheels)
     displayName: 'Install wheels builder'
   - script: |
-      lenght="$(jq --raw-output '. | length' custom_components.json)"
-
-      for (( i; i < lenght; i++ )); do
-        manifest="$(jq --raw-output ".[${i}].manifest" custom_components.json)"
+      for component in components/*; do
+        manifest="$(jq --raw-output ".manifest" "${component}")"
         curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
       done
 

@@ -5,16 +5,13 @@ Custom components wheels hosted by Home Assistant repository
 
 ## Custom component provider
 
-Update the custom_components.json list like:
+Add a custom_components.json to components folder like:
 
 ```json
-[
-  {
-    "name": "Name of Component",
-    "owner": "name of owner",
-    "manifest": "https://url/of/manifest.json",
-    "url": "https://url/of/component",
-  }
-]
+{
+  "name": "Name of Component",
+  "owner": "name of owner",
+  "manifest": "https://url/of/manifest.json",
+  "url": "https://url/of/component",
+}
 ```
-

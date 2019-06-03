@@ -9,7 +9,7 @@ pr:
   - master
 variables:
   - name: versionWheels
-    value: '0.7'
+    value: '0.8'
   - group: wheels
 
 

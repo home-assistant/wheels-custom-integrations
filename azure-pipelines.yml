@@ -5,6 +5,9 @@ trigger:
   branches:
     include:
     - master
+  paths:
+    include:
+    - components/*
 pr:
   - master
 variables:

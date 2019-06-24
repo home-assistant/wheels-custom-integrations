@@ -10,7 +10,7 @@ Add a custom_components.json to components folder like:
 ```json
 {
   "name": "Name of Component",
-  "owner": "name of owner",
+  "owner": ["@owner"],
   "manifest": "https://url/of/manifest.json",
   "url": "https://url/of/component",
 }

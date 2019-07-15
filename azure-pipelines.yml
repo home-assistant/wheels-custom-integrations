@@ -12,7 +12,7 @@ pr:
   - master
 variables:
   - name: versionWheels
-    value: '1.0-3.7-alpine3.10'
+    value: '1.1-3.7-alpine3.10'
   - group: wheels
 
 

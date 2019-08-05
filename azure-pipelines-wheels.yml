@@ -40,3 +40,4 @@ jobs:
           manifest="$(jq --raw-output ".manifest" "${component}")"
           curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
         done
+      displayName: 'Prepare requirements files for Hass.io'

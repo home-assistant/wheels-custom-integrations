@@ -37,7 +37,12 @@ jobs:
     preBuild:
     - script: |
         for component in components/*; do
-          manifest="$(jq --raw-output ".manifest" "${component}")"
+          manifest=$(jq --raw-output ".manifest" "${component}")
+
+          echo "Process: ${component} -> ${manifest}"
           curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
         done
+
+        echo "List:"
+        cat requirements.txt
       displayName: 'Prepare requirements files for Hass.io'

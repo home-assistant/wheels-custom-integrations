@@ -36,7 +36,7 @@ jobs:
     wheelsSingle: true
     preBuild:
     - script: |
-      for component in components/*; do
-        manifest="$(jq --raw-output ".manifest" "${component}")"
-        curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
-      done
+        for component in components/*; do
+          manifest="$(jq --raw-output ".manifest" "${component}")"
+          curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
+        done

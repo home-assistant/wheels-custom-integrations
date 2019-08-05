@@ -1,6 +1,6 @@
 {
   "name": "mind",
   "owner": ["bramkragten"],
-  "manifest": "https://raw.githubusercontent.com/bramkragten/mind/master/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/bramkragten/mind/master/custom_components/mind/manifest.json",
   "url": "https://github.com/bramkragten/mind"
 }

@@ -10,7 +10,7 @@ trigger:
     - components/*
 pr: none
 schedules:
-- cron: '0 */8 * * *'
+- cron: '0 */4 * * *'
   displayName: 'daily builds'
   branches:
     include:

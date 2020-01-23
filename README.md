@@ -15,3 +15,4 @@ Add a custom_components.json to components folder like:
   "url": "https://url/of/component",
 }
 ```
+**Note all links in the json must be direct links as http 302 redirects will not be followed.**

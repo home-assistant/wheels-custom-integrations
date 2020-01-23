@@ -1,6 +1,6 @@
 {
   "name": "Alexa Media Player",
   "owner": ["keatontaylor", "alandtse"],
-  "manifest": "https://raw.githubusercontent.com/keatontaylor/alexa_media_player/master/custom_components/alexa_media/manifest.json",
-  "url": "https://github.com/keatontaylor/alexa_media_player"
+  "manifest": "https://raw.githubusercontent.com/custom-components/alexa_media_player/dev/custom_components/alexa_media/manifest.json",
+  "url": "https://github.com/custom-components/alexa_media_player"
 }

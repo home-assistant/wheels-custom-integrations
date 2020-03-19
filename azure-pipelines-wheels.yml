@@ -46,4 +46,4 @@ jobs:
 
         echo "List:"
         cat requirements.txt
-      displayName: 'Prepare requirements files for Hass.io'
+      displayName: 'Prepare requirements files for Home Assistant wheels'

@@ -32,6 +32,7 @@ jobs:
     builderPip: 'Cython;numpy'
     wheelsRequirement: 'requirements.txt'
     wheelsSingle: true
+    jobName: '3.7-alpine3.10'
     preBuild:
     - script: |
         for component in components/*; do
@@ -52,6 +53,7 @@ jobs:
     builderPip: 'Cython;numpy'
     wheelsRequirement: 'requirements.txt'
     wheelsSingle: true
+    jobName: '3.7-alpine3.11'
     preBuild:
     - script: |
         for component in components/*; do

@@ -1,0 +1,6 @@
+{
+  "name": "Ubiquiti EdgeOS Routers",
+  "owner": ["elad-bar"],
+  "manifest": "https://raw.githubusercontent.com/elad-bar/ha-edgeos/master/custom_components/edgeos/manifest.json",
+  "url": "https://github.com/elad-bar/ha-edgeos"
+}

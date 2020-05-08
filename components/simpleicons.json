@@ -1,0 +1,6 @@
+{
+  "name": "Simple Icons",
+  "owner": ["vigonotion"],
+  "manifest": "https://raw.githubusercontent.com/vigonotion/hass-simpleicons/master/custom_components/simpleicons/manifest.json",
+  "url": "https://github.com/vigonotion/hass-simpleicons"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Blue Iris NVR",
+  "owner": ["elad-bar"],
+  "manifest": "https://raw.githubusercontent.com/elad-bar/ha-blueiris/master/custom_components/blueiris/manifest.json",
+  "url": "https://github.com/elad-bar/ha-blueiris"
+}

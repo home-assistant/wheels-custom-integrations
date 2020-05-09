@@ -1,0 +1,6 @@
+{
+  "name": "faastatus",
+  "owner": ["ntilley905"],
+  "manifest": "https://raw.githubusercontent.com/ntilley905/faastatus/master/custom_components/faastatus/manifest.json",
+  "url": "https://github.com/ntilley905/faastatus",
+}

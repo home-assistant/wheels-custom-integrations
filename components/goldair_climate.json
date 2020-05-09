@@ -1,0 +1,6 @@
+{
+  "name": "goldair_climate",
+  "owner": ["nikrolls"],
+  "manifest": "https://github.com/nikrolls/homeassistant-goldair-climate/blob/master/custom_components/goldair_climate/manifest.json",
+  "url": "https://github.com/nikrolls/homeassistant-goldair-climate"
+}

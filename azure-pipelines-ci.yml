@@ -10,7 +10,7 @@ pr:
 
 jobs:
 
-- job: 'Check custom integration requirements'
+- job: 'JQ'
   pool:
     vmImage: 'ubuntu-latest'
   steps:

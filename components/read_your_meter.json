@@ -1,0 +1,6 @@
+{
+  "name": "read_your_meter",
+  "owner": ["eyalcha"],
+  "manifest": "https://https://raw.githubusercontent.com/eyalcha/read_your_meter/master/custom_components/read_your_meter/manifest.json",
+  "url": "https://github.com/eyalcha/read_your_meter"
+}

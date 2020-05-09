@@ -18,7 +18,7 @@ jobs:
     displayName: 'Install JQ'
   - bash: |
       shopt -s globstar
-      cat **/*.json | jq '.'
+      cat components/* | jq '.'
     displayName: 'Run JQ to validate JSON files'
   - bash: |
         for component in components/*; do

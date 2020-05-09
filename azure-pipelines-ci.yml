@@ -26,7 +26,7 @@ jobs:
 
           echo "Process: ${component} -> ${manifest}"
           curl -s "${manifest}" | jq -e --raw-output '.requirements[0]'
-          if [[ "$?" == 1 ]]; then
+          if [[ "$?" != 0 ]]; then
             echo "Useless addition, $component does not have any requirements"
             exit 1
           fi

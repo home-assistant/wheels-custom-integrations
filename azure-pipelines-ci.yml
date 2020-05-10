@@ -27,7 +27,7 @@ jobs:
           echo "Process: ${component} -> ${manifest}"
           curl -s "${manifest}" | jq -e --raw-output '.requirements[0]'
           if [[ "$?" != 0 ]]; then
-            echo "The integration in $component, does not seem  to have any python requirements."
+            echo "The integration in $component, does not seem to have any python requirements."
             echo "Adding it to this repository has no use, since there are nothing to build for it."
             exit 1
           fi

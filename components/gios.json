@@ -1,0 +1,6 @@
+{
+    "name": "GIOŚ",
+    "owner": ["bieniu"],
+    "manifest": "https://raw.githubusercontent.com/bieniu/ha-gios/master/custom_components/gios/manifest.json",
+    "url": "https://github.com/bieniu/ha-gios"
+}

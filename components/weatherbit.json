@@ -1,0 +1,6 @@
+{
+  "name": "Weatherbit",
+  "owner": ["briis"],
+  "manifest": "https://raw.githubusercontent.com/briis/weatherbit/master/custom_components/weatherbit/manifest.json",
+  "url": "https://github.com/briis/weatherbit"
+}

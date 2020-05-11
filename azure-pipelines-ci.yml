@@ -22,10 +22,17 @@ jobs:
     displayName: 'Run JQ to validate JSON files'
   - bash: |
         for component in components/*; do
-          manifest=$(jq --raw-output ".manifest" "${component}")
+          manifestlink=$(jq --raw-output ".manifest" "${component}")
 
-          echo "Process: ${component} -> ${manifest}"
-          curl -s "${manifest}" | jq -e --raw-output '.requirements[0]'
+          echo "Process: ${component} -> ${manifestlink}"
+          manifest=$(curl -s "${manifestlink}" | jq -e --raw-output .)
+          if [[ "$?" != 0 ]]; then
+            echo "Unable to read the manifest file at ${manifestlink}"
+            echo "The URL might be wrong or is not a raw URL."
+            exit 1
+          fi
+
+          echo "${manifest}" | jq -e --raw-output '.requirements[0]'
           if [[ "$?" != 0 ]]; then
             echo "The integration in $component, does not seem to have any Python requirements."
             echo "Adding it to this repository has no use, since there are nothing to build for it."

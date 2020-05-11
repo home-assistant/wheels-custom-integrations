@@ -1,0 +1,8 @@
+{
+  "name": "WattBox",
+  "owner": [
+    "eseglem"
+  ],
+  "manifest": "https://raw.githubusercontent.com/eseglem/hass-wattbox/master/custom_components/wattbox/manifest.json",
+  "url": "https://github.com/eseglem/hass-wattbox"
+}

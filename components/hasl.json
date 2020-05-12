@@ -1,0 +1,6 @@
+{
+  "name": "hasl",
+  "owner": ["DSorlov"],
+  "manifest": "https://raw.githubusercontent.com/hasl-platform/hasl-sensor/master/custom_components/hasl/manifest.json",
+  "url": "https://hasl.sorlov.com"
+}

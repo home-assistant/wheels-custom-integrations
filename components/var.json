@@ -1,0 +1,6 @@
+{
+  "name": "Variable",
+  "owner": ["snarky-snark"],
+  "manifest": "https://raw.githubusercontent.com/snarky-snark/home-assistant-variables/develop/custom_components/var/manifest.json",
+  "url": "https://github.com/snarky-snark/home-assistant-variables"
+}

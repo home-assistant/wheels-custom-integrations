@@ -1,0 +1,6 @@
+{
+  "name": "OpenMediaVault",
+  "owner": ["tomaae"],
+  "manifest": "https://raw.githubusercontent.com/tomaae/homeassistant-openmediavault/master/custom_components/openmediavault/manifest.json",
+  "url": "https://github.com/tomaae/homeassistant-openmediavault"
+}

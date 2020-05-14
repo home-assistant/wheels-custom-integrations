@@ -1,6 +1,0 @@
-{
-    "name": "Garo Wallbox",
-    "owner": ["sockless-coding"],
-    "manifest": "https://raw.githubusercontent.com/sockless-coding/garo_wallbox/master/custom_components/garo_wallbox/manifest.json",
-    "url": "https://github.com/sockless-coding/garo_wallbox"
-}

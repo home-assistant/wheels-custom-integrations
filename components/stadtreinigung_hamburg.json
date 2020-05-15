@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.stadtreinigung_hamburg/master/custom_components/stadtreinigung_hamburg/manifest.json",
-  "name": "stadtreinigung_hamburg",
-  "owner": [
-    "@vigonotion"
-  ],
-  "url": "https://github.com/custom-components/sensor.stadtreinigung_hamburg"
-}

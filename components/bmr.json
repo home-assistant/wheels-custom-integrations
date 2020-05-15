@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/slesinger/HomeAssistant-BMR/master/custom_components/bmr/manifest.json",
+  "name": "bmr",
+  "owner": [
+    "@slesinger"
+  ],
+  "url": "https://github.com/slesinger/HomeAssistant-BMR"
+}

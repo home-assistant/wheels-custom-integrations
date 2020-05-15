@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/burnnat/ha-fitness-push/master/custom_components/fitness_push/manifest.json",
+  "name": "fitness_push",
+  "owner": [
+    "burnnat"
+  ],
+  "url": "https://github.com/burnnat/ha-fitness-push"
+}

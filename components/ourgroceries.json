@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/ljmerza/ha-our-groceries/master/custom_components/ourgroceries/manifest.json",
+  "name": "ourgroceries",
+  "owner": [
+    "ljmerza"
+  ],
+  "url": "https://github.com/ljmerza/ha-our-groceries"
+}

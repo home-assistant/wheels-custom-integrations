@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Sholofly/ZiggoNext/master/custom_components/ziggonext/manifest.json",
+  "name": "ziggonext",
+  "owner": [
+    "@Sholofly"
+  ],
+  "url": "https://github.com/Sholofly/ZiggoNext"
+}

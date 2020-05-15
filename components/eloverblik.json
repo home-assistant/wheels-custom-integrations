@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/JonasPed/homeassistant-eloverblik/master/custom_components/eloverblik/manifest.json",
+  "name": "eloverblik",
+  "owner": [
+    "@JonasPed"
+  ],
+  "url": "https://github.com/JonasPed/homeassistant-eloverblik"
+}

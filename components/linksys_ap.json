@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/linksys_ap/master/custom_components/linksys_ap/manifest.json",
+  "name": "linksys_ap",
+  "owner": [
+    "custom-components"
+  ],
+  "url": "https://github.com/custom-components/linksys_ap"
+}

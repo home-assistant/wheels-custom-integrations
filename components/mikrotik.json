@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/pilotak/homeassistant-mikrotik/master/custom_components/mikrotik/manifest.json",
+  "name": "mikrotik",
+  "owner": [
+    "@pilotak"
+  ],
+  "url": "https://github.com/pilotak/homeassistant-mikrotik"
+}

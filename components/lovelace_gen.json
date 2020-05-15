@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/thomasloven/hass-lovelace_gen/master/custom_components/lovelace_gen/manifest.json",
+  "name": "lovelace_gen",
+  "owner": [
+    "thomasloven"
+  ],
+  "url": "https://github.com/thomasloven/hass-lovelace_gen"
+}

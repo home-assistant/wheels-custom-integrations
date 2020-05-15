@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/cyberjunky/home-assistant-plugwise/master/custom_components/plugwise/manifest.json",
+  "name": "plugwise",
+  "owner": [
+    "@cyberjunky"
+  ],
+  "url": "https://github.com/cyberjunky/home-assistant-plugwise"
+}

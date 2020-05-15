@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/heyajohnny/afvalinfo/master/custom_components/afvalinfo/manifest.json",
+  "name": "afvalinfo",
+  "owner": [
+    "@heyajohnny"
+  ],
+  "url": "https://github.com/heyajohnny/afvalinfo"
+}

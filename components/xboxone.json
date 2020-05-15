@@ -1,0 +1,10 @@
+{
+  "manifest": "https://raw.githubusercontent.com/OpenXbox/xboxone-home-assistant/master/custom_components/xboxone/manifest.json",
+  "name": "xboxone",
+  "owner": [
+    "@hunterjm",
+    "@ericleb010",
+    "@tuxuser"
+  ],
+  "url": "https://github.com/OpenXbox/xboxone-home-assistant"
+}

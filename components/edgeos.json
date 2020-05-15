@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/elad-bar/ha-edgeos/master/custom_components/edgeos/manifest.json",
+  "name": "edgeos",
+  "owner": [
+    "@elad-bar"
+  ],
+  "url": "https://github.com/elad-bar/ha-edgeos"
+}

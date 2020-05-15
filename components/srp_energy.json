@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/srp_energy/master/custom_components/srp_energy/manifest.json",
+  "name": "srp_energy",
+  "owner": [
+    "custom-components"
+  ],
+  "url": "https://github.com/custom-components/srp_energy"
+}

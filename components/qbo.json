@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/qbo/develop/custom_components/qbo/manifest.json",
+  "name": "qbo",
+  "owner": [
+    "@SebRut"
+  ],
+  "url": "https://github.com/custom-components/qbo"
+}

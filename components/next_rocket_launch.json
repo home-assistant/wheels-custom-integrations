@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Verbalinsurection/next_rocket_launch/master/custom_components/next_rocket_launch/manifest.json",
+  "name": "next_rocket_launch",
+  "owner": [
+    "@Verbalinsurection"
+  ],
+  "url": "https://github.com/Verbalinsurection/next_rocket_launch"
+}

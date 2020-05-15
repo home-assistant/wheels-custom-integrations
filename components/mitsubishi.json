@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/scottyphillips/mitsubishi_hass/master/custom_components/mitsubishi/manifest.json",
+  "name": "mitsubishi",
+  "owner": [
+    "scottyphillips"
+  ],
+  "url": "https://github.com/scottyphillips/mitsubishi_hass"
+}

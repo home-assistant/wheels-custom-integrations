@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/PTST/O365-HomeAssistant/master/custom_components/o365/manifest.json",
+  "name": "o365",
+  "owner": [
+    "@PTST"
+  ],
+  "url": "https://github.com/PTST/O365-HomeAssistant"
+}

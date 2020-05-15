@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.unifigateway/master/custom_components/unifigateway/manifest.json",
+  "name": "unifigateway",
+  "owner": [
+    "@jchasey"
+  ],
+  "url": "https://github.com/custom-components/sensor.unifigateway"
+}

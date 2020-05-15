@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Bouni/drkblutspende/master/custom_components/drkblutspende/manifest.json",
+  "name": "drkblutspende",
+  "owner": [
+    "Bouni"
+  ],
+  "url": "https://github.com/Bouni/drkblutspende"
+}

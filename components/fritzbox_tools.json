@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/mammuth/ha-fritzbox-tools/master/custom_components/fritzbox_tools/manifest.json",
+  "name": "fritzbox_tools",
+  "owner": [
+    "@mammuth"
+  ],
+  "url": "https://github.com/mammuth/ha-fritzbox-tools"
+}

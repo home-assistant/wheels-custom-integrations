@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/jihao/traccar-cn-hass/master/custom_components/traccar_cn/manifest.json",
+  "name": "traccar_cn",
+  "owner": [
+    "@ludeeus",
+    "adapt by @jihao"
+  ],
+  "url": "https://github.com/jihao/traccar-cn-hass"
+}

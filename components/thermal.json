@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/eyalcha/thermal/master/custom_components/thermal/manifest.json",
+  "name": "thermal",
+  "owner": [
+    "@eyalcha"
+  ],
+  "url": "https://github.com/eyalcha/thermal"
+}

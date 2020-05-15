@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/msp1974/homeassistant-jlrincontrol/master/custom_components/jlrincontrol/manifest.json",
+  "name": "jlrincontrol",
+  "owner": [
+    "@msp1974"
+  ],
+  "url": "https://github.com/msp1974/homeassistant-jlrincontrol"
+}

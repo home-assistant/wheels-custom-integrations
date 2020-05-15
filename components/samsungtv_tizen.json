@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/jaruba/ha-samsungtv-tizen/master/custom_components/samsungtv_tizen/manifest.json",
+  "name": "samsungtv_tizen",
+  "owner": [
+    "@jaruba"
+  ],
+  "url": "https://github.com/jaruba/ha-samsungtv-tizen"
+}

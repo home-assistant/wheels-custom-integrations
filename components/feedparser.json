@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/feedparser/master/custom_components/feedparser/manifest.json",
+  "name": "feedparser",
+  "owner": [
+    "@iantrich"
+  ],
+  "url": "https://github.com/custom-components/feedparser"
+}

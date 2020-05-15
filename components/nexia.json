@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/ryannazaretian/hacs-nexia-climate-integration/master/custom_components/nexia/manifest.json",
+  "name": "nexia",
+  "owner": [
+    "@ryannazaretian",
+    "@bdraco"
+  ],
+  "url": "https://github.com/ryannazaretian/hacs-nexia-climate-integration"
+}

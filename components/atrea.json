@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/JurajNyiri/HomeAssistant-Atrea/master/custom_components/atrea/manifest.json",
+  "name": "atrea",
+  "owner": [
+    "@JurajNyiri"
+  ],
+  "url": "https://github.com/JurajNyiri/HomeAssistant-Atrea"
+}

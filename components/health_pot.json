@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/fineemb/Xiaomi-Smart-Multipurpose-Kettle/master/custom_components/xiaomi_miio_health_pot/manifest.json",
+  "name": "health_pot",
+  "owner": [
+    "@fineemb"
+  ],
+  "url": "https://github.com/fineemb/Xiaomi-Smart-Multipurpose-Kettle"
+}

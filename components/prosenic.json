@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/edenhaus/ha-prosenic/master/custom_components/prosenic/manifest.json",
+  "name": "prosenic",
+  "owner": [
+    "@edenhaus"
+  ],
+  "url": "https://github.com/edenhaus/ha-prosenic"
+}

@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Michsior14/ha-laser-egg/master/custom_components/laser_egg/manifest.json",
+  "name": "laser_egg",
+  "owner": [
+    "Michsior14"
+  ],
+  "url": "https://github.com/Michsior14/ha-laser-egg"
+}

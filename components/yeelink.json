@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/fineemb/Yeelink-ven-fan/master/custom_components/yeelink/manifest.json",
+  "name": "yeelink",
+  "owner": [
+    "@fineemb"
+  ],
+  "url": "https://github.com/fineemb/Yeelink-ven-fan"
+}

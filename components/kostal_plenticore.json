@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/ITTV-tools/homeassistant-kostalplenticore/master/custom_components/kostal_plenticore/manifest.json",
+  "name": "kostal_plenticore",
+  "owner": [
+    "@ITTV-Tools"
+  ],
+  "url": "https://github.com/ITTV-tools/homeassistant-kostalplenticore"
+}

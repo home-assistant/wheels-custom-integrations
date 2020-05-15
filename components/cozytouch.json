@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Cyr-ius/hass-cozytouch/master/custom_components/cozytouch/manifest.json",
+  "name": "cozytouch",
+  "owner": [
+    "@biker91620",
+    "@cyr-ius"
+  ],
+  "url": "https://github.com/Cyr-ius/hass-cozytouch"
+}

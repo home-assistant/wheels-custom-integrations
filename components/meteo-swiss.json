@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/websylv/homeassistant-meteoswiss/master/custom_components/meteo-swiss/manifest.json",
+  "name": "meteo-swiss",
+  "owner": [
+    "websylv"
+  ],
+  "url": "https://github.com/websylv/homeassistant-meteoswiss"
+}

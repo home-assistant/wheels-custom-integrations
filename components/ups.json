@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/ups/master/custom_components/ups/manifest.json",
+  "name": "ups",
+  "owner": [
+    "custom-components"
+  ],
+  "url": "https://github.com/custom-components/ups"
+}

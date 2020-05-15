@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/DavidMStraub/homeassistant-homeconnect/master/custom_components/home_connect_beta/manifest.json",
+  "name": "home_connect_beta",
+  "owner": [
+    "@DavidMStraub"
+  ],
+  "url": "https://github.com/DavidMStraub/homeassistant-homeconnect"
+}

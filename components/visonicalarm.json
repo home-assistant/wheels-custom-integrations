@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/And3rsL/VisonicAlarm-for-Hassio/master/custom_components/visonicalarm/manifest.json",
+  "name": "visonicalarm",
+  "owner": [
+    "@And3rsL"
+  ],
+  "url": "https://github.com/And3rsL/VisonicAlarm-for-Hassio"
+}

@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/shutupflanders/sensor.moneydashboard/master/custom_components/moneydashboard/manifest.json",
+  "name": "moneydashboard",
+  "owner": [
+    "shutupflanders"
+  ],
+  "url": "https://github.com/shutupflanders/sensor.moneydashboard"
+}

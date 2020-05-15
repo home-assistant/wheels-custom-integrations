@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/brewdog/master/custom_components/brewdog/manifest.json",
+  "name": "brewdog",
+  "owner": [
+    "@ludeeus"
+  ],
+  "url": "https://github.com/custom-components/brewdog"
+}

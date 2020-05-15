@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/MTrab/landroid_cloud/master/custom_components/landroid_cloud/manifest.json",
+  "name": "landroid_cloud",
+  "owner": [
+    "@MTrab"
+  ],
+  "url": "https://github.com/MTrab/landroid_cloud"
+}

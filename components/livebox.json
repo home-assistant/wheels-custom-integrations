@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Cyr-ius/hass-livebox-component/master/custom_components/livebox/manifest.json",
+  "name": "livebox",
+  "owner": [
+    "@cyr-ius"
+  ],
+  "url": "https://github.com/Cyr-ius/hass-livebox-component"
+}

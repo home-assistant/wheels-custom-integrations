@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/grocy/develop/custom_components/grocy/manifest.json",
+  "name": "grocy",
+  "owner": [
+    "@SebRut"
+  ],
+  "url": "https://github.com/custom-components/grocy"
+}

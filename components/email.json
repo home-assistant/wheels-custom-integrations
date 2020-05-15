@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/ljmerza/ha-email-sensor/master/custom_components/email/manifest.json",
+  "name": "email",
+  "owner": [
+    "@ljmerza"
+  ],
+  "url": "https://github.com/ljmerza/ha-email-sensor"
+}

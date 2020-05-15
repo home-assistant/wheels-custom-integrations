@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/burnnat/media_player.screenly/master/custom_components/screenly/manifest.json",
+  "name": "screenly",
+  "owner": [
+    "burnnat"
+  ],
+  "url": "https://github.com/burnnat/media_player.screenly"
+}

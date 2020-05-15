@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/dlarrick/hass-kumo/master/custom_components/kumo/manifest.json",
+  "name": "kumo",
+  "owner": [
+    "@dlarrick"
+  ],
+  "url": "https://github.com/dlarrick/hass-kumo"
+}

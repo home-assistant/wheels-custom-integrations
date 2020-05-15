@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/gieljnssns/buienalarm-sensor-homeassistant/master/custom_components/buienalarm/manifest.json",
+  "name": "buienalarm",
+  "owner": [
+    "@gieljnssns"
+  ],
+  "url": "https://github.com/gieljnssns/buienalarm-sensor-homeassistant"
+}

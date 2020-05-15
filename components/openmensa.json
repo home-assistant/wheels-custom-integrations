@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Mofeywalker/openmensa-hass-component/master/custom_components/openmensa/manifest.json",
+  "name": "openmensa",
+  "owner": [
+    "Mofeywalker"
+  ],
+  "url": "https://github.com/Mofeywalker/openmensa-hass-component"
+}

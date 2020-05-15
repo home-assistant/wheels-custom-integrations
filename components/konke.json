@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/5high/konke/master/custom_components/konke/manifest.json",
+  "name": "konke",
+  "owner": [
+    "@jedmeng"
+  ],
+  "url": "https://github.com/5high/konke"
+}

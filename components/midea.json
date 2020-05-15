@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/andersonshatch/midea-ac-py/master/custom_components/midea/manifest.json",
+  "name": "midea",
+  "owner": [
+    "@andersonshatch"
+  ],
+  "url": "https://github.com/andersonshatch/midea-ac-py"
+}

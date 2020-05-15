@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/Ceerbeerus/beerbolaget/master/custom_components/beerbolaget/manifest.json",
+  "name": "beerbolaget",
+  "owner": [
+    "@Ceerbeerus"
+  ],
+  "url": "https://github.com/Ceerbeerus/beerbolaget"
+}

@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/isabellaalstrom/sensor.krisinformation/master/custom_components/krisinformation/manifest.json",
+  "name": "krisinformation",
+  "owner": [
+    "@isabellaalstrom"
+  ],
+  "url": "https://github.com/isabellaalstrom/sensor.krisinformation"
+}

@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.mitemp_bt/master/custom_components/mitemp_bt/manifest.json",
+  "name": "mitemp_bt",
+  "owner": [
+    "@Magalex2x14",
+    "@Ernst79"
+  ],
+  "url": "https://github.com/custom-components/sensor.mitemp_bt"
+}

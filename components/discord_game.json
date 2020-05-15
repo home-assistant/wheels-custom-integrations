@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/LordBoos/discord_game/master/custom_components/discord_game/manifest.json",
+  "name": "discord_game",
+  "owner": [
+    "LordBoos"
+  ],
+  "url": "https://github.com/LordBoos/discord_game"
+}

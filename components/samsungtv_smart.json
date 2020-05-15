@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/ollo69/ha-samsungtv-smart/master/custom_components/samsungtv_smart/manifest.json",
+  "name": "samsungtv_smart",
+  "owner": [
+    "@ollo69"
+  ],
+  "url": "https://github.com/ollo69/ha-samsungtv-smart"
+}

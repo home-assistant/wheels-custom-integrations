@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/healthchecksio/master/custom_components/healthchecksio/manifest.json",
+  "name": "healthchecksio",
+  "owner": [
+    "@ludeeus"
+  ],
+  "url": "https://github.com/custom-components/healthchecksio"
+}

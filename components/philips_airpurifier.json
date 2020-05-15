@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/xMrVizzy/philips-airpurifier/master/custom_components/philips-airpurifier/manifest.json",
+  "name": "philips_airpurifier",
+  "owner": [
+    "@xMrVizzy"
+  ],
+  "url": "https://github.com/xMrVizzy/philips-airpurifier"
+}

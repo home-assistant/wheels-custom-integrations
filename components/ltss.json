@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/freol35241/ltss/master/custom_components/ltss/manifest.json",
+  "name": "ltss",
+  "owner": [
+    "@freol35241"
+  ],
+  "url": "https://github.com/freol35241/ltss"
+}

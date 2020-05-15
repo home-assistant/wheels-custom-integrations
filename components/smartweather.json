@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/briis/smartweather/master/custom_components/smartweather/manifest.json",
+  "name": "smartweather",
+  "owner": [
+    "@briis"
+  ],
+  "url": "https://github.com/briis/smartweather"
+}

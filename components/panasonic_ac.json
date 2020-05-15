@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/djbulsink/panasonic_ac/master/custom_components/panasonic_ac/manifest.json",
+  "name": "panasonic_ac",
+  "owner": [
+    "Djbulsink",
+    "SeraphimSerapis"
+  ],
+  "url": "https://github.com/djbulsink/panasonic_ac"
+}

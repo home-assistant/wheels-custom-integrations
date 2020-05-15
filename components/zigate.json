@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/doudz/homeassistant-zigate/master/custom_components/zigate/manifest.json",
+  "name": "zigate",
+  "owner": [
+    "doudz"
+  ],
+  "url": "https://github.com/doudz/homeassistant-zigate"
+}

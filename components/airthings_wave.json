@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.airthings_wave/master/custom_components/airthings_wave/manifest.json",
+  "name": "airthings_wave",
+  "owner": [
+    "@MartyTremblay"
+  ],
+  "url": "https://github.com/custom-components/sensor.airthings_wave"
+}

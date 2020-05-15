@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.untappd/master/custom_components/untappd/manifest.json",
+  "name": "untappd",
+  "owner": [
+    "@iantrich",
+    "@swetoast"
+  ],
+  "url": "https://github.com/custom-components/sensor.untappd"
+}

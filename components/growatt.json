@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/timvancann/homeassistant-growatt/master/custom_components/growatt/manifest.json",
+  "name": "growatt",
+  "owner": [
+    "@timvancann"
+  ],
+  "url": "https://github.com/timvancann/homeassistant-growatt"
+}

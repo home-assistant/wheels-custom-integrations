@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/snicker/zwift_hass/master/custom_components/zwift/manifest.json",
+  "name": "zwift",
+  "owner": [
+    "snicker"
+  ],
+  "url": "https://github.com/snicker/zwift_hass"
+}

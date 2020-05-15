@@ -1,0 +1,9 @@
+{
+  "manifest": "https://raw.githubusercontent.com/fondberg/spotcast/master/custom_components/spotcast/manifest.json",
+  "name": "spotcast",
+  "owner": [
+    "@fondberg",
+    "@kleinc80"
+  ],
+  "url": "https://github.com/fondberg/spotcast"
+}

@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/blueprint/master/custom_components/blueprint/manifest.json",
+  "name": "blueprint",
+  "owner": [
+    "@ludeeus"
+  ],
+  "url": "https://github.com/custom-components/blueprint"
+}

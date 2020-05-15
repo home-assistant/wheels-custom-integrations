@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/custom-components/fedex/master/custom_components/fedex/manifest.json",
+  "name": "fedex",
+  "owner": [
+    "custom-components"
+  ],
+  "url": "https://github.com/custom-components/fedex"
+}

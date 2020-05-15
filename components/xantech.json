@@ -1,0 +1,8 @@
+{
+  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-xantech/master/custom_components/xantech/manifest.json",
+  "name": "xantech",
+  "owner": [
+    "@rsnodgrass"
+  ],
+  "url": "https://github.com/rsnodgrass/hass-xantech"
+}

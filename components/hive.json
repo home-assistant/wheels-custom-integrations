@@ -1,6 +1,6 @@
 {
   "name": "hive",
   "owner": ["Rendili", "KJonline"],
-  "manifest": "https://raw.githubusercontent.com/Rendili/hive-for-home-assistant/master/custom_components/hive/manifest.json",
-  "url": "https://github.com/Rendili/hive-for-home-assistant"
+  "manifest": "https://raw.githubusercontent.com/Pyhive/HA-Hive-Custom-Component/master/custom_components/hive/manifest.json",
+  "url": "https://github.com/Pyhive/HA-Hive-Custom-Component"
 }

@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/peternijssen/home-assistant-jumbo/master/custom_components/jumbo/manifest.json",
-  "name": "jumbo",
-  "owner": [
-    "@peternijssen"
-  ],
-  "url": "https://github.com/peternijssen/home-assistant-jumbo"
-}

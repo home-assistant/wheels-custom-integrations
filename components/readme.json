@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/readme/master/custom_components/readme/manifest.json",
-  "name": "readme",
-  "owner": [
-    "@ludeeus"
-  ],
-  "url": "https://github.com/custom-components/readme"
-}

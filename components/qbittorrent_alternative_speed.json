@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/JurajNyiri/HomeAssistant-qBitTorrentAlternativeSpeed/master/custom_components/qbittorrent_alternative_speed/manifest.json",
-  "name": "qbittorrent_alternative_speed",
-  "owner": [
-    "@JurajNyiri"
-  ],
-  "url": "https://github.com/JurajNyiri/HomeAssistant-qBitTorrentAlternativeSpeed"
-}

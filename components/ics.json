@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/KoljaWindeler/ics/master/custom_components/isc/manifest.json",
-  "name": "ics",
-  "owner": [
-    "@KoljaWindeler"
-  ],
-  "url": "https://github.com/KoljaWindeler/ics"
-}

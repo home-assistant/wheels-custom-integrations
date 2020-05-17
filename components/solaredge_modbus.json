@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/binsentsu/home-assistant-solaredge-modbus/master/custom_components/solaredge_modbus/manifest.json",
-  "name": "solaredge_modbus",
-  "owner": [
-    "@binsentsu"
-  ],
-  "url": "https://github.com/binsentsu/home-assistant-solaredge-modbus"
-}

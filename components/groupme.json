@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-integrations/master/custom_components/groupme/manifest.json",
-  "name": "groupme",
-  "owner": [
-    "@rsnodgrass"
-  ],
-  "url": "https://github.com/rsnodgrass/hass-integrations"
-}

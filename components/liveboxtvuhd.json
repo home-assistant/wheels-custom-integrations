@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/AkA57/liveboxtvuhd/master/custom_components/liveboxtvuhd/manifest.json",
-  "name": "liveboxtvuhd",
-  "owner": [
-    "@AkA57"
-  ],
-  "url": "https://github.com/AkA57/liveboxtvuhd"
-}

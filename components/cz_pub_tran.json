@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/bruxy70/CZ-Public-Transport/development/custom_components/cz_pub_tran/manifest.json",
-  "name": "cz_pub_tran",
-  "owner": [
-    "@bruxy70"
-  ],
-  "url": "https://github.com/bruxy70/CZ-Public-Transport"
-}

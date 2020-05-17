@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/thevoltagesource/LennoxiComfort/master/custom_components/myicomfort/manifest.json",
-  "name": "myicomfort",
-  "owner": [
-    "@thevoltagesource"
-  ],
-  "url": "https://github.com/thevoltagesource/LennoxiComfort"
-}

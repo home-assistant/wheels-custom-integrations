@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/burnnat/ha-polar/master/custom_components/polar/manifest.json",
-  "name": "polar",
-  "owner": [
-    "burnnat"
-  ],
-  "url": "https://github.com/burnnat/ha-polar"
-}

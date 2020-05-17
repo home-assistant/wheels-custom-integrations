@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/lindell/home-assistant-svt-play/master/custom_components/svt_play/manifest.json",
-  "name": "svt_play",
-  "owner": [
-    "lindell"
-  ],
-  "url": "https://github.com/lindell/home-assistant-svt-play"
-}

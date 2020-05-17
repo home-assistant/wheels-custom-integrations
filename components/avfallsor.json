@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.avfallsor/master/custom_components/avfallsor/manifest.json",
-  "name": "avfallsor",
-  "owner": [
-    "@hellowlol"
-  ],
-  "url": "https://github.com/custom-components/sensor.avfallsor"
-}

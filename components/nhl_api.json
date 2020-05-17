@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/JayBlackedOut/hass-nhlapi/master/custom_components/nhl_api/manifest.json",
-  "name": "nhl_api",
-  "owner": [
-    "@jayblackedout"
-  ],
-  "url": "https://github.com/JayBlackedOut/hass-nhlapi"
-}

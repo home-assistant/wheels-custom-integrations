@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/lindell/home-assistant-tv4-play/develop/custom_components/tv4_play/manifest.json",
-  "name": "tv4_play",
-  "owner": [
-    "lindell"
-  ],
-  "url": "https://github.com/lindell/home-assistant-tv4-play"
-}

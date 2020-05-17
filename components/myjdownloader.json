@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/doudz/homeassistant-myjdownloader/master/custom_components/myjdownloader/manifest.json",
-  "name": "myjdownloader",
-  "owner": [
-    "doudz"
-  ],
-  "url": "https://github.com/doudz/homeassistant-myjdownloader"
-}

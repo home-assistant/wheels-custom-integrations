@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/briis/mbweather/master/custom_components/mbweather/manifest.json",
-  "name": "mbweather",
-  "owner": [
-    "@briis"
-  ],
-  "url": "https://github.com/briis/mbweather"
-}

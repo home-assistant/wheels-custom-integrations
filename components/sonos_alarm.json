@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/AaronDavidSchneider/SonosAlarm/master/custom_components/sonos_alarm/manifest.json",
-  "name": "sonos_alarm",
-  "owner": [
-    "AaronDavidSchneider"
-  ],
-  "url": "https://github.com/AaronDavidSchneider/SonosAlarm"
-}

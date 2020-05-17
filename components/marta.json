@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/ryanmac8/Home-Assistant-Marta/master/custom_components/marta/manifest.json",
-  "name": "marta",
-  "owner": [
-    "ryanmac8"
-  ],
-  "url": "https://github.com/ryanmac8/Home-Assistant-Marta"
-}

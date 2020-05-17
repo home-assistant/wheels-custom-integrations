@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-adtpulse/master/custom_components/adtpulse/manifest.json",
-  "name": "adtpulse",
-  "owner": [
-    "@rsnodgrass"
-  ],
-  "url": "https://github.com/rsnodgrass/hass-adtpulse"
-}

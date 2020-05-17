@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.ssh/master/custom_components/ssh/manifest.json",
-  "name": "ssh",
-  "owner": [
-    "@jchasey"
-  ],
-  "url": "https://github.com/custom-components/sensor.ssh"
-}

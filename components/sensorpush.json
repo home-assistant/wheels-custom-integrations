@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-sensorpush/master/custom_components/sensorpush/manifest.json",
-  "name": "sensorpush",
-  "owner": [
-    "@rsnodgrass"
-  ],
-  "url": "https://github.com/rsnodgrass/hass-sensorpush"
-}

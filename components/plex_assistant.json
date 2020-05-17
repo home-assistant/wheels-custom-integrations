@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/maykar/plex_assistant/master/custom_components/plex_assistant/manifest.json",
-  "name": "plex_assistant",
-  "owner": [
-    "@maykar"
-  ],
-  "url": "https://github.com/maykar/plex_assistant"
-}

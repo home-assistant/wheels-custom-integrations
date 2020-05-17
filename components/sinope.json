@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/claudegel/sinope-gt125/master/custom_components/sinope/manifest.json",
-  "name": "sinope",
-  "owner": [
-    "@claudegel"
-  ],
-  "url": "https://github.com/claudegel/sinope-gt125"
-}

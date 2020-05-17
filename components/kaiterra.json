@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/Michsior14/ha-kaiterra/master/custom_components/kaiterra/manifest.json",
-  "name": "kaiterra",
-  "owner": [
-    "@Michsior14"
-  ],
-  "url": "https://github.com/Michsior14/ha-kaiterra"
-}

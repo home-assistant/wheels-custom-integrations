@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.nintendo_wishlist/master/custom_components/nintendo_wishlist/manifest.json",
-  "name": "nintendo_wishlist",
-  "owner": [
-    "@boralyl"
-  ],
-  "url": "https://github.com/custom-components/sensor.nintendo_wishlist"
-}

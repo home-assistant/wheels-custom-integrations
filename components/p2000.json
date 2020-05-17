@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/cyberjunky/home-assistant-p2000/master/custom_components/p2000/manifest.json",
-  "name": "p2000",
-  "owner": [
-    "@cyberjunky"
-  ],
-  "url": "https://github.com/cyberjunky/home-assistant-p2000"
-}

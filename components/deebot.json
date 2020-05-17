@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/And3rsL/Deebot-for-hassio/master/custom_components/deebot/manifest.json",
-  "name": "deebot",
-  "owner": [
-    "@And3rsL"
-  ],
-  "url": "https://github.com/And3rsL/Deebot-for-hassio"
-}

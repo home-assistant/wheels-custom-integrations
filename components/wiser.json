@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/asantaga/wiserHomeAssistantPlatform/master/custom_components/wiser/manifest.json",
-  "name": "wiser",
-  "owner": [
-    "@asantaga"
-  ],
-  "url": "https://github.com/asantaga/wiserHomeAssistantPlatform"
-}

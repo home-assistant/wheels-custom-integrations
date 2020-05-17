@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/media_player.braviatv_psk/master/custom_components/braviatv_psk/manifest.json",
-  "name": "braviatv_psk",
-  "owner": [
-    "@gerard33"
-  ],
-  "url": "https://github.com/custom-components/media_player.braviatv_psk"
-}

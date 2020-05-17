@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/robmarkcole/HASS-Deepstack-face/master/custom_components/deepstack_face/manifest.json",
-  "name": "deepstack_face",
-  "owner": [
-    "@robmarkcole"
-  ],
-  "url": "https://github.com/robmarkcole/HASS-Deepstack-face"
-}

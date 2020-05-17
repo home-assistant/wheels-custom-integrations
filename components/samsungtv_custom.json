@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/roberodin/ha-samsungtv-custom/master/custom_components/samsungtv_custom/manifest.json",
-  "name": "samsungtv_custom",
-  "owner": [
-    "@roberodin"
-  ],
-  "url": "https://github.com/roberodin/ha-samsungtv-custom"
-}

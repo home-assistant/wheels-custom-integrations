@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/PiotrMachowski/Home-Assistant-custom-components-iMPK/master/custom_components/impk/manifest.json",
-  "name": "impk",
-  "owner": [
-    "PiotrMachowski"
-  ],
-  "url": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-iMPK"
-}

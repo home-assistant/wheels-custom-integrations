@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-flo-water/master/custom_components/flo/manifest.json",
-  "name": "flo",
-  "owner": [
-    "@rsnodgrass"
-  ],
-  "url": "https://github.com/rsnodgrass/hass-flo-water"
-}

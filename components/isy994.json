@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/shbatm/hacs-isy994/master/custom_components/isy994/manifest.json",
-  "name": "isy994",
-  "owner": [
-    "@bdraco",
-    "@shbatm"
-  ],
-  "url": "https://github.com/shbatm/hacs-isy994"
-}

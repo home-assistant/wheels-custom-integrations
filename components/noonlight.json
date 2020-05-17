@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/konnected-io/noonlight-hass/master/custom_components/noonlight/manifest.json",
-  "name": "noonlight",
-  "owner": [
-    "@heythisisnate",
-    "@snicker"
-  ],
-  "url": "https://github.com/konnected-io/noonlight-hass"
-}

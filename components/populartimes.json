@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/freakshock88/hass-populartimes/master/custom_components/populartimes/manifest.json",
-  "name": "populartimes",
-  "owner": [
-    "@freakshock88"
-  ],
-  "url": "https://github.com/freakshock88/hass-populartimes"
-}

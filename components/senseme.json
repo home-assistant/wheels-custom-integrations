@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/mikelawrence/senseme-hacs/master/custom_components/senseme/manifest.json",
-  "name": "senseme",
-  "owner": [
-    "@mikelawrence"
-  ],
-  "url": "https://github.com/mikelawrence/senseme-hacs"
-}

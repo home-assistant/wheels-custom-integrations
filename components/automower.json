@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/walthowd/ha-automower/master/custom_components/automower/manifest.json",
-  "name": "automower",
-  "owner": [
-    "@walthowd"
-  ],
-  "url": "https://github.com/walthowd/ha-automower"
-}

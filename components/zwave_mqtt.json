@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/cgarwood/homeassistant-zwave_mqtt/master/custom_components/zwave_mqtt/manifest.json",
-  "name": "zwave_mqtt",
-  "owner": [
-    "@cgarwood"
-  ],
-  "url": "https://github.com/cgarwood/homeassistant-zwave_mqtt"
-}

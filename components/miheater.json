@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/fineemb/Smartmi-smart-heater/master/custom_components/miheater/manifest.json",
-  "name": "miheater",
-  "owner": [
-    "@fineemb"
-  ],
-  "url": "https://github.com/fineemb/Smartmi-smart-heater"
-}

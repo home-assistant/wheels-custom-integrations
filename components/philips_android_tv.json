@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/nstrelow/ha_philips_android_tv/master/custom_components/philips_android_tv/manifest.json",
-  "name": "philips_android_tv",
-  "owner": [
-    "nstrelow"
-  ],
-  "url": "https://github.com/nstrelow/ha_philips_android_tv"
-}

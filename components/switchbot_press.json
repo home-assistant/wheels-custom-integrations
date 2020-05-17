@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/cagnulein/switchbot_press/master/custom_components/switchbot_press/manifest.json",
-  "name": "switchbot_press",
-  "owner": [
-    "@cagnulein"
-  ],
-  "url": "https://github.com/cagnulein/switchbot_press"
-}

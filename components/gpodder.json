@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/gpodder/master/custom_components/gpodder/manifest.json",
-  "name": "gpodder",
-  "owner": [
-    "@iantrich"
-  ],
-  "url": "https://github.com/custom-components/gpodder"
-}

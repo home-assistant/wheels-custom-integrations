@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sytadin/master/custom_components/sytadin/manifest.json",
-  "name": "sytadin",
-  "owner": [
-    "custom-components"
-  ],
-  "url": "https://github.com/custom-components/sytadin"
-}

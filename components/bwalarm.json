@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/akasma74/Hass-Custom-Alarm/master/custom_components/bwalarm/manifest.json",
-  "name": "bwalarm",
-  "owner": [
-    "@akasma74"
-  ],
-  "url": "https://github.com/akasma74/Hass-Custom-Alarm"
-}

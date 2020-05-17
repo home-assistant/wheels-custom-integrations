@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/burnnat/ha-hdhomerun/master/custom_components/hdhomerun/manifest.json",
-  "name": "hdhomerun",
-  "owner": [
-    "burnnat"
-  ],
-  "url": "https://github.com/burnnat/ha-hdhomerun"
-}

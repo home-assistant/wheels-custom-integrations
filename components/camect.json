@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/pfunkmallone/HACS-camect-integration/master/custom_components/camect/manifest.json",
-  "name": "camect",
-  "owner": [
-    "@camect"
-  ],
-  "url": "https://github.com/pfunkmallone/HACS-camect-integration"
-}

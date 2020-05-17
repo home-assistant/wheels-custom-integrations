@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/PiotrMachowski/Home-Assistant-custom-components-Looko2/master/custom_components/looko2/manifest.json",
-  "name": "looko2",
-  "owner": [
-    "PiotrMachowski"
-  ],
-  "url": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Looko2"
-}

@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/albertogeniola/meross-homeassistant/master/custom_components/meross_cloud/manifest.json",
-  "name": "meross_cloud",
-  "owner": [
-    "@albertogeniola"
-  ],
-  "url": "https://github.com/albertogeniola/meross-homeassistant"
-}

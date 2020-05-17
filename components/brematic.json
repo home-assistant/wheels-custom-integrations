@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/tefinger/hass-brematic/master/custom_components/brematic/manifest.json",
-  "name": "brematic",
-  "owner": [
-    "@tefinger"
-  ],
-  "url": "https://github.com/tefinger/hass-brematic"
-}

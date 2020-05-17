@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/SebuZet/samsungrac/master/custom_components/climate_ip/manifest.json",
-  "name": "climate_ip",
-  "owner": [
-    "@SebuZet"
-  ],
-  "url": "https://github.com/SebuZet/samsungrac"
-}

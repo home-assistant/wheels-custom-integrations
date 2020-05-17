@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/Bouni/luxtronik/master/custom_components/luxtronik/manifest.json",
-  "name": "luxtronik",
-  "owner": [
-    "@bouni"
-  ],
-  "url": "https://github.com/Bouni/luxtronik"
-}

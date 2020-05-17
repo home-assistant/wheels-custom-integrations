@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/JAAlperin/hass-bardolph/master/custom_components/bardolph/manifest.json",
-  "name": "bardolph",
-  "owner": [
-    "al-fontes-jr",
-    "JAAlperin"
-  ],
-  "url": "https://github.com/JAAlperin/hass-bardolph"
-}

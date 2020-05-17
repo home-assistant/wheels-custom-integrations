@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus/master/custom_components/tauron_amiplus/manifest.json",
-  "name": "tauron_amiplus",
-  "owner": [
-    "PiotrMachowski"
-  ],
-  "url": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus"
-}

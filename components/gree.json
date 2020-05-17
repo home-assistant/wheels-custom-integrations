@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/RobHofmann/HomeAssistant-GreeClimateComponent/master/custom_components/gree/manifest.json",
-  "name": "gree",
-  "owner": [
-    "@robhofmann"
-  ],
-  "url": "https://github.com/RobHofmann/HomeAssistant-GreeClimateComponent"
-}

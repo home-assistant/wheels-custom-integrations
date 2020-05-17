@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/zachowj/hass-node-red/master/custom_components/nodered/manifest.json",
-  "name": "nodered",
-  "owner": [
-    "@zachowj"
-  ],
-  "url": "https://github.com/zachowj/hass-node-red"
-}

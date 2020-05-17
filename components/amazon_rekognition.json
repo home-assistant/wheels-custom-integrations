@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/robmarkcole/HASS-amazon-rekognition/master/custom_components/amazon_rekognition/manifest.json",
-  "name": "amazon_rekognition",
-  "owner": [
-    "@robmarkcole"
-  ],
-  "url": "https://github.com/robmarkcole/HASS-amazon-rekognition"
-}

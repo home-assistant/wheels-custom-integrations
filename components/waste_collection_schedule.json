@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/mampfes/hacs_waste_collection_schedule/master/custom_components/waste_collection_schedule/manifest.json",
-  "name": "waste_collection_schedule",
-  "owner": [
-    "@mampfes"
-  ],
-  "url": "https://github.com/mampfes/hacs_waste_collection_schedule"
-}

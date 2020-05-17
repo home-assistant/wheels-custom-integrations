@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net/master/custom_components/burze_dzis_net/manifest.json",
-  "name": "burze_dzis_net",
-  "owner": [
-    "PiotrMachowski"
-  ],
-  "url": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net"
-}

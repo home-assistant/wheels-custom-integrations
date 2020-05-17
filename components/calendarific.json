@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/pinkywafer/Calendarific/master/custom_components/calendarific/manifest.json",
-  "name": "calendarific",
-  "owner": [
-    "@pinkywafer"
-  ],
-  "url": "https://github.com/pinkywafer/Calendarific"
-}

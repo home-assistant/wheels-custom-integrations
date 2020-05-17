@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.personalcapital/master/custom_components/personalcapital/manifest.json",
-  "name": "personalcapital",
-  "owner": [
-    "@iantrich"
-  ],
-  "url": "https://github.com/custom-components/sensor.personalcapital"
-}

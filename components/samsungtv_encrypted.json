@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/sermayoral/ha-samsungtv-encrypted/master/custom_components/samsungtv_encrypted/manifest.json",
-  "name": "samsungtv_encrypted",
-  "owner": [
-    "@sermayoral"
-  ],
-  "url": "https://github.com/sermayoral/ha-samsungtv-encrypted"
-}

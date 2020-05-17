@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/opravdin/weback-hass/master/custom_components/weback/manifest.json",
-  "name": "weback",
-  "owner": [
-    "@opravdin"
-  ],
-  "url": "https://github.com/opravdin/weback-hass"
-}

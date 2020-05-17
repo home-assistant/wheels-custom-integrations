@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/Limych/media_player.linkplay/master/custom_components/linkplay/manifest.json",
-  "name": "linkplay",
-  "owner": [
-    "@nicjo814",
-    "@limych"
-  ],
-  "url": "https://github.com/Limych/media_player.linkplay"
-}

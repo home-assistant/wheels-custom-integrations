@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/Limych/ha-beward/master/custom_components/beward/manifest.json",
-  "name": "beward",
-  "owner": [
-    "@Limych"
-  ],
-  "url": "https://github.com/Limych/ha-beward"
-}

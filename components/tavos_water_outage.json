@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/JurajNyiri/HomeAssistant-Tavos/master/custom_components/tavos_water_outage/manifest.json",
-  "name": "tavos_water_outage",
-  "owner": [
-    "@JurajNyiri"
-  ],
-  "url": "https://github.com/JurajNyiri/HomeAssistant-Tavos"
-}

@@ -1,8 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/ReneNulschDE/mbapipy/master/custom_components/mercedesmeapi/manifest.json",
-  "name": "mercedesmeapi",
-  "owner": [
-    "@renenulschde"
-  ],
-  "url": "https://github.com/ReneNulschDE/mbapipy"
-}

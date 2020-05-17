@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/nagyrobi/home-assistant-custom-components-cover-rf-time-based/master/custom_components/cover_rf_time_based/manifest.json",
-  "name": "cover_rf_time_based",
-  "owner": [
-    "@davidramosweb",
-    "@nagyrobi"
-  ],
-  "url": "https://github.com/nagyrobi/home-assistant-custom-components-cover-rf-time-based"
-}

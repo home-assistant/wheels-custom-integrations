@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.trakt/master/custom_components/trakt/manifest.json",
-  "name": "trakt",
-  "owner": [
-    "@iantrich",
-    "@engrbm"
-  ],
-  "url": "https://github.com/custom-components/sensor.trakt"
-}

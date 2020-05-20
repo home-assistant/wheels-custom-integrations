@@ -1,0 +1,6 @@
+{
+  "name": "steam_wishlist",
+  "owner": ["boralyl"],
+  "manifest": "https://raw.githubusercontent.com/boralyl/steam-wishlist/master/custom_components/steam_wishlist/manifest.json",
+  "url": "https://github.com/boralyl/steam-wishlist"
+}

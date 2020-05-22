@@ -1,0 +1,8 @@
+{
+  "name": "GeoRide",
+  "owner": [
+    "ptimatth"
+  ],
+  "manifest": "https://raw.githubusercontent.com/ptimatth/GeorideHA/master/custom_components/georide/manifest.json",
+  "url": "https://github.com/ptimatth/GeorideHA"
+}

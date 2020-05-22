@@ -1,0 +1,6 @@
+{
+  "name": "raincloud",
+  "owner": ["vanstinator"],
+  "manifest": "https://raw.githubusercontent.com/vanstinator/hass-raincloud/master/custom_components/raincloud/manifest.json",
+  "url": "https://github.com/vanstinator/hass-raincloud"
+}

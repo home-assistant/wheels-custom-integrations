@@ -1,0 +1,6 @@
+{
+  "name": "Oura Ring",
+  "owner": ["@nitobuendia"],
+  "manifest": "https://raw.githubusercontent.com/nitobuendia/oura-custom-component/master/custom_components/oura/manifest.json",
+  "url": "https://github.com/nitobuendia/oura-custom-component"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "dijnet",
+    "owner": ["laszlojakab"],
+    "manifest": "https://raw.githubusercontent.com/laszlojakab/homeassistant-dijnet/master/custom_components/dijnet/manifest.json",
+    "url": "https://github.com/laszlojakab/homeassistant-dijnet"
+  }
+  

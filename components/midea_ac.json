@@ -1,0 +1,6 @@
+{
+  "name": "Midea Smart Aircon",
+  "owner": ["mac-zhou"],
+  "manifest": "https://raw.githubusercontent.com/mac-zhou/midea-ac-py/master/custom_components/midea_ac/manifest.json",
+  "url": "https://github.com/mac-zhou/midea-ac-py"
+}

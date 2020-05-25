@@ -1,0 +1,6 @@
+{
+    "name": "easycontrols",
+    "owner": ["laszlojakab"],
+    "manifest": "https://raw.githubusercontent.com/laszlojakab/homeassistant-easycontrols/master/custom_components/easycontrols/manifest.json",
+    "url": "https://github.com/laszlojakab/homeassistant-easycontrols"
+}

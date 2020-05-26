@@ -1,0 +1,6 @@
+{
+  "name": "sonoff",
+  "owner": ["AlexxIT"],
+  "manifest": "https://raw.githubusercontent.com/AlexxIT/SonoffLAN/master/custom_components/sonoff/manifest.json",
+  "url": "https://github.com/AlexxIT/SonoffLAN"
+}

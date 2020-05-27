@@ -1,0 +1,6 @@
+{
+  "name": "Nespresso BLE coffee machine",
+  "owner": ["tikismoke"],
+  "manifest": "https://raw.githubusercontent.com/tikismoke/home-assistant-nespressoble/master/custom_components/nespresso/manifest.json",
+  "url": "https://github.com/tikismoke/home-assistant-nespressoble"
+}

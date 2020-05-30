@@ -1,0 +1,6 @@
+{
+  "name": "Carbon Intensity UK",
+  "owner": ["jscruz"],
+  "manifest": "https://raw.githubusercontent.com/jscruz/sensor.carbon_intensity_uk/master/custom_components/carbon_intensity_uk/manifest.json",
+  "url": "https://github.com/jscruz/sensor.carbon_intensity_uk"
+}

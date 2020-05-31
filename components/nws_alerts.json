@@ -1,1 +1,6 @@
-[]
+{
+  "name": "National Weather Service Alerts",
+  "owner": ["finity69x2"],
+  "manifest": "https://github.com/finity69x2/nws_alerts/blob/master/custom_components/nws_alerts/manifest.json",
+  "url": "https://github.com/finity69x2/nws_alerts"
+}

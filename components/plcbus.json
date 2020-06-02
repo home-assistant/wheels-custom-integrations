@@ -1,0 +1,6 @@
+{
+  "name": "PLCBus",
+  "owner": ["tikismoke"],
+  "manifest": "https://raw.githubusercontent.com/tikismoke/home-assistant-plcbus/master/custom_components/plcbus/manifest.json",
+  "url": "https://github.com/tikismoke/home-assistant-plcbus"
+}

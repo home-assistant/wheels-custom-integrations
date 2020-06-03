@@ -1,0 +1,6 @@
+{
+  "name": "HA-meural",
+  "owner": ["@guysie"],
+  "manifest": "https://raw.githubusercontent.com/GuySie/ha-meural/master/custom_components/meural/manifest.json",
+  "url": "https://github.com/GuySie/ha-meural"
+}

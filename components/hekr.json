@@ -1,0 +1,6 @@
+{
+  "name": "Hekr",
+  "owner": ["alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-hekr-component/master/custom_components/hekr/manifest.json",
+  "url": "https://github.com/alryaz/hass-hekr-component"
+}

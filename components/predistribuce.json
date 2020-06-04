@@ -1,0 +1,6 @@
+{
+  "name": "PRE Distribuce",
+  "owner": ["slesinger"],
+  "manifest": "https://raw.githubusercontent.com/slesinger/HomeAssistant-PREdistribuce/master/custom_components/predistribuce/manifest.json",
+  "url": "https://github.com/slesinger/HomeAssistant-PREdistribuce"
+}

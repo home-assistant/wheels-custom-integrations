@@ -1,0 +1,6 @@
+{
+  "name": "Minerstat",
+  "owner": ["gilsonmandalogo"],
+  "manifest": "https://raw.githubusercontent.com/gilsonmandalogo/hacs-minerstat/master/custom_components/hacs-minerstat/manifest.json",
+  "url": "https://github.com/gilsonmandalogo/hacs-minerstat"
+}

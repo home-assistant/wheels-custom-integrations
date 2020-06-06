@@ -1,0 +1,6 @@
+{
+  "name": "mail_and_packages",
+  "owner": ["moralmunky"],
+  "manifest": "https://raw.githubusercontent.com/moralmunky/Home-Assistant-Mail-And-Packages/master/custom_components/mail_and_packages/manifest.json",
+  "url": "https://github.com/moralmunky/Home-Assistant-Mail-And-Packages"
+}

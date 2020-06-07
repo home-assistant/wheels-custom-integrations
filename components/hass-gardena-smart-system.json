@@ -1,0 +1,6 @@
+{
+  "name": "Gardena Smart System integration",
+  "owner": ["@py-smart-gardena"],
+  "manifest": "https://raw.githubusercontent.com/py-smart-gardena/hass-gardena-smart-system/master/custom_components/gardena_smart_system/manifest.json",
+  "url": "https://github.com/py-smart-gardena/hass-gardena-smart-system"
+}

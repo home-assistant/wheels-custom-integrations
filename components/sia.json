@@ -1,0 +1,6 @@
+{
+  "name": "SIA",
+  "owner": ["@eavanvalkenburg"],
+  "manifest": "https://github.com/eavanvalkenburg/sia/blob/beta/custom_components/sia/manifest.json",
+  "url": "https://github.com/eavanvalkenburg/sia"
+}

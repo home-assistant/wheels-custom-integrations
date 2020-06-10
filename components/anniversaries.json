@@ -1,0 +1,6 @@
+{
+  "name": "anniversaries",
+  "owner": ["pinkywafer"],
+  "manifest": "https://raw.githubusercontent.com/pinkywafer/Anniversaries/master/custom_components/anniversaries/manifest.json",
+  "url": "https://github.com/pinkywafer/Anniversaries"
+}

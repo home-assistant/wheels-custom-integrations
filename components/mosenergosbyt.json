@@ -1,0 +1,6 @@
+{
+  "name": "Mosenergosbyt",
+  "owner": ["alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-mosenergosbyt/master/custom_components/mosenergosbyt/manifest.json",
+  "url": "https://github.com/alryaz/hass-mosenergosbyt"
+}

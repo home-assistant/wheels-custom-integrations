@@ -1,0 +1,6 @@
+{
+  "name": "Mosoblgaz",
+  "owner": ["alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-mosoblgaz/master/custom_components/mosoblgaz/manifest.json",
+  "url": "https://github.com/alryaz/hass-mosoblgaz"
+}

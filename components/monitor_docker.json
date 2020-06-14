@@ -1,0 +1,6 @@
+{
+  "name": "Monitor Docker",
+  "owner": ["ualex73"],
+  "manifest": "https://raw.githubusercontent.com/ualex73/monitor_docker/master/custom_components/monitor_docker/manifest.json",
+  "url": "https://github.com/ualex73/monitor_docker"
+}

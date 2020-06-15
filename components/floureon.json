@@ -1,0 +1,6 @@
+{
+  "name": "floureon",
+  "owner": ["algirdasc"],
+  "manifest": "https://raw.githubusercontent.com/algirdasc/hass-floureon/master/custom_components/floureon/manifest.json",
+  "url": "https://github.com/algirdasc/hass-floureon"
+}

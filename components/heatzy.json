@@ -1,0 +1,6 @@
+{
+  "name": "Heatzy",
+  "owner": ["cyr-ius"],
+  "manifest": "https://raw.githubusercontent.com/cyr-ius/hass-heatzy/master/custom_components/heatzy/manifest.json",
+  "url": "https://github.com/cyr-ius/hass-heatzy"
+}

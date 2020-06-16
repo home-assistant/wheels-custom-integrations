@@ -1,0 +1,7 @@
+
+{
+  "name": "Orange Livebox",
+  "owner": ["cyr-ius"],
+  "manifest": "https://raw.githubusercontent.com/cyr-ius/hass-livebox-component/master/custom_components/livebox/manifest.json",
+  "url": "https://github.com/cyr-ius/hass-livebox-component"
+}

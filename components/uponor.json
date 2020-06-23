@@ -1,0 +1,6 @@
+{
+  "name": "Uponor Smatrix Pulse X-265 heating",
+  "owner": ["@asev"],
+  "manifest": "https://raw.githubusercontent.com/asev/homeassistant-uponor/master/custom_components/uponor/manifest.json",
+  "url": "https://github.com/asev/homeassistant-uponor"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Argon40",
+  "owner": ["Misiu"],
+  "manifest": "https://raw.githubusercontent.com/Misiu/argon40/master/custom_components/argon40/manifest.json",
+  "url": "https://github.com/Misiu/argon40"
+}

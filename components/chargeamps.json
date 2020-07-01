@@ -1,0 +1,9 @@
+{
+	"name": "chargeamps",
+	"owner": [
+		"kirei",
+		"jschlyter"
+	],
+	"manifest": "https://raw.githubusercontent.com/kirei/hass-chargeamps/develop/custom_components/chargeamps/manifest.json",
+	"url": "https://github.com/kirei/hass-chargeamps"
+}

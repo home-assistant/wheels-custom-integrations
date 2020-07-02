@@ -1,0 +1,6 @@
+{
+  "name": "reolink_dev",
+  "owner": ["fwestenberg"],
+  "manifest": "https://raw.githubusercontent.com/fwestenberg/reolink/master/custom_components/reolink_dev/manifest.json",
+  "url": "https://github.com/fwestenberg/reolink"
+}

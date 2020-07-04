@@ -1,0 +1,6 @@
+{
+  "name": "proscenic 790T",
+  "owner": ["tdeblock"],
+  "manifest": "https://raw.githubusercontent.com/deblockt/hass-proscenic-790T-vacuum/master/custom_components/proscenic/manifest.json",
+  "url": "https://github.com/deblockt/hass-proscenic-790T-vacuum"
+}

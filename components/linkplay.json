@@ -1,0 +1,6 @@
+{
+  "name": "LinkPlay devices",
+  "owner": ["nicjo814", "nagyrobi"],
+  "manifest": "https://raw.githubusercontent.com/nagyrobi/home-assistant-custom-components-linkplay/master/custom_components/linkplay/manifest.json",
+  "url": "https://github.com/nagyrobi/home-assistant-custom-components-linkplay"
+}

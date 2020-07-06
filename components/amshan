@@ -1,0 +1,6 @@
+{
+  "name": "AMS HAN meter",
+  "owner": ["toreamun"],
+  "manifest": "https://raw.githubusercontent.com/toreamun/amshan-homeassistant/master/custom_components/amshan/manifest.json",
+  "url": "https://github.com/toreamun/amshan-homeassistant"
+}

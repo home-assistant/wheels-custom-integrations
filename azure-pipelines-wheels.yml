@@ -27,7 +27,7 @@ jobs:
 
 - template: templates/azp-job-wheels.yaml@azure
   parameters:
-    builderVersion: '1.11.0-3.7-alpine3.10'
+    builderVersion: '1.12.3-3.7-alpine3.10'
     builderApk: 'build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev'
     builderPip: 'Cython;numpy'
     skipBinary: 'aiohttp'
@@ -50,7 +50,30 @@ jobs:
 
 - template: templates/azp-job-wheels.yaml@azure
   parameters:
-    builderVersion: '1.11.0-3.7-alpine3.11'
+    builderVersion: '1.12.3-3.7-alpine3.11'
+    builderApk: 'build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev'
+    builderPip: 'Cython;numpy'
+    skipBinary: 'aiohttp'
+    wheelsRequirement: 'requirements.txt'
+    wheelsConstraint: 'constraints.txt'
+    wheelsSingle: true
+    jobName: 'Wheels_python37_alpine3_11'
+    preBuild:
+    - script: |
+        for component in components/*; do
+          manifest=$(jq --raw-output ".manifest" "${component}")
+
+          echo "Process: ${component} -> ${manifest}"
+          curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> requirements.txt
+        done
+
+        echo "List:"
+        cat requirements.txt
+      displayName: 'Prepare requirements files for Home Assistant wheels'
+
+- template: templates/azp-job-wheels.yaml@azure
+  parameters:
+    builderVersion: '1.12.3-3.8-alpine3.12'
     builderApk: 'build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev'
     builderPip: 'Cython;numpy'
     skipBinary: 'aiohttp'

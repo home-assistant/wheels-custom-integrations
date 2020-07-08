@@ -80,7 +80,7 @@ jobs:
     wheelsRequirement: 'requirements.txt'
     wheelsConstraint: 'constraints.txt'
     wheelsSingle: true
-    jobName: 'Wheels_python37_alpine3_11'
+    jobName: 'Wheels_python38_alpine3_12'
     preBuild:
     - script: |
         for component in components/*; do

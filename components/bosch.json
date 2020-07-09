@@ -1,0 +1,6 @@
+{
+    "name": "Bosch",
+    "owner": ["pszafer"],
+    "manifest": "https://raw.githubusercontent.com/bosch-thermostat/home-assistant-bosch-custom-component/master/custom_components/bosch/manifest.json",
+    "url": "https://github.com/bosch-thermostat/home-assistant-bosch-custom-component"
+}

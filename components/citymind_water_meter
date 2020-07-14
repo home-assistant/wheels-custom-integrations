@@ -1,0 +1,6 @@
+{
+  "name": "City-Mind Water Meter",
+  "owner": ["maorcc"],
+  "manifest": "https://raw.githubusercontent.com/maorcc/citymind_water_meter/master/custom_components/citymind_water_meter/manifest.json",
+  "url": "https://github.com/maorcc/citymind_water_meter"
+}

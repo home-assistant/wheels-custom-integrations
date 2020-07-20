@@ -1,0 +1,6 @@
+{
+    "name": "Spa Client",
+    "owner": ["plmilord"],
+    "manifest": "https://raw.githubusercontent.com/plmilord/Hass.io-custom-component-spaclient/master/custom_components/spaclient/manifest.json",
+    "url": "https://github.com/plmilord/Hass.io-custom-component-spaclient"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Shark IQ",
+  "owner": ["@ajmarks"],
+  "manifest": "https://raw.githubusercontent.com/ajmarks/ajmarks_ha_components/master/sharkiq/manifest.json",
+  "url": "https://github.com/ajmarks/ajmarks_ha_components/tree/master/sharkiq"
+}

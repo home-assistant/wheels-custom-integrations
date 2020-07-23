@@ -1,0 +1,6 @@
+{
+  "name": "Reverso TTS",
+  "owner": ["yuval_mejahez"],
+  "manifest": "https://raw.githubusercontent.com/rt400/ReversoTTS-HA/master/custom_components/reversotts/manifest.json",
+  "url": "https://github.com/rt400/ReversoTTS-HA"
+}

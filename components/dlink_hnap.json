@@ -1,0 +1,6 @@
+{
+  "name": "D-Link HNAP",
+  "owner": ["postlund"],
+  "manifest": "https://raw.githubusercontent.com/postlund/dlink_hnap/master/custom_components/dlink_hnap/manifest.json",
+  "url": "https://github.com/postlund/dlink_hnap"
+}

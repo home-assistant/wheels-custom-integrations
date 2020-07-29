@@ -1,0 +1,6 @@
+{
+  "name": "Somfy TaHoma",
+  "owner": ["@philklei", "@imicknl", "@vlebourl", "@tetienne"],
+  "manifest": "https://raw.githubusercontent.com/iMicknl/ha-tahoma/master/custom_components/tahoma/manifest.json",
+  "url": "https://github.com/imicknl/ha-tahoma"
+}

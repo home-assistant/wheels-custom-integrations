@@ -1,0 +1,6 @@
+{
+    "name": "Plugwise USB-stick",
+    "owner": ["@brefra"],
+    "manifest": "https://raw.githubusercontent.com/brefra/home-assistant-plugwise-stick/master/custom_components/plugwise_stick/manifest.json",
+    "url": "https://github.com/brefra/home-assistant-plugwise-stick"
+}

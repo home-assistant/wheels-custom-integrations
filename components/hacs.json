@@ -1,6 +1,6 @@
 {
   "name": "hacs",
   "owner": ["ludeeus"],
-  "manifest": "https://raw.githubusercontent.com/hacs/integration/master/custom_components/hacs/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/hacs/integration/main/custom_components/hacs/manifest.json",
   "url": "https://github.com/hacs/integration"
 }

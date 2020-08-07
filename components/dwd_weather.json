@@ -1,0 +1,6 @@
+{
+    "name": "Deutscher Wetterdienst",
+    "owner": ["FL550"],
+    "manifest": "https://raw.githubusercontent.com/FL550/dwd_weather/master/custom_components/dwd_weather/manifest.json",
+    "url": "https://github.com/FL550/dwd_weather"
+}

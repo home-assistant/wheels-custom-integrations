@@ -1,0 +1,6 @@
+{
+  "name": "indego",
+  "owner": ["jm73"],
+  "manifest": "https://raw.githubusercontent.com/jm-73/indego/master/custom_components/indego/manifest.json",
+  "url": "https://github.com/jm-73/Indego"
+}

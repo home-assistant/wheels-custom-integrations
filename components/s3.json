@@ -1,0 +1,6 @@
+{
+    "name": "S3",
+    "owner": ["robmarkcole"],
+    "manifest": "https://raw.githubusercontent.com/robmarkcole/HASS-S3/master/custom_components/s3/manifest.json",
+    "url": "https://github.com/robmarkcole/HASS-S3"
+}

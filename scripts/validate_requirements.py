@@ -13,16 +13,32 @@ SUPPORTED_PYTHON_VERSIONS = ["3.8"]
 STD_LIBS = {version: set(stdlib_list(version)) for version in SUPPORTED_PYTHON_VERSIONS}
 
 
-def main(changed_files: List[str]) -> int:
+def main() -> int:
     """Run main function."""
+    return 0 if validate() else 1
+
+
+def validate() -> bool:
+    """Do the validation."""
     print("Validating requirements")
-    component_files = collect_component_files(changed_files)
+    print()
+    piped_input = sys.stdin.read()
+    changed_files = piped_input.split("\n")
+    changed_component_files = collect_component_files(changed_files)
     validated_ok = True
-    for fil in component_files:
+    print("Integrations to validate:", len(changed_component_files))
+
+    for fil in changed_component_files:
         manifest = get_manifest(fil)
+        print()
+        print(f"Validating {manifest['domain']}:")
         requirements = set(manifest["requirements"])
-        validated_ok = validate_requirements(requirements)
-    return 0 if validated_ok else 1
+        requirements_ok = validate_requirements(requirements)
+        if requirements_ok:
+            print("OK!")
+        validated_ok = requirements_ok
+
+    return validated_ok
 
 
 def collect_component_files(changed_files: List[str]) -> Set[Path]:
@@ -42,7 +58,7 @@ def get_manifest(component_file: Path) -> Dict[str, Any]:
     manifest_address = component_data["manifest"]
     with urllib.request.urlopen(manifest_address) as url:
         manifest = json.loads(url.read().decode())
-        print(manifest)
+
     return manifest
 
 
@@ -143,5 +159,4 @@ def normalize_package_name(requirement: str) -> str:
 
 
 if __name__ == "__main__":
-    CHANGED_FILES = sys.argv[1:]
-    sys.exit(main(CHANGED_FILES))
+    sys.exit(main())

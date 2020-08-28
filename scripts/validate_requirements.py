@@ -29,7 +29,7 @@ def validate() -> bool:
     validated_ok = True
     print("Integrations to validate:", len(input_component_files))
 
-    for fil in input_component_files:
+    for fil in sorted(input_component_files):
         manifest = get_manifest(fil)
         if not manifest:
             continue

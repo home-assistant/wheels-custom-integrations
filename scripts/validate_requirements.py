@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 import re
+from select import select
 import subprocess
 import sys
 from typing import Any, Dict, List, Optional, Set
@@ -24,6 +25,12 @@ def main() -> int:
 
 def validate() -> bool:
     """Do the validation."""
+    timeout = 1
+    read, _, _ = select([sys.stdin], [], [], timeout)
+    if not read:
+        print("Nothing was piped to stdin")
+        return False
+
     print("Validating requirements")
     print()
     piped_input = sys.stdin.read()

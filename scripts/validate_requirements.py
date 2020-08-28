@@ -4,8 +4,9 @@ import json
 from pathlib import Path
 import subprocess
 import sys
-from typing import Any, Dict, List, Set
-import urllib.request
+from typing import Any, Dict, List, Optional, Set
+from urllib import request
+from urllib.error import URLError
 
 from stdlib_list import stdlib_list
 
@@ -30,6 +31,8 @@ def validate() -> bool:
 
     for fil in input_component_files:
         manifest = get_manifest(fil)
+        if not manifest:
+            continue
         print()
         print(f"Validating {manifest['domain']}:")
         requirements = set(manifest["requirements"])
@@ -52,12 +55,16 @@ def collect_component_files(input_files: List[str]) -> Set[Path]:
     return changed_component_files
 
 
-def get_manifest(component_file: Path) -> Dict[str, Any]:
+def get_manifest(component_file: Path) -> Optional[Dict[str, Any]]:
     """Return the integration manifest."""
     component_data = json.loads(component_file.read_text())
     manifest_address = component_data["manifest"]
-    with urllib.request.urlopen(manifest_address) as url:
-        manifest = json.loads(url.read().decode())
+    try:
+        with request.urlopen(manifest_address, timeout=10) as url:
+            manifest = json.loads(url.read().decode())
+    except URLError as exc:
+        print(f"Failed to fetch manifest from {manifest_address}: {exc}")
+        return None
 
     return manifest
 

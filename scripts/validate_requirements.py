@@ -23,12 +23,12 @@ def validate() -> bool:
     print("Validating requirements")
     print()
     piped_input = sys.stdin.read()
-    changed_files = piped_input.split("\n")
-    changed_component_files = collect_component_files(changed_files)
+    input_files = piped_input.split("\n")
+    input_component_files = collect_component_files(input_files)
     validated_ok = True
-    print("Integrations to validate:", len(changed_component_files))
+    print("Integrations to validate:", len(input_component_files))
 
-    for fil in changed_component_files:
+    for fil in input_component_files:
         manifest = get_manifest(fil)
         print()
         print(f"Validating {manifest['domain']}:")
@@ -41,12 +41,12 @@ def validate() -> bool:
     return validated_ok
 
 
-def collect_component_files(changed_files: List[str]) -> Set[Path]:
+def collect_component_files(input_files: List[str]) -> Set[Path]:
     """Collect component files from changed files in the pull request."""
     project_dir = Path(__file__).parent.parent
     component_dir = project_dir / "components"
     component_files = set(component_dir.glob("**/*.json"))
-    changed_component_files = set([Path(fil) for fil in changed_files]).intersection(
+    changed_component_files = set([Path(fil) for fil in input_files]).intersection(
         component_files
     )
     return changed_component_files

@@ -2,6 +2,7 @@
 """Validate custom wheels package requirements."""
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 from typing import Any, Dict, List, Optional, Set
@@ -102,7 +103,9 @@ def get_requirements(requirements: Set[str]) -> Set[str]:
     all_requirements = set()
 
     for req in requirements:
-        package = normalize_package_name(req)
+        package = normalize_package_name_regex(req)
+        if not package:
+            continue
         try:
             result = subprocess.run(
                 ["pipdeptree", "-w", "silence", "--packages", package],
@@ -153,16 +156,16 @@ def install_requirements(requirements: Set[str]) -> bool:
     return install_ok
 
 
-def normalize_package_name(requirement: str) -> str:
-    """Return a normalized package name from a requirement string."""
-    requirement = requirement.split(" ")[-1]  # remove potential pip argument
-    package = requirement.split("==")[0]  # remove version pinning
-    package = package.split("[")[0]  # remove potential require extras
-    # replace underscore with dash to work with pipdeptree
-    package = package.replace("_", "-")
-    package = package.lower()  # normalize casing
+def normalize_package_name_regex(requirement: str) -> Optional[str]:
+    """Use a regex to find the package name in a requirement string."""
+    match = re.search(
+        r"^(?:--.+\s)?([-_\w\d]+).*(?:==|>=|<=|~=|!=|<|>|===)?.*$", requirement
+    )
+    if not match:
+        print(f"Failed to parse requirement {requirement}")
+        return None
 
-    return package
+    return match.group(1).lower().replace("_", "-")
 
 
 if __name__ == "__main__":

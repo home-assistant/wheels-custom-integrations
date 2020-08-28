@@ -1,0 +1,6 @@
+{
+  "name": "Kaco",
+  "owner": ["KoljaWindeler"],
+  "manifest": "https://raw.githubusercontent.com/KoljaWindeler/kaco/master/custom_components/kaco/manifest.json",
+  "url": "https://github.com/KoljaWindeler/kaco"
+}

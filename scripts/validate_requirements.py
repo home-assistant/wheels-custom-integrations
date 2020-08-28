@@ -11,6 +11,8 @@ from urllib.error import URLError
 
 from stdlib_list import stdlib_list
 
+PACKAGE_REGEX = re.compile(r"^(?:--.+\s)?([-_\w\d]+).*(?:==|>=|<=|~=|!=|<|>|===)?.*$")
+PIP_REGEX = re.compile(r"^(--.+\s)?([-_\w\d]+.*(?:==|>=|<=|~=|!=|<|>|===)?.*$)")
 SUPPORTED_PYTHON_VERSIONS = ["3.8"]
 STD_LIBS = {version: set(stdlib_list(version)) for version in SUPPORTED_PYTHON_VERSIONS}
 
@@ -103,9 +105,13 @@ def get_requirements(requirements: Set[str]) -> Set[str]:
     all_requirements = set()
 
     for req in requirements:
-        package = normalize_package_name_regex(req)
-        if not package:
+        match = PACKAGE_REGEX.search(req)
+        if not match:
+            print(f"Failed to parse requirement {req}")
             continue
+
+        # pipdeptree needs lowercase and dash instead of underscore as separator
+        package = match.group(1).lower().replace("_", "-")
         try:
             result = subprocess.run(
                 ["pipdeptree", "-w", "silence", "--packages", package],
@@ -144,9 +150,20 @@ def install_requirements(requirements: Set[str]) -> bool:
     install_ok = True
 
     for req in requirements:
-        requirement_args = req.split(" ")
+        match = PIP_REGEX.search(req)
+
+        if not match:
+            print(f"Requirement {req} failed to install")
+            continue
+
+        install_args = match.group(1)
+        requirement_arg = match.group(2)
+
         args = [sys.executable, "-m", "pip", "install", "--quiet"]
-        args.extend(requirement_args)
+        if install_args:
+            args.append(install_args)
+        args.append(requirement_arg)
+
         try:
             subprocess.run(args, check=True)
         except subprocess.SubprocessError:
@@ -154,19 +171,6 @@ def install_requirements(requirements: Set[str]) -> bool:
             install_ok = False
 
     return install_ok
-
-
-def normalize_package_name_regex(requirement: str) -> Optional[str]:
-    """Use a regex to find the package name in a requirement string."""
-    match = re.search(
-        r"^(?:--.+\s)?([-_\w\d]+).*(?:==|>=|<=|~=|!=|<|>|===)?.*$", requirement
-    )
-    if not match:
-        print(f"Failed to parse requirement {requirement}")
-        return None
-
-    # pipdeptree needs lowercase and dash instead of underscore as separator
-    return match.group(1).lower().replace("_", "-")
 
 
 if __name__ == "__main__":

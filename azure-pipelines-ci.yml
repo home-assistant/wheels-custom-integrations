@@ -50,5 +50,5 @@ jobs:
           versionSpec: "3.8"
       - script: python -m pip install pipdeptree stdlib-list
         displayName: "Install script dependencies"
-      - script: scripts/validate_requirements.py
+      - script: git diff HEAD master --name-only | scripts/validate_requirements.py
         displayName: "Validate requirements"

@@ -39,7 +39,7 @@ jobs:
             fi
           done
         displayName: "Check if integration have requirements"
-  - job: "Requirements validation"
+  - job: "requirements_validation"
     dependsOn: JQ
     pool:
       vmImage: "ubuntu-latest"

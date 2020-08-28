@@ -4,39 +4,50 @@ trigger:
   batch: true
   branches:
     include:
-    - master
+      - master
 pr:
   - master
 
 jobs:
+  - job: "JQ"
+    pool:
+      vmImage: "ubuntu-latest"
+    steps:
+      - script: sudo apt-get install -y jq
+        displayName: "Install JQ"
+      - bash: |
+          shopt -s globstar
+          cat components/* | jq '.'
+        displayName: "Run JQ to validate JSON files"
+      - bash: |
+          for component in components/*; do
+            manifestlink=$(jq --raw-output ".manifest" "${component}")
 
-- job: 'JQ'
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: sudo apt-get install -y jq
-    displayName: 'Install JQ'
-  - bash: |
-      shopt -s globstar
-      cat components/* | jq '.'
-    displayName: 'Run JQ to validate JSON files'
-  - bash: |
-        for component in components/*; do
-          manifestlink=$(jq --raw-output ".manifest" "${component}")
+            echo "Process: ${component} -> ${manifestlink}"
+            manifest=$(curl -s "${manifestlink}" | jq -e --raw-output .)
+            if [[ "$?" != 0 ]]; then
+              echo "Unable to read the manifest file at ${manifestlink}"
+              echo "The URL might be wrong or is not a raw URL."
+              exit 1
+            fi
 
-          echo "Process: ${component} -> ${manifestlink}"
-          manifest=$(curl -s "${manifestlink}" | jq -e --raw-output .)
-          if [[ "$?" != 0 ]]; then
-            echo "Unable to read the manifest file at ${manifestlink}"
-            echo "The URL might be wrong or is not a raw URL."
-            exit 1
-          fi
-
-          echo "${manifest}" | jq -e --raw-output '.requirements[0]'
-          if [[ "$?" != 0 ]]; then
-            echo "The integration in $component, does not seem to have any Python requirements."
-            echo "Adding it to this repository has no use, since there are nothing to build for it."
-            exit 1
-          fi
-        done
-    displayName: 'Check if integration have requirements'
+            echo "${manifest}" | jq -e --raw-output '.requirements[0]'
+            if [[ "$?" != 0 ]]; then
+              echo "The integration in $component, does not seem to have any Python requirements."
+              echo "Adding it to this repository has no use, since there are nothing to build for it."
+              exit 1
+            fi
+          done
+        displayName: "Check if integration have requirements"
+  - job: "Requirements validation"
+    pool:
+      vmImage: "ubuntu-latest"
+    steps:
+      - task: UsePythonVersion@0
+        displayName: "Use Python 3.8"
+        inputs:
+          versionSpec: "3.8"
+      - script: python -m pip install pipdeptree stdlib-list
+        displayName: "Install script dependencies"
+      - script: scripts/validate_requirements.py
+        displayName: "Validate requirements"

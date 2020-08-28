@@ -35,6 +35,7 @@ def validate() -> bool:
     for fil in sorted(input_component_files):
         manifest = get_manifest(fil)
         if not manifest:
+            validated_ok = False
             continue
         print()
         print(f"Validating {manifest['domain']}:")
@@ -108,7 +109,7 @@ def get_requirements(requirements: Set[str]) -> Set[str]:
         match = PACKAGE_REGEX.search(req)
         if not match:
             print(f"Failed to parse requirement {req}")
-            continue
+            return set()
 
         # pipdeptree needs lowercase and dash instead of underscore as separator
         package = match.group(1).lower().replace("_", "-")
@@ -121,7 +122,7 @@ def get_requirements(requirements: Set[str]) -> Set[str]:
             )
         except subprocess.SubprocessError:
             print(f"Failed to resolve requirements for {req}")
-            continue
+            return set()
 
         # parse output to get a set of package names
         output = result.stdout
@@ -153,7 +154,8 @@ def install_requirements(requirements: Set[str]) -> bool:
         match = PIP_REGEX.search(req)
 
         if not match:
-            print(f"Requirement {req} failed to install")
+            print(f"Failed to parse requirement {req} before installation")
+            install_ok = False
             continue
 
         install_args = match.group(1)

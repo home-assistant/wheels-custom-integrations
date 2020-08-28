@@ -43,7 +43,7 @@ def validate() -> bool:
         requirements_ok = validate_requirements(requirements)
         if requirements_ok:
             print("OK!")
-        validated_ok = requirements_ok
+        validated_ok = validated_ok and requirements_ok
 
     return validated_ok
 

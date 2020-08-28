@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Validate custom wheels package requirements."""
+import json
+from pathlib import Path
 import subprocess
 import sys
-from typing import Any, Dict, Set
+from typing import Any, Dict, List, Set
+import urllib.request
 
 from stdlib_list import stdlib_list
 
@@ -10,18 +13,37 @@ SUPPORTED_PYTHON_VERSIONS = ["3.8"]
 STD_LIBS = {version: set(stdlib_list(version)) for version in SUPPORTED_PYTHON_VERSIONS}
 
 
-def main() -> int:
+def main(changed_files: List[str]) -> int:
     """Run main function."""
     print("Validating requirements")
-    manifest = get_manifest()
-    requirements = set(manifest["requirements"])
-    validated_ok = validate_requirements(requirements)
+    component_files = collect_component_files(changed_files)
+    validated_ok = True
+    for fil in component_files:
+        manifest = get_manifest(fil)
+        requirements = set(manifest["requirements"])
+        validated_ok = validate_requirements(requirements)
     return 0 if validated_ok else 1
 
 
-def get_manifest() -> Dict[str, Any]:
+def collect_component_files(changed_files: List[str]) -> Set[Path]:
+    """Collect component files from changed files in the pull request."""
+    project_dir = Path(__file__).parent.parent
+    component_dir = project_dir / "components"
+    component_files = set(component_dir.glob("**/*.json"))
+    changed_component_files = set([Path(fil) for fil in changed_files]).intersection(
+        component_files
+    )
+    return changed_component_files
+
+
+def get_manifest(component_file: Path) -> Dict[str, Any]:
     """Return the integration manifest."""
-    return {"requirements": ["asyncio"]}
+    component_data = json.loads(component_file.read_text())
+    manifest_address = component_data["manifest"]
+    with urllib.request.urlopen(manifest_address) as url:
+        manifest = json.loads(url.read().decode())
+        print(manifest)
+    return manifest
 
 
 def validate_requirements(requirements: Set[str]) -> bool:
@@ -121,4 +143,5 @@ def normalize_package_name(requirement: str) -> str:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    CHANGED_FILES = sys.argv[1:]
+    sys.exit(main(CHANGED_FILES))

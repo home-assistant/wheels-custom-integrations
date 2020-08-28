@@ -165,6 +165,7 @@ def normalize_package_name_regex(requirement: str) -> Optional[str]:
         print(f"Failed to parse requirement {requirement}")
         return None
 
+    # pipdeptree needs lowercase and dash instead of underscore as separator
     return match.group(1).lower().replace("_", "-")
 
 

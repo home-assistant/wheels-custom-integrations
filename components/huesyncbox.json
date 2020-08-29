@@ -1,0 +1,6 @@
+{
+    "name": "Philips Hue Play HDMI Sync Box",
+    "owner": ["mvdwetering"],
+    "manifest": "https://raw.githubusercontent.com/mvdwetering/huesyncbox/master/custom_components/huesyncbox/manifest.json",
+    "url": "https://github.com/mvdwetering/huesyncbox"
+}

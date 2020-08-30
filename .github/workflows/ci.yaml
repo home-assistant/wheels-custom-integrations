@@ -14,7 +14,7 @@ env:
 jobs:
   requirements:
     runs-on: ubuntu-latest
-    name: Validate Python ${{ env.DEFAULT_PYTHON }} requirements
+    name: Validate Python requirements
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2

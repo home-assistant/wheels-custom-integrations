@@ -25,7 +25,7 @@ jobs:
           python-version: ${{ env.DEFAULT_PYTHON }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         with:
-          token: GITHUB_TOKEN
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip

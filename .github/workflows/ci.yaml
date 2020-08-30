@@ -24,7 +24,6 @@ jobs:
         with:
           python-version: ${{ env.DEFAULT_PYTHON }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
-        id: files
         with:
           token: GITHUB_TOKEN
       - name: Install dependencies
@@ -33,4 +32,4 @@ jobs:
           python -m pip install pipdeptree stdlib-list
       - name: Validate requirements
         run: |
-          echo ${{ steps.files.outputs.all }} | jq -r '.[]' | scripts/validate_requirements.py
+          cat ${HOME}/files.json | jq -r '.[]' | scripts/validate_requirements.py

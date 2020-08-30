@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate custom wheels package requirements."""
 import json
+import os
 from pathlib import Path
 import re
 from select import select
@@ -12,9 +13,10 @@ from urllib.error import URLError
 
 from stdlib_list import stdlib_list
 
+DEFAULT_PYTHON = os.environ.get("DEFAULT_PYTHON", "")
 PACKAGE_REGEX = re.compile(r"^(?:--.+\s)?([-_\w\d]+).*(?:==|>=|<=|~=|!=|<|>|===)?.*$")
 PIP_REGEX = re.compile(r"^(--.+\s)?([-_\w\d]+.*(?:==|>=|<=|~=|!=|<|>|===)?.*$)")
-SUPPORTED_PYTHON_VERSIONS = ["3.8"]
+SUPPORTED_PYTHON_VERSIONS = [str(DEFAULT_PYTHON) or "3.8"]
 STD_LIBS = {version: set(stdlib_list(version)) for version in SUPPORTED_PYTHON_VERSIONS}
 
 

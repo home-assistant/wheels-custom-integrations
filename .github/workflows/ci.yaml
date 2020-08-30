@@ -33,4 +33,4 @@ jobs:
           python -m pip install pipdeptree stdlib-list
       - name: Validate requirements
         run: |
-          ${{ steps.files.outputs.all }} | scripts/validate_requirements.py
+          echo ${{ steps.files.outputs.all }} | scripts/validate_requirements.py

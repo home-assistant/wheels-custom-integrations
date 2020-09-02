@@ -1,0 +1,6 @@
+{
+  "name": "yeelight_bt",
+  "owner": ["hcoohb"],
+  "manifest": "https://raw.githubusercontent.com/hcoohb/hass-yeelightbt/master/custom_components/yeelight_bt/manifest.json",
+  "url": "https://github.com/hcoohb/hass-yeelightbt"
+}

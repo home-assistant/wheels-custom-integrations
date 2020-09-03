@@ -1,0 +1,6 @@
+{
+  "name": "Crownstone",
+  "owner": ["Crownstone","RicArch97"],
+  "manifest": "https://raw.githubusercontent.com/crownstone/crownstone-home-assistant/master/custom_components/crownstone/manifest.json",
+  "url": "https://github.com/crownstone/crownstone-home-assistant"
+}

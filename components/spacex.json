@@ -1,0 +1,6 @@
+{
+  "name": "SpaceX Launches and Starman",
+  "owner": ["@djtimca"],
+  "manifest": "https://raw.githubusercontent.com/djtimca/HASpaceX/master/custom_components/spacex/manifest.json",
+  "url": "https://github.com/djtimca/haspacex"
+}

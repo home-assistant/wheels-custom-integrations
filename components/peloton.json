@@ -1,0 +1,6 @@
+{
+  "name": "Peloton",
+  "owner": ["edwork"],
+  "manifest": "https://raw.githubusercontent.com/edwork/homeassistant-peloton-sensor/master/custom_components/peloton/manifest.json",
+  "url": "https://github.com/edwork/homeassistant-peloton-sensor"
+}

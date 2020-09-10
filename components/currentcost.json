@@ -1,6 +1,6 @@
 {
     "name": "Current Cost",
     "owner": ["lolouk44"],
-    "manifest": "https://github.com/lolouk44/CurrentCost_HA_CC/blob/master/custom_components/CurrentCost_HA_CC/manifest.json",
+    "manifest": "https://raw.githubusercontent.com/lolouk44/CurrentCost_HA_CC/master/custom_components/CurrentCost_HA_CC/manifest.json",
     "url": "https://github.com/lolouk44/CurrentCost_HA_CC"
 }

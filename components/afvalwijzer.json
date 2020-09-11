@@ -2,5 +2,5 @@
     "name": "afvalwijzer",
     "owner": ["xirixiz"],
     "manifest": "https://raw.githubusercontent.com/xirixiz/homeassistant-afvalwijzer/master/custom_components/afvalwijzer/manifest.json",
-    "url": "https://github.com/xirixiz/Home-Assistant-Sensor-Afvalwijzer"
+    "url": "https://github.com/xirixiz/homeassistant-afvalwijzer"
 }

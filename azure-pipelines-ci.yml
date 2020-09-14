@@ -38,5 +38,9 @@ jobs:
             echo "Adding it to this repository has no use, since there are nothing to build for it."
             exit 1
           fi
+          
+          for requirement in $(echo "${manifest}" | jq -e --raw-output '.requirements[]'); do
+            echo -e "\t- $requirement"
+          done
         done
     displayName: 'Check if integration have requirements'

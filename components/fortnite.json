@@ -1,0 +1,6 @@
+{
+  "name": "Fortnite Stats",
+  "owner": ["michaellunzer"],
+  "manifest": "https://raw.githubusercontent.com/michaellunzer/Home-Assistant-Custom-Component-Fortnite/master/custom_components/fortnite/manifest.json",
+  "url": "https://github.com/michaellunzer/Home-Assistant-Custom-Component-Fortnite"
+}

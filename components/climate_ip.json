@@ -1,0 +1,6 @@
+{
+  "name": "Climate IP",
+  "owner": ["atxbyea"],
+  "manifest": "https://raw.githubusercontent.com/atxbyea/samsungrac/master/custom_components/climate_ip/manifest.json",
+  "url": "https://github.com/atxbyea/samsungrac"
+}

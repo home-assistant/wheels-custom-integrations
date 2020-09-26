@@ -1,0 +1,6 @@
+{
+  "name": "lock-manager",
+  "owner": ["FutureTense"],
+  "manifest": "https://raw.githubusercontent.com/FutureTense/lock-manager/master/custom_components/lock-manager/manifest.json",
+  "url": "https://github.com/FutureTense/lock-manager"
+}

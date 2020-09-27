@@ -1,0 +1,8 @@
+{
+    "name": "Trackimo",
+    "owner": [
+        "troykelly"
+    ],
+    "manifest": "https://raw.githubusercontent.com/troykelly/hacs-trackimo/master/custom_components/trackimo/manifest.json",
+    "url": "https://github.com/troykelly/hacs-trackimo"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Husqvarna Automower",
+  "owner": ["@Thomas55555"],
+  "manifest": "https://raw.githubusercontent.com/Thomas55555/husqvarna_automower/master/custom_components/husqvarna_automower/manifest.json",
+  "url": "https://github.com/Thomas55555/husqvarna_automower"
+}

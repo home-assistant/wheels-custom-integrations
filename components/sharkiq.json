@@ -1,6 +1,0 @@
-{
-  "name": "Shark IQ",
-  "owner": ["ajmarks"],
-  "manifest": "https://raw.githubusercontent.com/ajmarks/ha_components/master/sharkiq/manifest.json",
-  "url": "https://github.com/ajmarks/ha_components/tree/master/sharkiq"
-}

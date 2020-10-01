@@ -1,0 +1,6 @@
+{
+    "name": "Tapo: Cameras Control",
+    "owner": ["@JurajNyiri"],
+    "manifest": "https://raw.githubusercontent.com/JurajNyiri/HomeAssistant-Tapo-Control/main/custom_components/tapo_control/manifest.json",
+    "url": "https://github.com/JurajNyiri/HomeAssistant-Tapo-Control"
+  }

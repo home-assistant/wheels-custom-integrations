@@ -1,0 +1,8 @@
+{
+    "name": "Amber Electric",
+    "owner": [
+        "troykelly"
+    ],
+    "manifest": "https://raw.githubusercontent.com/troykelly/hacs-amberelectric/main/custom_components/amber_electric/manifest.json",
+    "url": "https://github.com/troykelly/hacs-amberelectric"
+}

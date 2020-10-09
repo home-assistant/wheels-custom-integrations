@@ -4,6 +4,6 @@
     "owner": [
         "willholdoway"
     ],
-    "manifest": "https://github.com/willholdoway/hifiberry/blob/master/custom_components/hifiberry/manifest.json",
+    "manifest": "https://raw.githubusercontent.com/willholdoway/hifiberry/master/custom_components/hifiberry/manifest.json",
     "url": "https://github.com/willholdoway/hifiberry"
 }

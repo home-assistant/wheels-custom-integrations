@@ -1,6 +1,6 @@
 {
   "name": "PowerShaper",
   "owner": ["@carboncoop"],
-  "manifest": "https://gitlab.com/carboncoop/hems/-/raw/dev/homeassistant/custom_components/powershaper/manifest.json",
+  "manifest": "https://gitlab.com/carboncoop/hems/raw/master/homeassistant/custom_components/powershaper/manifest.json",
   "url": "https://gitlab.com/carboncoop/hems"
 }

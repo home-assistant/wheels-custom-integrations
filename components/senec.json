@@ -1,0 +1,6 @@
+{
+    "name": "Senec solar system",
+    "owner": ["mchwalisz"],
+    "manifest": "https://raw.githubusercontent.com/mchwalisz/home-assistant-senec/master/custom_components/senec/manifest.json",
+    "url": "https://github.com/mchwalisz/home-assistant-senec"
+}

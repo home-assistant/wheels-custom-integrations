@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miio_airpurifier",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/xiaomi_airpurifier/develop/custom_components/xiaomi_miio_airpurifier/manifest.json",
+  "url": "https://github.com/syssi/xiaomi_airpurifier"
+}

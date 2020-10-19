@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miio_airconditioningcompanion",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/xiaomi_airconditioningcompanion/develop/custom_components/xiaomi_miio_airconditioningcompanion/manifest.json",
+  "url": "https://github.com/syssi/xiaomi_airconditioningcompanion"
+}

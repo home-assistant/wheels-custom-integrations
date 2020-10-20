@@ -1,0 +1,6 @@
+{
+  "name": "SQL (JSON)",
+  "owner": ["@crowbarz"],
+  "manifest": "https://raw.githubusercontent.com/crowbarz/ha-sql_json/main/custom_components/sql_json/manifest.json",
+  "url": "https://github.com/crowbarz/ha-sql_json"
+}

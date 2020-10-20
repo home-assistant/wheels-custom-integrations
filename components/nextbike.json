@@ -1,0 +1,6 @@
+{
+  "name": "nextbike",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/nextbike/master/custom_components/nextbike/manifest.json",
+  "url": "https://github.com/syssi/nextbike"
+}

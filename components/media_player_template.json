@@ -1,0 +1,6 @@
+{
+  "name": "Media player template",
+  "owner": ["sennevds"],
+  "manifest": "https://raw.githubusercontent.com/Sennevds/media_player.template/master/custom_components/media_player_template/manifest.json",
+  "url": "https://github.com/Sennevds/media_player.template"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miio_raw",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/xiaomi_raw/develop/custom_components/xiaomi_miio_raw/manifest.json",
+  "url": "https://github.com/syssi/xiaomi_raw"
+}

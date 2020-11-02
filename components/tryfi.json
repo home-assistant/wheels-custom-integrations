@@ -1,0 +1,6 @@
+{
+  "name": "tryfi",
+  "owner": ["sbabcock23"],
+  "manifest": "https://raw.githubusercontent.com/sbabcock23/hass-tryfi/master/custom_components/tryfi/manifest.json",
+  "url": "https://github.com/sbabcock23/hass-tryfi"
+}

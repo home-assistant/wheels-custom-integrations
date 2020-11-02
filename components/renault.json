@@ -1,0 +1,6 @@
+{
+  "name": "Renault",
+  "owner": ["epenet"],
+  "manifest": "https://raw.githubusercontent.com/epenet/hassRenaultZE/master/custom_components/renault/manifest.json",
+  "url": "https://github.com/epenet/hassRenaultZE"
+}

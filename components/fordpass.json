@@ -1,0 +1,6 @@
+{
+  "name": "fordpass",
+  "owner": ["itchannel"],
+  "manifest": "https://raw.githubusercontent.com/itchannel/fordpass-ha/master/custom_components/fordpass/manifest.json",
+  "url": "https://github.com/itchannel/fordpass-ha"
+}

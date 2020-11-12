@@ -1,0 +1,6 @@
+{
+    "name": "HausMon",
+    "owner": ["liber-tas"],
+    "manifest": "https://raw.githubusercontent.com/HausNet/hausmon-hass/master/custom_components/hausmon/manifest.json",
+    "url": "https://github.com/HausNet/hausmon-hass"
+}

@@ -1,0 +1,7 @@
+
+{
+  "name": "Pioneer AVR (async)",
+  "owner": ["@crowbarz"],
+  "manifest": "https://raw.githubusercontent.com/crowbarz/ha-pioneer_async/master/custom_components/pioneer_async/manifest.json",
+  "url": "https://github.com/crowbarz/ha-pioneer_async"
+}

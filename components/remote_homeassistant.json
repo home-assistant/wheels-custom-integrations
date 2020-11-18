@@ -1,0 +1,6 @@
+{
+  "name": "Remote Home-Assistant",
+  "owner": ["lukas-hetzenecker"],
+  "manifest": "https://raw.githubusercontent.com/lukas-hetzenecker/home-assistant-remote/master/custom_components/remote_homeassistant/manifest.json",
+  "url": "https://github.com/lukas-hetzenecker/home-assistant-remote"
+}

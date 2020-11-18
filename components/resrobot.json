@@ -1,0 +1,6 @@
+{
+  "name": "resrobot",
+  "owner": ["@iesus"],
+  "manifest": "https://raw.githubusercontent.com/TekniskSupport/home-assistant-resrobot/master/custom_components/resrobot/manifest.json",
+  "url": "https://github.com/TekniskSupport/home-assistant-resrobot"
+}

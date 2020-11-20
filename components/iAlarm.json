@@ -1,0 +1,6 @@
+{
+  "name": "iAlarm",
+  "owner": ["andker87"],
+  "manifest": "https://raw.githubusercontent.com/andker87/iAlarm/master/custom_component/iAlarm/manifest.json",
+  "url": "https://github.com/andker87/iAlarm"
+}

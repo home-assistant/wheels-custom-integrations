@@ -1,0 +1,6 @@
+{
+  "name": "ialarm",
+  "owner": ["andker87"],
+  "manifest": "https://raw.githubusercontent.com/andker87/ialarm/master/custom_components/ialarm/manifest.json",
+  "url": "https://github.com/andker87/ialarm"
+}

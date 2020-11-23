@@ -1,0 +1,6 @@
+{
+  "name": "Alarm.com",
+  "owner": ["uvjustin"],
+  "manifest": "https://raw.githubusercontent.com/uvjustin/alarmdotcom/master/custom_components/alarmdotcom/manifest.json",
+  "url": "https://github.com/uvjustin/alarmdotcom"
+}

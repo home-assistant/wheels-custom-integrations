@@ -1,0 +1,6 @@
+{
+    "name": "Mint Mobile",
+    "owner": ["ryanmac8"],
+    "manifest": "https://github.com/ryanmac8/HA-Mint-Mobile/blob/master/custom_components/mintmobile/manifest.json",
+    "url": "https://github.com/ryanmac8/HA-Mint-Mobile"
+}

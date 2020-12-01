@@ -1,0 +1,6 @@
+{
+  "name": "Skoda Connect",
+  "owner": ["@lendy007"],
+  "manifest": "https://raw.githubusercontent.com/lendy007/homeassistant-skodaconnect/main/custom_components/skodaconnect/manifest.json",
+  "url": "https://github.com/lendy007/homeassistant-skodaconnect"
+}

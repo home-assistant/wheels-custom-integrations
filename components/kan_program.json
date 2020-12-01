@@ -1,0 +1,6 @@
+{
+  "name": "kan_program",
+  "owner": ["eyalcha"],
+  "manifest": "https://raw.githubusercontent.com/eyalcha/kan_program/master/custom_components/kan_program/manifest.json",
+  "url": "https://github.com/eyalcha/read_your_meter"
+}

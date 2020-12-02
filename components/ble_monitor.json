@@ -1,0 +1,6 @@
+{
+    "name": "Passive BLE monitor integration",
+    "owner": ["Magalex2x14", "Ernst79"],
+    "manifest": "https://raw.githubusercontent.com/custom-components/ble_monitor/master/custom_components/ble_monitor/manifest.json",
+    "url": "https://github.com/custom-components/ble_monitor"
+}

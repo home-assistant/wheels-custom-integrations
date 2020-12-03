@@ -1,0 +1,6 @@
+{
+  "name": "homee",
+  "owner": ["FreshlyBrewedCode"],
+  "manifest": "https://raw.githubusercontent.com/FreshlyBrewedCode/hacs-homee/master/custom_components/homee/manifest.json",
+  "url": "https://github.com/FreshlyBrewedCode/hacs-homee"
+}

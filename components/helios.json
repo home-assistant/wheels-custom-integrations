@@ -1,0 +1,6 @@
+{
+  "name": "Helios ventilation",
+  "owner": ["@asev"],
+  "manifest": "https://raw.githubusercontent.com/asev/homeassistant-helios/master/custom_components/helios/manifest.json",
+  "url": "https://github.com/asev/homeassistant-helios"
+}

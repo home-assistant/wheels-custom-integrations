@@ -1,0 +1,6 @@
+{
+    "name": "miele",
+    "owner": ["kloknibor"],
+    "manifest": "https://raw.githubusercontent.com/HomeAssistant-Mods/home-assistant-miele/master/custom_components/miele/manifest.json",
+    "url": "https://github.com/HomeAssistant-Mods/home-assistant-miele"
+}

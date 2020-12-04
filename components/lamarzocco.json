@@ -1,0 +1,6 @@
+{
+    "name": "lamarzocco",
+    "owner": ["rccoleman"],
+    "manifest": "https://raw.githubusercontent.com/rccoleman/lamarzocco/master/custom_components/lamarzocco/manifest.json",
+    "url": "https://github.com/rccoleman/lamarzocco"
+}

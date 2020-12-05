@@ -1,0 +1,6 @@
+{
+  "name": "winix",
+  "owner": ["@iprak"],
+  "manifest": "https://raw.githubusercontent.com/iprak/winix/main/custom_components/winix/manifest.json",
+  "url": "https://github.com/iprak/winix"
+}

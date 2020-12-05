@@ -1,0 +1,6 @@
+{
+    "name": "Greenchoice",
+    "owner": ["jessevl"],
+    "manifest": "https://github.com/jessevl/homeassistant-greenchoice/raw/master/custom_components/greenchoice/manifest.json",
+    "url": "https://github.com/jessevl/homeassistant-greenchoice"
+}

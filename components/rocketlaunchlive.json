@@ -1,0 +1,6 @@
+{
+  "name": "Rocket Launch Live",
+  "owner": ["@djtimca"],
+  "manifest": "https://raw.githubusercontent.com/djtimca/harocketlaunchlive/master/custom_components/rocketlaunchlive/manifest.json",
+  "url": "https://github.com/djtimca/harocketlaunchlive"
+}

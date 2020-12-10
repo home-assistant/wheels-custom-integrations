@@ -1,0 +1,6 @@
+{
+  "name": "ultrasync",
+  "owner": ["@caronc"],
+  "manifest": "https://raw.githubusercontent.com/caronc/ha-ultrasync/main/custom_components/ultrasync/manifest.json",
+  "url": "https://github.com/caronc/ha-ultrasync"
+}

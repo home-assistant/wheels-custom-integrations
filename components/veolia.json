@@ -1,0 +1,6 @@
+{
+  "name": "Veolia",
+  "owner": ["tetienne"],
+  "manifest": "https://raw.githubusercontent.com/tetienne/veolia-custom-component/master/custom_components/veolia/manifest.json",
+  "url": "https://github.com/tetienne/veolia-custom-component"
+}

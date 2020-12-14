@@ -1,0 +1,6 @@
+{
+    "name": "Gecko Spa",
+    "owner": ["gazoodle"],
+    "manifest": "https://raw.githubusercontent.com/gazoodle/gecko-home-assistant/master/custom_components/gecko/manifest.json",
+    "url": "https://github.com/gazoodle/gecko-home-assistant"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Pool Math (Trouble Free Pool)",
+  "owner": ["rsnodgrass"],
+  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-poolmath/master/custom_components/poolmath/manifest.json",
+  "url": "https://github.com/rsnodgrass/hass-poolmath"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Litter-Robot Connect",
+    "owner": ["natekspencer"],
+    "manifest": "https://raw.githubusercontent.com/natekspencer/hacs-litterrobot/main/custom_components/litterrobot/manifest.json",
+    "url": "https://github.com/natekspencer/hacs-litterrobot"
+}

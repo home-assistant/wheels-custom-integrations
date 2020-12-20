@@ -1,0 +1,6 @@
+{
+  "name": "crunch_o_meter",
+  "owner": ["guylewin"],
+  "manifest": "https://raw.githubusercontent.com/GuyLewin/home-assistant-crunch-o-meter/master/custom_components/crunch_o_meter/manifest.json",
+  "url": "https://github.com/GuyLewin/home-assistant-crunch-o-meter"
+}

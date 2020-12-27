@@ -1,0 +1,6 @@
+{
+    "name": "AwoX MESH control",
+    "owner": ["fsaris"],
+    "manifest": "https://raw.githubusercontent.com/fsaris/home-assistant-awox/main/custom_components/awox/manifest.json",
+    "url": "https://github.com/fsaris/home-assistant-awox"
+}

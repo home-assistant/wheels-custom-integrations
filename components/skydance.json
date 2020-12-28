@@ -1,0 +1,6 @@
+{
+  "name": "Skydance",
+  "owner": ["tomasbedrich"],
+  "manifest": "https://raw.githubusercontent.com/tomasbedrich/home-assistant-skydance/master/custom_components/skydance/manifest.json",
+  "url": "https://github.com/tomasbedrich/home-assistant-skydance"
+}

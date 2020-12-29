@@ -1,0 +1,6 @@
+{
+  "name": "ytube_music_player",
+  "owner": ["KoljaWindeler"],
+  "manifest": "https://raw.githubusercontent.com/KoljaWindeler/ytube_music_player/main/custom_components/ytube_music_player/manifest.json",
+  "url": "https://github.com/KoljaWindeler/ytube_music_player"
+}

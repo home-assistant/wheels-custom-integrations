@@ -1,0 +1,6 @@
+{
+  "name": "MegaD",
+  "owner": ["@andvikt"],
+  "manifest": "https://raw.githubusercontent.com/andvikt/mega_hacs/master/custom_components/mega/manifest.json",
+  "url": "https://github.com/andvikt/mega_hacs.git"
+}

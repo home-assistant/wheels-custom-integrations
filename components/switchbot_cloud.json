@@ -1,0 +1,6 @@
+{
+  "name": "switchbot_cloud",
+  "owner": ["stuart-c"],
+  "manifest": "https://raw.githubusercontent.com/stuart-c/homeassistant-switchbot/master/custom_components/switchbot_cloud/manifest.json",
+  "url": "https://github.com/stuart-c/homeassistant-switchbot"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Sleep As Android",
+  "owner": ["IATkachenko"],
+  "manifest": "https://raw.githubusercontent.com/IATkachenko/HA-SleepAsAndroid/main/custom_components/sleep_as_android/manifest.json",
+  "url": "https://github.com/IATkachenko/HA-SleepAsAndroid"
+}

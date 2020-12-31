@@ -1,0 +1,6 @@
+{
+  "name": "TapHome",
+  "owner": ["martindybal"],
+  "manifest": "https://raw.githubusercontent.com/martindybal/taphome-homeassistant/main/manifest.json",
+  "url": "https://github.com/martindybal/taphome-homeassistant"
+}

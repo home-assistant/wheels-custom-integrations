@@ -1,0 +1,6 @@
+{
+    "name": "dobiss",
+    "owner": ["kesteraernoudt"],
+    "manifest": "https://raw.githubusercontent.com/kesteraernoudt/dobiss/master/custom_components/dobiss/manifest.json",
+    "url": "https://github.com/kesteraernoudt/dobiss"
+}

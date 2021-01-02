@@ -1,0 +1,6 @@
+{
+  "name": "Fully Kiosk Browser",
+  "owner": ["cgarwood"],
+  "manifest": "https://raw.githubusercontent.com/cgarwood/homeassistant-fullykiosk/master/custom_components/fullykiosk/manifest.json",
+  "url": "https://github.com/cgarwood/homeassistant-fullykiosk"
+}

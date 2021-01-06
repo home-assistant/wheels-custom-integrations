@@ -1,6 +1,6 @@
 {
   "name": "HomeWizard Energy",
-  "owner": ["Unsigus"],
-  "manifest": "https://raw.githubusercontent.com/Unsigus/hass-homewizard-energy/main/custom_components/homewizard_energy/manifest.json",
-  "url": "https://github.com/Unsigus/hass-homewizard-energy"
+  "owner": ["d-sebel", "unsigus"],
+  "manifest": "https://raw.githubusercontent.com/d-sebel/ha-homewizard-energy/main/custom_components/homewizard_energy/manifest.json",
+  "url": "https://github.com/d-sebel/ha-homewizard-energy"
 }

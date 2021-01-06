@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miio_philipslight",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/philipslight/develop/custom_components/xiaomi_miio_philipslight/manifest.json",
+  "url": "https://github.com/syssi/philipslight"
+}

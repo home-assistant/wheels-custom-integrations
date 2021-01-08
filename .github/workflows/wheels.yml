@@ -1,0 +1,68 @@
+name: Build wheels
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "components/*"
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    name: Init
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - name: Generate requirements.txt
+        run: |
+          for component in components/*; do
+            manifest=$(jq --raw-output ".manifest" "${component}")
+
+            echo "Process: ${component} -> ${manifest}"
+            curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements.txt
+          done
+
+          echo "List:"
+          cat ./requirements.txt
+
+      - name: Upload requirements.txt
+        if: steps.requirements.outputs.exist == 'true'
+        uses: actions/upload-artifact@v2
+        with:
+          name: requirements
+          path: ./requirements.txt
+
+  wheels:
+    runs-on: ubuntu-latest
+    needs: init
+    name: Prepare wheels for ${{ matrix.tag }} with ${{ matrix.arch }}
+    strategy:
+      matrix:
+        arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
+        tag: ["3.8-alpine3.12", "3.7-alpine3.11"]
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - name: Download requirements.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: requirements
+          path: ./requirements.txt
+
+      - name: Build wheels
+        uses: home-assistant/wheels@master
+        with:
+          tag: ${{ matrix.tag }}
+          arch: ${{ matrix.arch }}
+          wheels-host: ${{ secrets.WHEELS_HOST }}
+          wheels-key: ${{ secrets.WHEELS_KEY }}
+          apk: "build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev"
+          pip: "Cython;numpy"
+          skip-binary: aiohttp
+          constraints: "constraints.txt"
+          requirements: "requirements.txt"

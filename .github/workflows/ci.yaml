@@ -99,7 +99,7 @@ jobs:
 
   wheels:
     needs: [lint, requirements]
-    if: needs.lint.outputs.requirements
+    if: needs.lint.outputs.requirements == 'true'
     runs-on: ubuntu-latest
     name: Verify that we can build wheels
     strategy:
@@ -118,7 +118,6 @@ jobs:
           path: ./requirements.txt
 
       - name: Build wheels
-        if: needs.init.outputs.requirements == 'true'
         uses: home-assistant/wheels@master
         with:
           tag: ${{ matrix.tag }}

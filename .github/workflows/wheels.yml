@@ -30,7 +30,6 @@ jobs:
           cat ./requirements.txt
 
       - name: Upload requirements.txt
-        if: steps.requirements.outputs.exist == 'true'
         uses: actions/upload-artifact@v2
         with:
           name: requirements
@@ -52,7 +51,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: requirements
-          path: ./requirements.txt
 
       - name: Build wheels
         uses: home-assistant/wheels@master

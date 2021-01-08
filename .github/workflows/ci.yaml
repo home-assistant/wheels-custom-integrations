@@ -51,7 +51,12 @@ jobs:
               fi
               
               for requirement in $(echo "${manifest}" | jq -e --raw-output '.requirements[]'); do
-                echo -e "\t- $requirement"
+                if [[ "$requirement" =~ "=" ]] || [[ "$requirement" =~ "<" ]] || [[ "$requirement" =~ ">" ]]; then
+                  echo -e "\t- $requirement"
+                else
+                  echo "::error::The requirement '$requirement' in '$component' is not pinned to a version or a range"
+                  exit 1
+                fi
               done
 
               echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements.txt

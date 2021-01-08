@@ -29,12 +29,12 @@ jobs:
           echo "List:"
           cat ./requirements.txt
 
-        - name: Upload requirements.txt
-          if: steps.requirements.outputs.exist == 'true'
-          uses: actions/upload-artifact@v2
-          with:
-            name: requirements
-            path: ./requirements.txt
+      - name: Upload requirements.txt
+        if: steps.requirements.outputs.exist == 'true'
+        uses: actions/upload-artifact@v2
+        with:
+          name: requirements
+          path: ./requirements.txt
 
   wheels:
     runs-on: ubuntu-latest

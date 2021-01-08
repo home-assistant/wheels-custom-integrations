@@ -1,0 +1,6 @@
+{
+  "name": "Xiaomi Mijia BLE Temperature Hygrometer 2",
+  "owner": ["@leonxi"],
+  "manifest": "https://raw.githubusercontent.com/leonxi/mitemp_bt2/main/custom_components/mitemp_bt2/manifest.json",
+  "url": "https://github.com/leonxi/mitemp_bt2"
+}

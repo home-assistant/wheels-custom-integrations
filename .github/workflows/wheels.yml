@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "components/*.json"
+      - "components/*"
   schedule:
     - cron: "0 0 * * *"
 

@@ -53,7 +53,7 @@ jobs:
               echo -e "\t- $requirement"
             done
 
-            if [[ "${{ steps.changed_files.outputs.all }}" =~ $component ]];
+            if [[ "${{ steps.changed_files.outputs.all }}" =~ $component ]]; then
               echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements.txt
             fi
           done
@@ -62,7 +62,7 @@ jobs:
         id: requirements
         run: | 
           if [[ -f ./requirements.txt ]];
-            echo "::set-output name=exist::false"
+            echo "::set-output name=exist::true"
           fi
 
       - name: Upload requirements.txt

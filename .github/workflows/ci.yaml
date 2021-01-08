@@ -24,6 +24,10 @@ jobs:
       - name: Lint with JQ
         uses: home-assistant/actions/helpers/jq@master
 
+      - name: Get changed files
+        id: changed_files
+        uses: jitterbit/get-changed-files@v1
+
       - name: Check integration files
         id: integrations
         run: |
@@ -48,8 +52,27 @@ jobs:
             for requirement in $(echo "${manifest}" | jq -e --raw-output '.requirements[]'); do
               echo -e "\t- $requirement"
             done
+
+            if [[ "${{ steps.changed_files.outputs.all }}" ~= $component ]];
+              echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements.txt
+            fi
           done
+
+      - name: Check if requirements.txt has content
+        id: requirements
+        run: | 
+          if [[ -f ./requirements.txt ]];
+            echo "::set-output name=exist::false"
+          fi
+
+      - name: Upload requirements.txt
+        if: steps.requirements.outputs.exist == 'true'
+        uses: actions/upload-artifact@v2
+        with:
+          name: requirements
+          path: ./requirements.txt
         
+
   requirements:
     needs: lint
     runs-on: ubuntu-latest
@@ -72,3 +95,39 @@ jobs:
       - name: Validate requirements
         run: |
           cat ${HOME}/files.json | jq -r '.[]' | scripts/validate_requirements.py
+
+  wheels:
+    needs: [lint, requirements]
+    if: needs.lint.outputs.requirements
+    runs-on: ubuntu-latest
+    name: Verify that we can build wheels
+    strategy:
+      matrix:
+        arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
+        tag: ["3.8-alpine3.12", "3.7-alpine3.11"]
+
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - name: Download requirements.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: requirements
+          path: ./requirements.txt
+
+      - name: Build wheels
+        if: needs.init.outputs.requirements == 'true'
+        uses: home-assistant/wheels@master
+        with:
+          tag: ${{ matrix.tag }}
+          arch: ${{ matrix.arch }}
+          wheels-host: ${{ secrets.WHEELS_HOST }}
+          wheels-key: ${{ secrets.WHEELS_KEY }}
+          apk: "build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev"
+          pip: "Cython;numpy"
+          skip-binary: aiohttp
+          test: True
+          single: True
+          constraints: "constraints.txt"
+          requirements: "requirements.txt"

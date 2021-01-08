@@ -1,0 +1,6 @@
+{
+  "name": "optus",
+  "owner": ["itchannel"],
+  "manifest": "https://raw.githubusercontent.com/itchannel/optus-ha/master/custom_components/optus/manifest.json",
+  "url": "https://github.com/itchannel/optus-ha"
+}

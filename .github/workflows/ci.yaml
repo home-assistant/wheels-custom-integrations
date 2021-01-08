@@ -61,7 +61,8 @@ jobs:
       - name: Check if requirements.txt has content
         id: requirements
         run: | 
-          if [[ -f ./requirements.txt ]];
+          if [[ -f ./requirements.txt ]]; then
+            cat ./requirements.txt
             echo "::set-output name=exist::true"
           fi
 

@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_gateway3",
+  "owner": ["AlexxIT"],
+  "manifest": "https://raw.githubusercontent.com/AlexxIT/XiaomiGateway3/master/custom_components/xiaomi_gateway3/manifest.json",
+  "url": "https://github.com/AlexxIT/XiaomiGateway3"
+}

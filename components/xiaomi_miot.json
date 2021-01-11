@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miot",
+  "owner": ["al-one"],
+  "manifest": "https://raw.githubusercontent.com/al-one/hass-xiaomi-miot/master/custom_components/xiaomi_miot/manifest.json",
+  "url": "https://github.com/al-one/hass-xiaomi-miot"
+}

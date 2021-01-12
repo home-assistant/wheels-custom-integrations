@@ -23,8 +23,10 @@ jobs:
             manifest=$(jq --raw-output ".manifest" "${component}")
 
             echo "Process: ${component} -> ${manifest}"
-            curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements.txt
+            curl -s "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements_raw.txt
           done
+
+          sort ./requirements_raw.txt | uniq -u > ./requirements.txt
 
           echo "List:"
           cat ./requirements.txt

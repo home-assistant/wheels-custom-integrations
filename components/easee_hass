@@ -1,0 +1,6 @@
+{
+  "name": "Easee EV charger",
+  "owner": ["fondberg"],
+  "manifest": "https://raw.githubusercontent.com/fondberg/easee_hass/master/custom_components/easee/manifest.json",
+  "url": "https://github.com/fondberg/easee_hass"
+}

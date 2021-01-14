@@ -1,0 +1,6 @@
+{
+  "name": "miio_yeelink",
+  "owner": ["al-one"],
+  "manifest": "https://raw.githubusercontent.com/al-one/hass-miio-yeelink/master/custom_components/miio_yeelink/manifest.json",
+  "url": "https://github.com/al-one/hass-miio-yeelink"
+}

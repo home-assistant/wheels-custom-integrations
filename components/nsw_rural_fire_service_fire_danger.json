@@ -1,0 +1,6 @@
+{
+  "name": "NSW Rural Fire Service - Fire Danger",
+  "owner": ["exxamalte"],
+  "manifest": "https://raw.githubusercontent.com/exxamalte/home-assistant-custom-components-nsw-rural-fire-service-fire-danger/main/custom_components/nsw_rural_fire_service_fire_danger/manifest.json",
+  "url": "https://github.com/exxamalte/home-assistant-custom-components-nsw-rural-fire-service-fire-danger"
+}

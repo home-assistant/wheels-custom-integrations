@@ -1,0 +1,6 @@
+{
+    "name": "Helsinki Regional Transport",
+    "owner": ["anand-p-r"],
+    "manifest": "https://raw.githubusercontent.com/anand-p-r/hslhrt-hass-custom/main/custom_components/manifest.json",
+    "url": "https://github.com/anand-p-r/hslhrt-hass-custom"
+  }

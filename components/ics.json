@@ -1,0 +1,7 @@
+{
+    "name": "iCal Sensor",
+    "owner": ["Olen", "TyBritten"],
+    "manifest": "https://raw.githubusercontent.com/tybritten/ical-sensor-homeassistant/master/custom_components/ical/manifest.json",
+    "url": "https://github.com/tybritten/ical-sensor-homeassistant/"
+  }
+  

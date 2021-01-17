@@ -1,0 +1,6 @@
+{
+  "name": "Kodi Media Sensors",
+  "owner": ["Gautier Vanderslyen"],
+  "manifest": "https://raw.githubusercontent.com/jtbgroup/kodi-media-sensors/master/custom_components/kodi_media_sensors/manifest.json",
+  "url": "https://github.com/jtbgroup/kodi-media-sensors"
+}

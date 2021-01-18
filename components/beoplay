@@ -1,0 +1,6 @@
+{
+  "name": "BeoPlay",
+  "owner": ["giachello"],
+  "manifest": "https://raw.githubusercontent.com/giachello/beoplay/main/manifest.json",
+  "url": "https://github.com/giachello/beoplay"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Moat Temperature/Humidity BLE Sensors",
+  "owner": ["SteveOnorato"],
+  "manifest": "https://raw.githubusercontent.com/SteveOnorato/moat_temp_hum_ble/master/custom_components/moat_temp_hum_ble/manifest.json",
+  "url": "https://github.com/SteveOnorato/moat_temp_hum_ble"
+}

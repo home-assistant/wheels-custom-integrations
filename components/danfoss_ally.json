@@ -1,0 +1,6 @@
+{
+  "name": "Danfoss Ally",
+  "owner": ["mtrab"],
+  "manifest": "https://raw.githubusercontent.com/MTrab/danfoss_ally/main/custom_components/danfoss_ally/manifest.json",
+  "url": "https://github.com/MTrab/danfoss_ally"
+}

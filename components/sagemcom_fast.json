@@ -1,0 +1,6 @@
+{
+    "name": "Sagemcom F@st",
+    "owner": ["imicknl"],
+    "manifest": "https://raw.githubusercontent.com/iMicknl/ha-sagemcom-fast/master/custom_components/sagemcom_fast/manifest.json",
+    "url": "https://github.com/iMicknl/ha-sagemcom-fast"
+ }

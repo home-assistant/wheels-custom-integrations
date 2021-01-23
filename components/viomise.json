@@ -1,6 +1,6 @@
 {
   "name": "viomise",
   "owner": ["marotoweb"],
-  "manifest": "https://github.com/marotoweb/home-assistant-vacuum-viomise/tree/master/custom_components/viomise/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/marotoweb/home-assistant-vacuum-viomise/master/custom_components/viomise/manifest.json",
   "url": "https://github.com/marotoweb/home-assistant-vacuum-viomise"
 }

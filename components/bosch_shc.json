@@ -1,6 +1,6 @@
 {
     "name": "Bosch SHC",
     "owner": ["tschamm"],
-    "manifest": "https://raw.githubusercontent.com/tschamm/boschshc-hass/master/bosch_shc/manifest.json",
+    "manifest": "https://raw.githubusercontent.com/tschamm/boschshc-hass/master/custom_components/bosch_shc/manifest.json",
     "url": "https://github.com/tschamm/boschshc-hass"
 }

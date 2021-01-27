@@ -1,0 +1,8 @@
+{
+  "name": "Vivint",
+  "owner": [
+    "natekspencer"
+  ],
+  "manifest": "https://raw.githubusercontent.com/natekspencer/hacs-vivint/main/custom_components/vivint/manifest.json",
+  "url": "https://github.com/natekspencer/hacs-vivint"
+}

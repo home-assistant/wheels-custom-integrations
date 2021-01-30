@@ -1,0 +1,6 @@
+{
+    "name": "AWS Codepipeline",
+    "owner": ["rj175"],
+    "manifest": "https://raw.githubusercontent.com/rj175/home-assistant-aws-codepipeline/master/custom_components/aws_codepipeline/manifest.json",
+    "url": "https://github.com/rj175/home-assistant-aws-codepipeline"
+  }

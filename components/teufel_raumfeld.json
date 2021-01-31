@@ -1,6 +1,6 @@
 {
   "name": "Teufel Raumfeld",
   "owner": ["B5r1oJ0A9G"],
-  "manifest": "https://raw.githubusercontent.com/B5r1oJ0A9G/teufel_raumfeld/master/custom_components/teufel_raumfeld/manifest.json"
+  "manifest": "https://raw.githubusercontent.com/B5r1oJ0A9G/teufel_raumfeld/master/manifest.json",
   "url": "https://github.com/B5r1oJ0A9G/teufel_raumfeld"
 }

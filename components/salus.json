@@ -1,0 +1,6 @@
+{
+  "name": "salus",
+  "owner": ["jvitkauskas"],
+  "manifest": "https://raw.githubusercontent.com/jvitkauskas/homeassistant_salus/master/custom_components/salus/manifest.json",
+  "url": "https://github.com/jvitkauskas/homeassistant_salus"
+}

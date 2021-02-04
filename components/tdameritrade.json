@@ -1,0 +1,6 @@
+{
+  "name": "TDAmeritrade",
+  "owner": ["@prairiesnpr"],
+  "manifest": "https://raw.githubusercontent.com/prairiesnpr/hass-tdameritrade/master/custom_components/tdameritrade/manifest.json",
+  "url": "https://github.com/prairiesnpr/hass-tdameritrade"
+}

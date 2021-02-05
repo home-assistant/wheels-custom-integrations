@@ -25,15 +25,15 @@ runs:
   steps: 
     - shell: bash
       run: |
-        if [[ ! -f "${{ github.workspace }}${{ inputs.manifest }}" ]]; then
-            echo "::error::No manifest file at ${{ github.workspace }}${{ inputs.manifest }}"
+        if [[ ! -f "${{ github.workspace }}/${{ inputs.manifest }}" ]]; then
+            echo "::error::No manifest file at ${{ github.workspace }}/${{ inputs.manifest }}"
             exit 1
         fi
 
     - shell: bash
       id: requirements
       run: |
-        requirements=$(cat ${{ github.workspace }}${{ inputs.manifest }} | jq --raw-output '.requirements | join("\n")')
+        requirements=$(cat ${{ github.workspace }}/${{ inputs.manifest }} | jq --raw-output '.requirements | join("\n")')
         echo "::set-output name=requirements::$requirements"
 
     - shell: bash

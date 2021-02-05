@@ -42,6 +42,7 @@ jobs:
     needs: init
     name: Prepare wheels for ${{ matrix.tag }} with ${{ matrix.arch }}
     strategy:
+      fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
         tag: ["3.8-alpine3.12", "3.7-alpine3.11"]

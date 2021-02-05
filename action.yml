@@ -45,7 +45,7 @@ runs:
     - shell: bash
       id: build
       run: |
-        echo "::set-output name=alpine::[\"3.12\", \"3.12\"]"
-        echo "::set-output name=python::[\"3.8\"]"
-        echo "::set-output name=arch::[\"aarch64\", \"armhf\", \"armv7\", \"amd64\", \"i386\"]"
+        echo "::set-output name=alpine::'[\"3.12\", \"3.12\"]'"
+        echo "::set-output name=python::'[\"3.8\"]'"
+        echo "::set-output name=arch::'[\"aarch64\", \"armhf\", \"armv7\", \"amd64\", \"i386\"]'"
     

@@ -1,0 +1,51 @@
+name: 'Home Assistant: wheels-custom-integrations'
+description: 'GitHub action helper: wheels-custom-integrations'
+inputs:
+  manifest:
+    description: The path to where the manifest.json file is
+    required: true
+outputs:
+  requirements:
+    description: Returns the requirements to build wheels for
+    value: ${{ steps.requirements.outputs.requirements }}
+  apk:
+    description: Returns the apk pacakges to install
+    value: ${{ steps.apk.outputs.apk }}
+  alpine:
+    description: Returns the alpine versions to build for
+    value: ${{ steps.build.outputs.alpine }}
+  python:
+    description: Returns the python versions to build for
+    value: ${{ steps.build.outputs.python }}
+  arch:
+    description: Returns the archs to build for
+    value: ${{ steps.build.outputs.arch }}
+runs:
+  using: "composite"
+  steps: 
+    - shell: bash
+      run: |
+        if [[ ! -f "${{ github.workspace }}${{ inputs.manifest }}" ]]; then
+            echo "::error::No manifest file at ${{ github.workspace }}${{ inputs.manifest }}"
+            exit 1
+        fi
+
+    - shell: bash
+      id: requirements
+      run: |
+        requirements=$(cat ${{ github.workspace }}${{ inputs.manifest }} | jq --raw-output '.requirements | join("\n")')
+        echo "::set-output name=requirements::$requirements"
+
+    - shell: bash
+      id: apk
+      run: |
+        apk=$(cat ${{ github.action_path }}/apk)
+        echo "::set-output name=apk::$apk"
+
+    - shell: bash
+      id: build
+      run: |
+        echo "::set-output name=alpine::['3.12', 3.12]"
+        echo "::set-output name=python::['3.8']"
+        echo "::set-output name=arch::['aarch64', 'armhf', 'armv7', 'amd64', 'i386']"
+    

@@ -1,0 +1,60 @@
+name: Custom integration wheels
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    name: Preflight
+    outputs:
+      requirements: ${{ steps.information.outputs.requirements }}
+      apk: ${{ steps.information.outputs.apk }}
+      alpine: ${{ steps.information.outputs.alpine }}
+      python: ${{ steps.information.outputs.python }}
+      arch: ${{ steps.information.outputs.arch }}
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - name: Get build information
+        id: information
+        uses: home-assistant/wheels-custom-integrations@custom-action
+        with:
+          manifest: ./manifest.json
+
+  wheels:
+    needs: preflight
+    runs-on: ubuntu-latest
+    name: Build wheels
+    strategy:
+      matrix:
+        arch: ${{ toJSON(needs.preflight.outputs.arch) }}
+        alpine: ${{ toJSON(needs.preflight.outputs.alpine) }}
+        python: ${{ toJSON(needs.preflight.outputs.python) }}
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - name: Generate requirements.txt
+        run: echo "${{ needs.preflight.outputs.python }}" > requirements.txt
+
+      - name: DEBUG
+        run: cat requirements.txt
+
+      - name: Build wheels
+        uses: home-assistant/wheels@master
+        with:
+          tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
+          arch: ${{ matrix.arch }}
+          apk: ${{ needs.preflight.outputs.apk }}
+          pip: "Cython;numpy"
+          skip-binary: aiohttp
+          test: True
+          single: True
+          requirements: "requirements.txt"

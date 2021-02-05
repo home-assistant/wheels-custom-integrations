@@ -17,7 +17,7 @@ jobs:
       apk: ${{ steps.information.outputs.apk }}
       alpine: ${{ steps.information.outputs.alpine }}
       python: ${{ steps.information.outputs.python }}
-      arch: ${{ steps.information.outputs.arch }}
+      arch: ${{ toJSON(steps.information.outputs.arch) }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2

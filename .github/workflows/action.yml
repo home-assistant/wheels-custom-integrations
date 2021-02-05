@@ -36,7 +36,7 @@ jobs:
       matrix:
         arch: ${{ needs.preflight.outputs.arch }}
         alpine: ${{ needs.preflight.outputs.alpine }}
-        python: ${{ (needs.preflight.outputs.python }}
+        python: ${{ needs.preflight.outputs.python }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2

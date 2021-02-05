@@ -34,9 +34,9 @@ jobs:
     name: Build wheels
     strategy:
       matrix:
-        arch: ${{ toJSON(needs.preflight.outputs.arch) }}
-        alpine: ${{ toJSON(needs.preflight.outputs.alpine) }}
-        python: ${{ toJSON(needs.preflight.outputs.python) }}
+        arch: ${{ needs.preflight.outputs.arch }}
+        alpine: ${{ needs.preflight.outputs.alpine }}
+        python: ${{ (needs.preflight.outputs.python }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2

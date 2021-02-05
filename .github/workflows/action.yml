@@ -17,7 +17,7 @@ jobs:
       apk: ${{ steps.information.outputs.apk }}
       alpine: ${{ steps.information.outputs.alpine }}
       python: ${{ steps.information.outputs.python }}
-      arch: ${{ toJSON(steps.information.outputs.arch) }}
+      arch: ${{ steps.information.outputs.arch }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
@@ -34,7 +34,7 @@ jobs:
     name: Build wheels
     strategy:
       matrix:
-        arch: ${{ needs.preflight.outputs.arch }}
+        arch: [${{ needs.preflight.outputs.arch }}]
         alpine: ${{ needs.preflight.outputs.alpine }}
         python: ${{ needs.preflight.outputs.python }}
     steps:

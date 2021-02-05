@@ -110,7 +110,8 @@ jobs:
     strategy:
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        tag: ["3.8-alpine3.12", "3.7-alpine3.11"]
+        alpine: ["3.12", "3.13"]
+        python: ["3.8", "3.9"]
 
     steps:
       - name: Check out code from GitHub
@@ -124,7 +125,7 @@ jobs:
       - name: Build wheels
         uses: home-assistant/wheels@master
         with:
-          tag: ${{ matrix.tag }}
+          tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}

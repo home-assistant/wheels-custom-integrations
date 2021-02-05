@@ -1,0 +1,6 @@
+{
+  "name": "meteoalarmeu",
+  "owner": ["xlcnd"],
+  "manifest": "https://raw.githubusercontent.com/xlcnd/meteoalarmeu/main/custom_components/meteoalarmeu/manifest.json",
+  "url": "https://github.com/xlcnd/meteoalarmeu"
+}

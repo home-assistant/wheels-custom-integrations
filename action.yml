@@ -46,7 +46,9 @@ runs:
       id: build
       run: |
         alpine=$(echo ["3.12", "3.13"] | jq --raw-output --compact-output .)
-        echo '::set-output name=alpine::${alpine}'
-        echo '::set-output name=python::"3.8"'
-        echo '::set-output name=arch::"aarch64", "armhf", "armv7", "amd64", "i386"'
+        python=$(echo ["3.8"] | jq --raw-output --compact-output .)
+        arch=$(echo ["aarch64", "armhf", "armv7", "amd64", "i386"] | jq --raw-output --compact-output .)
+        echo "::set-output name=alpine::${alpine}"
+        echo "::set-output name=python::${python}"
+        echo "::set-output name=arch::${arch}"
     

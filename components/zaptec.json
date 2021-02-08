@@ -1,0 +1,6 @@
+{
+    "name": "zaptec",
+    "owner": ["Hellowlol"],
+    "manifest": "https://raw.githubusercontent.com/custom-components/zaptec/master/custom_components/zaptec/manifest.json",
+    "url": "https://github.com/custom-components/zaptec"
+}

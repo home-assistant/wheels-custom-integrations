@@ -77,6 +77,16 @@ jobs:
         with:
           name: requirements
           path: ./requirements.txt
+
+      - name: Setup tempio
+        uses: home-assistant/tempio@main
+
+      - name: Generate APK list
+        id: apk
+        run: |
+          tempio -conf requirements.json  -template templates/builder.template -out apk.list
+          packages=$(cat apk.list)
+          echo "::set-output name=packages::${packages}"
         
 
   requirements:
@@ -130,7 +140,7 @@ jobs:
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
-          apk: "build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev;postgresql-dev"
+          apk: ${{ needs.lint.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp
           test: True

@@ -37,6 +37,7 @@ def validate() -> bool:
     print()
     piped_input = sys.stdin.read()
     input_files = piped_input.split("\n")
+    print(input_files)
     input_component_files = collect_component_files(input_files)
     validated_ok = True
     print("Integrations to validate:", len(input_component_files))
@@ -59,10 +60,9 @@ def validate() -> bool:
 
 def collect_component_files(input_files: List[str]) -> Set[Path]:
     """Collect component files from changed files in the pull request."""
-    project_dir = Path(__file__).parent.parent
-    component_dir = project_dir / "components"
+    component_dir = Path("/validate", "components")
     component_files = set(component_dir.glob("**/*.json"))
-    changed_component_files = set([Path(fil) for fil in input_files]).intersection(
+    changed_component_files = set([component_dir / fil.split("/")[-1] for fil in input_files if "components" in fil]).intersection(
         component_files
     )
     return changed_component_files
@@ -170,7 +170,7 @@ def install_requirements(requirements: Set[str]) -> bool:
         install_args = match.group(1)
         requirement_arg = match.group(2)
 
-        args = [sys.executable, "-m", "pip", "install", "--quiet"]
+        args = [sys.executable, "-m", "pip", "--disable-pip-version-check", "install", "--quiet"]
         if install_args:
             args.append(install_args)
         args.append(requirement_arg)

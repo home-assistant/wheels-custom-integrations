@@ -94,13 +94,14 @@ jobs:
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Install dependencies
+
+      - name: Build the container
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install pipdeptree stdlib-list
+          cp ${HOME}/files.json validate_requirements/files.json
+          docker build -t validate -f validate_requirements/Dockerfile .
+
       - name: Validate requirements
-        run: |
-          cat ${HOME}/files.json | jq -r '.[]' | scripts/validate_requirements.py
+        run: docker run --rm validate
 
   wheels:
     needs: [lint, requirements]

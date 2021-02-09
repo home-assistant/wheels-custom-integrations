@@ -37,7 +37,6 @@ def validate() -> bool:
     print()
     piped_input = sys.stdin.read()
     input_files = piped_input.split("\n")
-    print(input_files)
     input_component_files = collect_component_files(input_files)
     validated_ok = True
     print("Integrations to validate:", len(input_component_files))

@@ -1,5 +1,5 @@
 {
-    "name": "HA-Glocaltokens",
+    "name": "HA-Glocaltoken",
     "owner": ["leikoilja"],
     "manifest": "https://raw.githubusercontent.com/leikoilja/ha-glocaltokens/master/custom_components/ha-glocaltokens/manifest.json",
     "url": "https://github.com/leikoilja/ha-glocaltokens"

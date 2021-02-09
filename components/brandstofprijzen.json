@@ -1,0 +1,6 @@
+{
+    "name": "Brandstofprijzen",
+    "owner": ["metbril"],
+    "manifest": "https://raw.githubusercontent.com/metbril/home-assistant-brandstofprijzen/main/custom_components/brandstofprijzen/manifest.json",
+    "url": "https://github.com/metbril/home-assistant-brandstofprijzen"
+}

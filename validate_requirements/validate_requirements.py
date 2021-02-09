@@ -48,6 +48,12 @@ def validate() -> bool:
             continue
         print()
         print(f"Validating {manifest['domain']}:")
+        component_data = json.loads(fil.read_text())
+        apks = set(component_data["apk"])
+        apks_ok = install_apks(apks)
+        if not apks_ok:
+            validated_ok = False
+            continue
         requirements = set(manifest["requirements"])
         requirements_ok = validate_requirements(requirements)
         if requirements_ok:
@@ -182,6 +188,25 @@ def install_requirements(requirements: Set[str]) -> bool:
 
     return install_ok
 
+
+def install_apks(apks: Set[str]) -> bool:
+    """Install integration apk requirements.
+
+    Return True if successful.
+    """
+    install_ok = True
+
+    for apk in apks:
+        args = ["apk", "add"]
+        args.append(apk)
+
+        try:
+            subprocess.run(args, check=True)
+        except subprocess.SubprocessError:
+            print(f"apk {apk} failed to install")
+            install_ok = False
+
+    return install_ok
 
 if __name__ == "__main__":
     sys.exit(main())

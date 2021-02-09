@@ -1,0 +1,26 @@
+{
+	"apk": [
+		"autoconf",
+		"automake",
+		"bluez-dev",
+		"build-base",
+		"cmake",
+		"cups-dev",
+		"eudev-dev",
+		"ffmpeg-dev",
+		"git",
+		"glib-dev",
+		"gmp-dev",
+		"libffi-dev",
+		"libjpeg-turbo-dev",
+		"libpng-dev",
+		"libxml2-dev",
+		"libxslt-dev",
+		"linux-headers",
+		"mpc1-dev",
+		"mpfr-dev",
+		"openssl-dev",
+		"postgresql-dev",
+		"tiff-dev"
+	]
+}

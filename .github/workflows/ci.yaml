@@ -17,6 +17,7 @@ jobs:
     name: Lint
     outputs:
       requirements: ${{ steps.requirements.outputs.exist }}
+      apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2

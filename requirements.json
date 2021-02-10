@@ -1,5 +1,5 @@
 {
-	"apk": [
+    "apk": [
         "autoconf",
         "automake",
         "bluez-dev",
@@ -25,5 +25,5 @@
         "openssl-dev",
         "postgresql-dev",
         "tiff-dev"
-	]
+    ]
 }

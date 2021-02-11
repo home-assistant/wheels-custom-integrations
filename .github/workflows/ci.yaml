@@ -55,8 +55,8 @@ jobs:
         id: requirements
         run: | 
           if [[ -f ./requirements_raw.txt ]]; then
-            cat ./requirements_raw.txt
             sort -u ./requirements_raw.txt > ./requirements.txt
+            cat ./requirements.txt
             echo "::set-output name=exist::true"
           fi
 

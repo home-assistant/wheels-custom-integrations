@@ -4,7 +4,6 @@
         "automake",
         "bluez-dev",
         "build-base",
-        "build-dependencies",
         "cmake",
         "cups-dev",
         "eudev-dev",

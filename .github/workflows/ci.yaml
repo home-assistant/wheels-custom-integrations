@@ -75,6 +75,7 @@ jobs:
         run: |
           tempio -conf requirements.json  -template templates/builder.template -out apk.list
           packages=$(cat apk.list)
+          echo "${packages}"
           echo "::set-output name=packages::${packages}"
         
 

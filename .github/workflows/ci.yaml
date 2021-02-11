@@ -123,7 +123,7 @@ jobs:
         run: sed -i '/RPi.GPIO/d' requirements.txt
 
       - name: Don't use rust for cryptography
-        if: matrix.alpine == "3.12"
+        if: matrix.alpine == '3.12'
         run: export CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
       - name: Build wheels

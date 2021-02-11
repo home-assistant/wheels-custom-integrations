@@ -108,18 +108,15 @@ jobs:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
         alpine: ["3.12", "3.13"]
         python: ["3.8"]
-        group: ["a", "b"]
 
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
 
-      - name: Limit requirements
-        run: split -n l/2 requirements.txt -a 1 requirements.
-
-      - name: Disable rust on 3.12
-        if: matrix.alpine == '3.12'
-        run: export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+      - name: Download requirements.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: requirements
 
       - name: Build wheels
         uses: home-assistant/wheels@master
@@ -128,10 +125,9 @@ jobs:
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
-          apk: ${{ needs.lint.outputs.apk }}
+          apk: ${{ needs.init.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp
-          test: True
           single: True
           constraints: "constraints.txt"
-          requirements: "requirements.${{ matrix.group }}"
+          requirements: "requirements.txt"

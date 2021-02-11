@@ -59,7 +59,6 @@ jobs:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
         alpine: ["3.12", "3.13"]
         python: ["3.8"]
-        group: ["a", "b"]
 
     steps:
       - name: Check out code from GitHub
@@ -69,9 +68,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: requirements
-
-      - name: Limit requirements
-        run: split -n l/2 requirements.txt -a 1 requirements.
 
       - name: Build wheels
         uses: home-assistant/wheels@master
@@ -85,4 +81,4 @@ jobs:
           skip-binary: aiohttp
           single: True
           constraints: "constraints.txt"
-          requirements: "requirements.${{ matrix.group }}"
+          requirements: "requirements.txt"

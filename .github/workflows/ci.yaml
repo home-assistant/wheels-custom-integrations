@@ -126,7 +126,7 @@ jobs:
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
-          apk: ${{ needs.init.outputs.apk }}
+          apk: ${{ needs.lint.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp
           single: True

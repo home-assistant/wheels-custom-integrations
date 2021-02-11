@@ -107,10 +107,19 @@ jobs:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
         alpine: ["3.12", "3.13"]
         python: ["3.8"]
+        group: ["a", "b"]
 
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
+
+      - name: Download requirements.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: requirements
+
+      - name: Limit requirements
+        run: split -n l/2 requirements.txt -a 1 requirements.
 
       - name: Build wheels
         uses: home-assistant/wheels@master
@@ -125,4 +134,4 @@ jobs:
           test: True
           single: True
           constraints: "constraints.txt"
-          requirements: "requirements.txt"
+          requirements: "requirements.${{ matrix.group }}"

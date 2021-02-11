@@ -1,6 +1,0 @@
-{
-  "name": "National Weather Service Radar",
-  "owner": ["MatthewFlamm"],
-  "manifest": "https://raw.githubusercontent.com/MatthewFlamm/nwsradar/master/custom_components/nwsradar/manifest.json",
-  "url": "https://github.com/MatthewFlamm/nwsradar"
-}

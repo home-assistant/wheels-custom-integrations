@@ -7,7 +7,7 @@ echo "Process: ${component} -> ${manifest}"
 curl -sSL -f "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements_raw.txt
 done
 
-sort ./requirements_raw.txt | uniq -u > ./requirements.txt
+sort -u ./requirements_raw.txt > ./requirements.txt
 
 echo "List:"
 cat ./requirements.txt

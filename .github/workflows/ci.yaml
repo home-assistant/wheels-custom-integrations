@@ -48,14 +48,15 @@ jobs:
             fi
             
 
-            echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements.txt
+            echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements_raw.txt
           done
 
       - name: Check if requirements.txt has content
         id: requirements
         run: | 
-          if [[ -f ./requirements.txt ]]; then
-            cat ./requirements.txt
+          if [[ -f ./requirements_raw.txt ]]; then
+            cat ./requirements_raw.txt
+            sort -u ./requirements_raw.txt > ./requirements.txt
             echo "::set-output name=exist::true"
           fi
 
@@ -112,11 +113,6 @@ jobs:
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
-
-      - name: Download requirements.txt
-        uses: actions/download-artifact@v2
-        with:
-          name: requirements
 
       - name: Limit requirements
         run: split -n l/2 requirements.txt -a 1 requirements.

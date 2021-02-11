@@ -117,6 +117,10 @@ jobs:
       - name: Limit requirements
         run: split -n l/2 requirements.txt -a 1 requirements.
 
+      - name: Disable rust on 3.12
+        if: matrix.alpine == '12'
+        run: export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+
       - name: Build wheels
         uses: home-assistant/wheels@master
         with:

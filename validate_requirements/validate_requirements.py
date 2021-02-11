@@ -169,7 +169,7 @@ def install_requirements(requirements: Set[str]) -> bool:
         install_args = match.group(1)
         requirement_arg = match.group(2)
 
-        args = [sys.executable, "-m", "pip", "--disable-pip-version-check", "install", "--quiet"]
+        args = [sys.executable, "-m", "pip", "--disable-pip-version-check", "install", "--quiet", "--no-warn-script-location"]
         if install_args:
             args.append(install_args)
         args.append(requirement_arg)

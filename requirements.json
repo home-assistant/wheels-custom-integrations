@@ -4,6 +4,7 @@
         "automake",
         "bluez-dev",
         "build-base",
+        "build-dependencies",
         "cmake",
         "cups-dev",
         "eudev-dev",
@@ -25,7 +26,6 @@
         "musl-dev",
         "openssl-dev",
         "postgresql-dev",
-        "python3-dev",
         "rust",
         "tiff-dev"
     ]

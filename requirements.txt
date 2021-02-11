@@ -175,7 +175,6 @@ requests>=2.21.0
 requests>=2.22.0
 requests_oauthlib
 rocketlaunchlive==0.0.2
-RPi.GPIO==0.7.0
 sagemcom_api===1.0.1
 sampleclient
 schedule==0.6.0

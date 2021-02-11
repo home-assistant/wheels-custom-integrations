@@ -119,6 +119,9 @@ jobs:
         with:
           name: requirements
 
+      - name: Remove GPIO
+        run: sed -i '/RPi.GPIO/d' requirements.txt
+
       - name: Build wheels
         uses: home-assistant/wheels@test2
         with:

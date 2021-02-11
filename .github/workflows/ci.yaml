@@ -112,11 +112,6 @@ jobs:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
 
-      - name: Download requirements.txt
-        uses: actions/download-artifact@v2
-        with:
-          name: requirements
-
       - name: Build wheels
         uses: home-assistant/wheels@master
         with:

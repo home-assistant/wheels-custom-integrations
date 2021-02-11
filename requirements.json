@@ -24,6 +24,7 @@
         "musl-dev",
         "openssl-dev",
         "postgresql-dev",
+        "python3-dev",
         "rust",
         "tiff-dev"
     ]

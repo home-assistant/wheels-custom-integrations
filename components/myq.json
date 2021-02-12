@@ -1,6 +1,6 @@
 {
   "name": "myQ",
-  "owner": ["ehendrix23"],
+  "owner": ["@ehendrix23"],
   "manifest": "https://raw.githubusercontent.com/ehendrix23/hass_myq/master/custom_components/myq/manifest.json",
   "url": "https://github.com/ehendrix23/hass_myq"
 }

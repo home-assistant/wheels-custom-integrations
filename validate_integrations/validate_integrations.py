@@ -42,7 +42,7 @@ def validate():
     piped_input = sys.stdin.read()
     input_files = piped_input.split("\n")
     for filepath in collect_integration_files(input_files):
-        print(f"Validating {filepath.split('/')[-1]}")
+        print(f"Validating {filepath.as_posix().split('/')[-1]}")
         with open(filepath) as integration_file:
             INTEGRATION(json.loads(integration_file.read()))
 

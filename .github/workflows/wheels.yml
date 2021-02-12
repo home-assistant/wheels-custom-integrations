@@ -13,6 +13,8 @@ jobs:
   init:
     runs-on: ubuntu-latest
     name: Init
+    outputs:
+      apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
@@ -26,16 +28,35 @@ jobs:
             curl -sSL -f "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements_raw.txt
           done
 
-          sort ./requirements_raw.txt | uniq -u > ./requirements.txt
+          sort -u ./requirements_raw.txt > ./requirements.txt
 
           echo "List:"
           cat ./requirements.txt
+
+      - name: Get constraints
+        run: wget -O constraints.txt https://raw.githubusercontent.com/home-assistant/core/dev/homeassistant/package_constraints.txt
 
       - name: Upload requirements.txt
         uses: actions/upload-artifact@v2
         with:
           name: requirements
           path: ./requirements.txt
+
+      - name: Upload constraints.txt
+        uses: actions/upload-artifact@v2
+        with:
+          name: constraints
+          path: ./constraints.txt
+
+      - name: Setup tempio
+        uses: home-assistant/tempio@main
+
+      - name: Generate APK list
+        id: apk
+        run: |
+          tempio -conf requirements.json  -template templates/builder.template -out apk.list
+          packages=$(cat apk.list)
+          echo "::set-output name=packages::${packages}"
 
   wheels:
     runs-on: ubuntu-latest
@@ -45,8 +66,10 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        alpine: ["3.12", "3.13"]
+        alpine: ["3.12"]
         python: ["3.8"]
+        group: ["a", "b", "c", "d"]
+
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
@@ -56,6 +79,14 @@ jobs:
         with:
           name: requirements
 
+      - name: Download constraints.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: constraints
+
+      - name: Limit requirements
+        run: split -n l/4 requirements.txt -a 1 requirements.
+
       - name: Build wheels
         uses: home-assistant/wheels@master
         with:
@@ -63,9 +94,9 @@ jobs:
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
-          apk: "build-base;cmake;git;linux-headers;bluez-dev;libffi-dev;openssl-dev;glib-dev;eudev-dev;libxml2-dev;libxslt-dev;libpng-dev;libjpeg-turbo-dev;tiff-dev;autoconf;automake;cups-dev;gmp-dev;mpfr-dev;mpc1-dev;ffmpeg-dev;postgresql-dev"
+          apk: ${{ needs.init.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp
           single: True
           constraints: "constraints.txt"
-          requirements: "requirements.txt"
+          requirements: "requirements.${{ matrix.group }}"

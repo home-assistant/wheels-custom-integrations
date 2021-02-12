@@ -1,0 +1,1 @@
+{{ $list := (.apk) }}{{ $len := (len $list) }}{{range  $i, $e := $list}}{{$e}}{{ if ne (add $i 1) (len $list) }};{{end}}{{end}}

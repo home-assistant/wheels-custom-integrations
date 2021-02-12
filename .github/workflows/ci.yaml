@@ -69,12 +69,23 @@ jobs:
             echo "::set-output name=exist::true"
           fi
 
+      - name: Get constraints
+        if: steps.requirements.outputs.exist == 'true'
+        run: wget -O constraints.txt https://raw.githubusercontent.com/home-assistant/core/dev/homeassistant/package_constraints.txt
+
       - name: Upload requirements.txt
         if: steps.requirements.outputs.exist == 'true'
         uses: actions/upload-artifact@v2
         with:
           name: requirements
           path: ./requirements.txt
+
+      - name: Upload constraints.txt
+        if: steps.requirements.outputs.exist == 'true'
+        uses: actions/upload-artifact@v2
+        with:
+          name: constraints
+          path: ./constraints.txt
 
       - name: Setup tempio
         uses: home-assistant/tempio@main
@@ -126,6 +137,11 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: requirements
+
+      - name: Download constraints.txt
+        uses: actions/download-artifact@v2
+        with:
+          name: constraints
 
       - name: Build wheels
         uses: home-assistant/wheels@master

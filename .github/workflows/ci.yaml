@@ -128,7 +128,6 @@ jobs:
           tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
-          wheels-key: ${{ secrets.WHEELS_KEY }}
           apk: ${{ needs.lint.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp

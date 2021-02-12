@@ -119,8 +119,12 @@ jobs:
         with:
           name: requirements
 
-      - name: Remove GPIO
-        run: sed -i '/RPi.GPIO/d' requirements.txt
+      - name: Remove packages
+        run: |
+          if [ "${{ matrix.arch }}" == "i386"] || [ "${{ matrix.arch }}" == "amd64"]; then
+            echo "Arch is ${{ matrix.arch }} skipping RPi.GPIO"
+            sed -i '/RPi.GPIO/d' requirements.txt
+          fi
 
       - name: Build wheels
         uses: home-assistant/wheels@test2

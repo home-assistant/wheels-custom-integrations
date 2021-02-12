@@ -14,6 +14,7 @@
         "glib-dev",
         "gmp-dev",
         "libexecinfo-dev",
+        "libc-dev",
         "libffi-dev",
         "libjpeg-turbo-dev",
         "libpng-dev",

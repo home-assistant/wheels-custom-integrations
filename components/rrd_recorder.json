@@ -1,0 +1,6 @@
+{
+    "name": "RRD Recorder",
+    "owner": ["@dgomes"],
+    "manifest": "https://raw.githubusercontent.com/dgomes/rrd_recorder/master/custom_components/rrd/manifest.json",
+    "url": "https://github.com/dgomes/rrd_recorder/"
+}

@@ -1,17 +1,15 @@
-# Custom Components Wheels
-Custom components wheels hosted by Home Assistant repository
+# Custom Integration Wheels
+Custom integration wheels hosted by Home Assistant repository
 
 ## Custom component provider
 
-Add a custom_components.json to components folder like:
+Add a custom_integration.json to components folder like:
 
 ```json
 {
-  "name": "Name of Component",
-  "owner": ["owner"],
+  "name": "Name of integration",
+  "owner": ["@owner"],
   "manifest": "https://url/of/manifest.json",
-  "url": "https://url/of/component"
+  "url": "https://url/of/integration"
 }
 ```
-
-**Note**: All URLs in the JSON must be direct links. URLs with HTTP redirects (301 or 302) redirects will not be followed.

@@ -28,7 +28,7 @@ jobs:
             curl -sSL -f "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements_raw.txt
           done
 
-          sort ./requirements_raw.txt | uniq -u > ./requirements.txt
+          sort -u ./requirements_raw.txt > ./requirements.txt
 
           echo "List:"
           cat ./requirements.txt
@@ -57,8 +57,10 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        alpine: ["3.12", "3.13"]
+        alpine: ["3.12"]
         python: ["3.8"]
+        group: ["a", "b", "c", "d"]
+
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v2
@@ -67,6 +69,9 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: requirements
+
+      - name: Limit requirements
+        run: split -n l/4 requirements.txt -a 1 requirements.
 
       - name: Build wheels
         uses: home-assistant/wheels@master
@@ -80,4 +85,4 @@ jobs:
           skip-binary: aiohttp
           single: True
           constraints: "constraints.txt"
-          requirements: "requirements.txt"
+          requirements: "requirements.${{ matrix.group }}"

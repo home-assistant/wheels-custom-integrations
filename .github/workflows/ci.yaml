@@ -121,7 +121,7 @@ jobs:
 
       - name: Remove packages
         run: |
-          if [ "${{ matrix.arch }}" == "i386"] || [ "${{ matrix.arch }}" == "amd64"]; then
+          if [ "${{ matrix.arch }}" == "i386" ] || [ "${{ matrix.arch }}" == "amd64" ]; then
             echo "Arch is ${{ matrix.arch }} skipping RPi.GPIO"
             sed -i '/RPi.GPIO/d' requirements.txt
           fi

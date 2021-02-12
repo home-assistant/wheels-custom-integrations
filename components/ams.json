@@ -1,0 +1,6 @@
+{
+  "name": "Norwegian AMS HAN meter reader",
+  "owner": ["turbokongen"],
+  "manifest": "https://raw.githubusercontent.com/turbokongen/hass-AMS/master/custom_components/ams/manifest.json",
+  "url": "https://github.com/turbokongen/hass-AMS"
+}

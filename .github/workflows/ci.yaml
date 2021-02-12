@@ -31,6 +31,10 @@ jobs:
         run: |
           for component in components/*; do
             if [[ "${{ steps.changed_files.outputs.all }}" =~ $component ]]; then
+              if [ "${component##*.}" != "json" ];then
+                  echo "::error::${component} does not end with '.json'"
+                  exit 1
+              fi
               manifestlink=$(jq --raw-output ".manifest" "${component}")
 
               echo "Process: ${component} -> ${manifestlink}"

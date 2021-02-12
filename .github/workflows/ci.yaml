@@ -61,14 +61,15 @@ jobs:
                 fi
               done
 
-              echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements.txt
+              echo "${manifest}" | jq -e --raw-output '.requirements[]' >> requirements_raw.txt
             fi
           done
 
       - name: Check if requirements.txt has content
         id: requirements
         run: | 
-          if [[ -f ./requirements.txt ]]; then
+          if [[ -f ./requirements_raw.txt ]]; then
+            sort -u ./requirements_raw.txt > ./requirements.txt
             cat ./requirements.txt
             echo "::set-output name=exist::true"
           fi
@@ -120,7 +121,7 @@ jobs:
           docker build -t validate -f validate_requirements/Dockerfile .
 
       - name: Validate requirements
-        run: docker run --rm validate
+        run: docker run --rm -e CRYPTOGRAPHY_DONT_BUILD_RUST=1 validate
 
   wheels:
     needs: [lint, requirements]
@@ -130,7 +131,7 @@ jobs:
     strategy:
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        alpine: ["3.12", "3.13"]
+        alpine: ["3.12"]
         python: ["3.8"]
 
     steps:
@@ -153,7 +154,6 @@ jobs:
           tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
           arch: ${{ matrix.arch }}
           wheels-host: ${{ secrets.WHEELS_HOST }}
-          wheels-key: ${{ secrets.WHEELS_KEY }}
           apk: ${{ needs.lint.outputs.apk }}
           pip: "Cython;numpy"
           skip-binary: aiohttp

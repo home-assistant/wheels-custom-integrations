@@ -120,7 +120,7 @@ jobs:
           name: requirements
 
       - name: Build wheels
-        uses: home-assistant/wheels@filter
+        uses: home-assistant/wheels@master
         with:
           tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
           arch: ${{ matrix.arch }}

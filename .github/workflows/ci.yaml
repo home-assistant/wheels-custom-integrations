@@ -97,7 +97,7 @@ jobs:
           docker build -t validate -f validate_requirements/Dockerfile .
 
       - name: Validate requirements
-        run: docker run --rm validate
+        run: docker run --rm -e CRYPTOGRAPHY_DONT_BUILD_RUST=1 validate
 
   wheels:
     needs: [lint, requirements]
@@ -118,13 +118,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: requirements
-
-      - name: Remove packages
-        run: |
-          if [ "${{ matrix.arch }}" == "i386" ] || [ "${{ matrix.arch }}" == "amd64" ]; then
-            echo "Arch is ${{ matrix.arch }} skipping RPi.GPIO"
-            sed -i '/RPi.GPIO/d' requirements.txt
-          fi
 
       - name: Build wheels
         uses: home-assistant/wheels@test2

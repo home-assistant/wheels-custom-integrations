@@ -102,9 +102,28 @@ jobs:
           packages=$(cat apk.list)
           echo "::set-output name=packages::${packages}"
         
+  integration:
+    needs: lint
+    runs-on: ubuntu-latest
+    name: Validate integration
+    steps:
+      - name: Check out code from GitHub
+        uses: actions/checkout@v2
+
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build the container
+        run: |
+          cp ${HOME}/files.json validate_integrations/files.json
+          docker build -t validate -f validate_integrations/Dockerfile .
+
+      - name: Validate integrations
+        run: docker run --rm validate
 
   requirements:
-    needs: lint
+    needs: integration
     runs-on: ubuntu-latest
     name: Validate Python requirements
     steps:

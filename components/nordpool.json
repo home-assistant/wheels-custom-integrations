@@ -1,0 +1,6 @@
+{
+  "name": "nordpool",
+  "owner": ["Hellowlol"],
+  "manifest": "https://raw.githubusercontent.com/custom-components/nordpool/master/custom_components/nordpool/manifest.json",
+  "url": "https://github.com/custom-components/nordpool/"
+}

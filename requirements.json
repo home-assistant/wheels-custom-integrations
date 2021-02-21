@@ -21,7 +21,6 @@
         "libxml2-dev",
         "libxslt-dev",
         "linux-headers",
-        "linux-headers",
         "mpc1-dev",
         "mpfr-dev",
         "musl-dev",

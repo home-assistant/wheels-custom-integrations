@@ -99,7 +99,7 @@ def validate_requirements(requirements: Set[str]) -> bool:
     # Check for requirements incompatible with standard library.
     for version, std_libs in STD_LIBS.items():
         for req in all_integration_requirements:
-            if req in std_libs:
+            if req not in std_libs:
                 print(
                     f"Package {req} is not compatible "
                     f"with Python {version} standard library",

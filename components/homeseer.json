@@ -1,6 +1,6 @@
 {
   "name": "HomeSeer",
-  "owner": ["marthoc"],
+  "owner": ["@marthoc"],
   "manifest": "https://raw.githubusercontent.com/marthoc/homeseer/main/custom_components/homeseer/manifest.json",
   "url": "https://github.com/marthoc/homeseer"
 }

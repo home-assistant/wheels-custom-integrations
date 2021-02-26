@@ -1,0 +1,6 @@
+{
+  "name": "Deltasol KM2",
+  "owner": ["@dm82m"],
+  "manifest": "https://raw.githubusercontent.com/dm82m/hass-Deltasol-KM2/master/custom_components/deltasol/manifest.json",
+  "url": "https://github.com/dm82m/hass-Deltasol-KM2"
+}

@@ -25,6 +25,7 @@
         "musl-dev",
         "openssl-dev",
         "postgresql-dev",
+        "rrdtool-dev",
         "rust",
         "tiff-dev"
     ]

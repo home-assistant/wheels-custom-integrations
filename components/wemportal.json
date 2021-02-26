@@ -1,0 +1,6 @@
+{
+  "name": "Weishaupt WEM Portal",
+  "owner": ["@erikkastelec"],
+  "manifest": "https://raw.githubusercontent.com/erikkastelec/hass-WEM-Portal/master/custom_components/wemportal/manifest.json",
+  "url": "https://github.com/erikkastelec/hass-WEM-Portal"
+}

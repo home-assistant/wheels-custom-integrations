@@ -1,6 +1,6 @@
 {
   "name": "Auto Backup",
   "owner": ["@jcwillox"],
-  "manifest": "https://github.com/jcwillox/hass-auto-backup/blob/master/custom_components/auto_backup/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/jcwillox/hass-auto-backup/master/custom_components/auto_backup/manifest.json",
   "url": "https://github.com/jcwillox/hass-auto-backup"
 }

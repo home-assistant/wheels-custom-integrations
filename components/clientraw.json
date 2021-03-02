@@ -1,0 +1,6 @@
+{
+  "name": "clientraw",
+  "owner": ["@pilotak"],
+  "manifest": "https://raw.githubusercontent.com/pilotak/homeassistant-clientraw/master/custom_components/clientraw/manifest.json",
+  "url": "https://github.com/pilotak/homeassistant-clientraw"
+}

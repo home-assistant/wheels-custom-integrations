@@ -1,0 +1,8 @@
+{
+    "name": "Person Location",
+    "owner": [
+        "@rodpayne"
+    ],
+    "manifest": "https://raw.githubusercontent.com/rodpayne/home-assistant_person_location/master/custom_components/person_location/manifest.json",
+    "url": "https://github.com/rodpayne/home-assistant_person_location"
+}

@@ -1,6 +1,6 @@
 {
   "name": "SAJ Inverter Modbus",
   "owner": ["@wimb0"],
-  "manifest": "https://raw.githubusercontent.com/wimb0/home-assistant-saj-modbus/main/custom_components/saj_modbus/manifest.json,
+  "manifest": "https://raw.githubusercontent.com/wimb0/home-assistant-saj-modbus/main/custom_components/saj_modbus/manifest.json",
   "url": "https://github.com/wimb0/home-assistant-saj-modbus"
 }

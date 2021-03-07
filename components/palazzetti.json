@@ -1,0 +1,6 @@
+{
+    "name": "Palazzetti",
+    "owner": ["@marcopal74"],
+    "manifest": "https://raw.githubusercontent.com/marcopal74/home-assistant-palazzetti/master/custom_components/palazzetti/manifest.json",
+    "url": "https://github.com/marcopal74/home-assistant-palazzetti"
+}

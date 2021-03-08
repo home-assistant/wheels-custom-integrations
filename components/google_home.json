@@ -1,0 +1,6 @@
+{
+  "name": "Google Home",
+  "owner": ["@leikoilja"],
+  "manifest": "https://raw.githubusercontent.com/leikoilja/ha-google-home/master/custom_components/google_home/manifest.json",
+  "url": "https://github.com/leikoilja/ha-google-home"
+}

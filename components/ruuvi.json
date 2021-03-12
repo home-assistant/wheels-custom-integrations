@@ -1,0 +1,6 @@
+{
+    "name": "Ruuvi",
+    "owner": ["smaisidoro"],
+    "manifest": "https://raw.githubusercontent.com/ruuvi-friends/ruuvi-hass.io/master/custom_components/ruuvi/manifest.json",
+    "url": "https://github.com/ruuvi-friends/ruuvi-hass.io"
+ }

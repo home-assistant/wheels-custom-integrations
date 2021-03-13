@@ -1,0 +1,6 @@
+{
+  "name": "Channels DVR Recently Recorded",
+  "owner": ["@rccoleman"],
+  "manifest": "https://raw.githubusercontent.com/rccoleman/channels_dvr_recently_recorded/master/custom_components/channels_dvr_recently_recorded/manifest.json",
+  "url": "https://github.com/rccoleman/channels_dvr_recently_recorded"
+}

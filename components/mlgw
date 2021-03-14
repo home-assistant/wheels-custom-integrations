@@ -1,0 +1,6 @@
+{
+  "name": "Masterlink Gateway",
+  "owner": ["giachello"],
+  "manifest": "https://raw.githubusercontent.com/giachello/mlgw/main/manifest.json",
+  "url": "https://github.com/giachello/mlgw"
+}

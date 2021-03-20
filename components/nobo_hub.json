@@ -1,6 +1,6 @@
 {
   "name": "nobo_hub",
   "owner": ["@echoromeo"],
-  "manifest": "https://raw.githubusercontent.com/echoromeo/hanobo/master/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/echoromeo/hanobo/master/custom_components/nobo_hub/manifest.json",
   "url": "https://github.com/echoromeo/hanobo"
 }

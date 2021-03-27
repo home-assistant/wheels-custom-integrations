@@ -1,0 +1,6 @@
+{
+  "name": "Dahua VTO",
+  "owner": ["@myhomeiot"],
+  "manifest": "https://raw.githubusercontent.com/myhomeiot/DahuaVTO/main/custom_components/dahua_vto/manifest.json",
+  "url": "https://github.com/myhomeiot/DahuaVTO"
+}

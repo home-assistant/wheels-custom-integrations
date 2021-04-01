@@ -1,0 +1,6 @@
+{
+    "name": "Xiaomi Cloud Map Extractor",
+    "owner": ["@PiotrMachowski"],
+    "manifest": "https://raw.githubusercontent.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor/master/custom_components/xiaomi_cloud_map_extractor/manifest.json",
+    "url": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor"
+}

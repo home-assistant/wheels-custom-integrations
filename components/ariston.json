@@ -1,0 +1,6 @@
+{
+  "name": "Ariston",
+  "owner": ["@chomupashchuk"],
+  "manifest": "https://github.com/chomupashchuk/ariston-remotethermo-home-assistant-v2/blob/master/custom_components/ariston/manifest.json",
+  "url": "https://github.com/chomupashchuk/ariston-remotethermo-home-assistant-v2"
+}

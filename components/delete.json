@@ -1,0 +1,6 @@
+{
+  "name": "Delete",
+  "owner": ["@chomupashchuk"],
+  "manifest": "https://github.com/chomupashchuk/delete-file-home-assistant/blob/master/custom_components/delete/manifest.json",
+  "url": "https://github.com/chomupashchuk/delete-file-home-assistant"
+}

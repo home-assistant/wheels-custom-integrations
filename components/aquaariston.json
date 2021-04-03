@@ -1,0 +1,6 @@
+{
+  "name": "AquaAriston",
+  "owner": ["@chomupashchuk"],
+  "manifest": "https://github.com/chomupashchuk/ariston-aqua-remotethermo-home-assistant/blob/master/custom_components/aquaariston/manifest.json",
+  "url": "https://github.com/chomupashchuk/ariston-aqua-remotethermo-home-assistant"
+}

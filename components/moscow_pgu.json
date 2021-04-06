@@ -1,0 +1,6 @@
+{
+  "name": "Moscow PGU",
+  "owner": ["@alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-moscow-pgu/main/custom_components/moscow_pgu/manifest.json",
+  "url": "https://github.com/alryaz/hass-moscow-pgu"
+}

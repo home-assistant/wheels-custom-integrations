@@ -1,6 +1,6 @@
 {
   "name": "Jewish Sabbaths Holidays",
-  "owner": ["yuval_mejahez"],
+  "owner": ["@yuval_mejahez"],
   "manifest": "https://raw.githubusercontent.com/rt400/Jewish-Sabbaths-Holidays/master/custom_components/hebcal/manifest.json",
   "url": "https://github.com/rt400/Jewish-Sabbaths-Holidays"
 }

@@ -1,0 +1,6 @@
+{
+  "name": "Luxtronik",
+  "owner": ["@bouni"],
+  "manifest": "https://github.com/Bouni/luxtronik/blob/master/custom_components/luxtronik/manifest.json",
+  "url": "https://github.com/Bouni/luxtronik"
+}

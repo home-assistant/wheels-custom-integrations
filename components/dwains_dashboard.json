@@ -1,0 +1,6 @@
+{
+    "name": "Dwains Dashboard",
+    "owner": ["@dwainscheeren"],
+    "manifest": "https://raw.githubusercontent.com/dwainscheeren/dwains-lovelace-dashboard/2.0/custom_components/dwains_dashboard/manifest.json",
+    "url": "https://github.com/dwainscheeren/dwains-lovelace-dashboard"
+}

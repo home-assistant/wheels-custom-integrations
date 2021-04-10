@@ -1,0 +1,7 @@
+{
+    "name": "ukho_tides",
+    "owner": ["ianByrne"],
+    "manifest": "https://raw.githubusercontent.com/ianByrne/HASS-ukho_tides/main/custom_components/ukho_tides/manifest.json",
+    "url": "https://github.com/ianByrne/HASS_Integration_UKHOTides"
+}
+  

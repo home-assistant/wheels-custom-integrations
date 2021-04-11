@@ -1,0 +1,6 @@
+{
+  "name": "NBP - Narodowy Bank Polski",
+  "owner": ["@korasinski"],
+  "manifest": "https://raw.githubusercontent.com/korasinski/ha-nbp/main/custom_components/nbp/manifest.json",
+  "url": "https://github.com/korasinski/ha-nbp"
+}

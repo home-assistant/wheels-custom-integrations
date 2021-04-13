@@ -1,0 +1,6 @@
+{
+  "name": "ČEZ HDO",
+  "owner": ["konikvranik"],
+  "manifest": "https://raw.githubusercontent.com/konikvranik/hacs_cez_hdo/main/custom_components/cez_hdo/manifest.json",
+  "url": "https://github.com/konikvranik/hacs_cez_hdo"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Netgear Enhanced",
+  "owner": ["@selfish"],
+  "manifest": "https://raw.githubusercontent.com/selfish/home-assistant-netgear-router-enhanced-integration/master/custom_components/netgear_enhanced/manifest.json",
+  "url": "https://github.com/selfish/home-assistant-netgear-router-enhanced-integration"
+}

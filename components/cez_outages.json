@@ -1,6 +1,6 @@
 {
   "name": "ČEZ outages",
-  "owner": ["konikvranik"],
+  "owner": ["@konikvranik"],
   "manifest": "https://raw.githubusercontent.com/konikvranik/hacs_cez_outages/master/custom_components/cez_outages/manifest.json",
   "url": "https://github.com/konikvranik/hacs_cez_outages"
 }

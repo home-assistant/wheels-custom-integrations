@@ -1,0 +1,6 @@
+{
+  "name": "Magic Switchbot",
+  "owner": ["@ec-blaster"],
+  "manifest": "https://raw.githubusercontent.com/ec-blaster/magicswitchbot-homeassistant/main/custom_components/magicswitchbot/manifest.json",
+  "url": "https://github.com/ec-blaster/magicswitchbot-homeassistant"
+}

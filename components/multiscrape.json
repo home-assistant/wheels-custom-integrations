@@ -1,0 +1,6 @@
+{
+  "name": "HA Multiscrape",
+  "owner": ["@danieldotnl"],
+  "manifest": "https://github.com/danieldotnl/ha-multiscrape/blob/master/custom_components/multiscrape/manifest.json",
+  "url": "https://github.com/danieldotnl/ha-multiscrape"
+}

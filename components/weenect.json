@@ -1,6 +1,6 @@
 {
     "name": "weenect",
-    "owner": ["eifinger"],
+    "owner": ["@eifinger"],
     "manifest": "https://raw.githubusercontent.com/eifinger/hass-weenect/master/custom_components/weenect/manifest.json",
     "url": "https://github.com/eifinger/hass-weenect"
   }

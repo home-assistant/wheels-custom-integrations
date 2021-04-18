@@ -1,5 +1,5 @@
 {
-  "name": "Govee LED Strips",
+  "name": "Govee",
   "owner": ["@LaggAt"],
   "manifest": "https://raw.githubusercontent.com/LaggAt/hacs-govee/master/custom_components/govee/manifest.json",
   "url": "https://github.com/LaggAt/hacs-govee"

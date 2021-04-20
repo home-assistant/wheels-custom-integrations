@@ -1,0 +1,6 @@
+{
+  "name": "webrtc",
+  "owner": ["@AlexxIT"],
+  "manifest": "https://raw.githubusercontent.com/AlexxIT/WebRTC/master/custom_components/webrtc/manifest.json",
+  "url": "https://github.com/AlexxIT/WebRTC"
+}

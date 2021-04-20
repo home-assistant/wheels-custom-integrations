@@ -1,0 +1,8 @@
+{
+  "name": "Multimatic",
+  "owner": [
+    "@thomasgermain"
+  ],
+  "manifest": "https://raw.githubusercontent.com/thomasgermain/vaillant-component/master/custom_components/multimatic/manifest.json",
+  "url": "https://github.com/thomasgermain/vaillant-component"
+}

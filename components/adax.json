@@ -1,6 +1,6 @@
 {
     "name": "Adax",
-    "owner": ["danielhiversen"],
+    "owner": ["@danielhiversen"],
     "manifest": "https://raw.githubusercontent.com/Danielhiversen/home_assistant_adax/master/custom_components/adax/manifest.json",
     "url": "https://github.com/Danielhiversen/home_assistant_adax/"
 }

@@ -1,6 +1,6 @@
 {
   "name": "OpenSprinkler",
   "owner": ["@vinteo"],
-  "manifest": "https://github.com/vinteo/hass-opensprinkler/blob/master/custom_components/opensprinkler/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/vinteo/hass-opensprinkler/master/custom_components/opensprinkler/manifest.json",
   "url": "https://github.com/vinteo/hass-opensprinkler"
 }

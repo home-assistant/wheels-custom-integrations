@@ -1,0 +1,6 @@
+{
+  "name": "Tesla Custom Integration",
+  "owner": ["@alandtse"],
+  "manifest": "https://raw.githubusercontent.com/alandtse/tesla/main/custom_components/tesla_custom/manifest.json",
+  "url": "https://github.com/alandtse/tesla"
+}

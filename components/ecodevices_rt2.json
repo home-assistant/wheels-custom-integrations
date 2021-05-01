@@ -1,0 +1,6 @@
+{
+  "name": "Ecodevices RT2",
+  "owner": ["@pcourbin"],
+  "manifest": "https://raw.githubusercontent.com/pcourbin/ecodevices_rt2/master/custom_components/ecodevices_rt2/manifest.json",
+  "url": "https://github.com/pcourbin/ecodevices_rt2"
+}

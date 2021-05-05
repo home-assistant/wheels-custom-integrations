@@ -1,0 +1,6 @@
+{
+  "name": "RAID Status - MDADM",
+  "owner": ["@LorenzoVasi"],
+  "manifest": "https://raw.githubusercontent.com/LorenzoVasi/HA_mdadm/main/custom_components/mdadm_state/manifest.json",
+  "url": "https://github.com/LorenzoVasi/HA_mdadm"
+}

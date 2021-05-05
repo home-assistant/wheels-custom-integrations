@@ -86,6 +86,15 @@ jobs:
 
       - name: Limit requirements
         run: split -n l/4 requirements.txt -a 1 requirements.
+      
+      - name: Write env-file
+        shell: bash
+        run: |
+          (
+            echo "GRPC_BUILD_WITH_BORING_SSL_ASM=false"
+            echo "GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true"
+            echo "GRPC_PYTHON_BUILD_WITH_CYTHON=true"
+          ) > .env_file
 
       - name: Build wheels
         uses: home-assistant/wheels@master
@@ -96,7 +105,13 @@ jobs:
           wheels-key: ${{ secrets.WHEELS_KEY }}
           apk: ${{ needs.init.outputs.apk }}
           pip: "Cython;numpy"
+          env-file: true
+
           skip-binary: aiohttp
           single: True
           constraints: "constraints.txt"
           requirements: "requirements.${{ matrix.group }}"
+        env:
+          GRPC_BUILD_WITH_BORING_SSL_ASM: "false"
+          GRPC_PYTHON_BUILD_SYSTEM_OPENSSL: "true"
+          GRPC_PYTHON_BUILD_WITH_CYTHON: "true"

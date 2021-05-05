@@ -111,7 +111,3 @@ jobs:
           single: True
           constraints: "constraints.txt"
           requirements: "requirements.${{ matrix.group }}"
-        env:
-          GRPC_BUILD_WITH_BORING_SSL_ASM: "false"
-          GRPC_PYTHON_BUILD_SYSTEM_OPENSSL: "true"
-          GRPC_PYTHON_BUILD_WITH_CYTHON: "true"

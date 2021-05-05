@@ -106,7 +106,6 @@ jobs:
           apk: ${{ needs.init.outputs.apk }}
           pip: "Cython;numpy"
           env-file: true
-
           skip-binary: aiohttp
           single: True
           constraints: "constraints.txt"

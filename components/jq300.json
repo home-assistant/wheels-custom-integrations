@@ -1,6 +1,6 @@
 {
   "name": "JQ-300/200/100 Indoor Air Quality Meter",
   "owner": ["@Limych"],
-  "manifest": "https://github.com/Limych/ha-jq300/blob/dev/custom_components/jq300/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/Limych/ha-jq300/dev/custom_components/jq300/manifest.json",
   "url": "https://github.com/Limych/ha-jq300"
 }

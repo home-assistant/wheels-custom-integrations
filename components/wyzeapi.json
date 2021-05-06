@@ -1,0 +1,6 @@
+{
+  "name": "Wyze Integration",
+  "owner": ["@JoshuaMulliken"],
+  "manifest": "https://raw.githubusercontent.com/JoshuaMulliken/ha-wyzeapi/master/custom_components/wyzeapi/manifest.json",
+  "url": "https://github.com/JoshuaMulliken/ha-wyzeapi"
+}

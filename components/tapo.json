@@ -1,0 +1,6 @@
+{
+    "name": "Tapo Controller",
+    "owner": ["@petretiandrea"],
+    "manifest": "https://raw.githubusercontent.com/petretiandrea/home-assistant-tapo-p100/main/custom_components/tapo/manifest.json",
+    "url": "https://github.com/petretiandrea/home-assistant-tapo-p100"
+}

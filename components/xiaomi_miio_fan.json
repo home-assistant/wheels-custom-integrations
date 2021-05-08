@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miio_fan",
+  "owner": ["syssi"],
+  "manifest": "https://raw.githubusercontent.com/syssi/xiaomi_fan/develop/custom_components/xiaomi_miio_fan/manifest.json",
+  "url": "https://github.com/syssi/xiaomi_fan"
+}

@@ -1,6 +1,6 @@
 {
   "name": "ShellyForHass",
-  "owner": ["StyraHem", "hakana"],
+  "owner": ["@StyraHem", "hakana"],
   "manifest": "https://raw.githubusercontent.com/StyraHem/ShellyForHASS/master/custom_components/shelly/manifest.json",
   "url": "https://github.com/StyraHem/ShellyForHASS"
 }

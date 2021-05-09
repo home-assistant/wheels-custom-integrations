@@ -1,6 +1,6 @@
 {
     "name": "LiteTouch",
-    "owner": ["patmann03"],
+    "owner": ["@patmann03"],
     "manifest": "https://raw.githubusercontent.com/patmann03/custom_components/master/custom_components/litetouch/manifest.json",
     "url": "https://github.com/patmann03/custom_components/tree/master/custom_components/litetouch"
 }

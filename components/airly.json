@@ -1,6 +1,6 @@
 {
     "name": "Airly",
-    "owner": ["bieniu"],
+    "owner": ["@bieniu"],
     "manifest": "https://raw.githubusercontent.com/bieniu/ha-airly/master/custom_components/airly/manifest.json",
     "url": "https://github.com/bieniu/ha-airly"
 }

@@ -1,0 +1,6 @@
+{
+    "name": "vimar",
+    "owner": ["@h4de5"],
+    "manifest": "https://raw.githubusercontent.com/h4de5/home-assistant-vimar/master/manifest.json",
+    "url": "https://github.com/h4de5/home-assistant-vimar"
+}

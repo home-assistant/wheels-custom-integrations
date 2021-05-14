@@ -97,11 +97,10 @@ jobs:
           ) > .env_file
 
       - name: Build wheels
-        uses: home-assistant/wheels@master
+        uses: home-assistant/wheels@2021.05.3
         with:
           tag: ${{ matrix.python }}-alpine${{ matrix.alpine }}
           arch: ${{ matrix.arch }}
-          wheels-host: ${{ secrets.WHEELS_HOST }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
           apk: ${{ needs.init.outputs.apk }}
           pip: "Cython;numpy"

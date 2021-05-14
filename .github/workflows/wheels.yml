@@ -66,8 +66,8 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        alpine: ["3.12"]
-        python: ["3.8"]
+        alpine: ["3.12", "3.13"]
+        python: ["3.8", "3.9"]
         group: ["a", "b", "c", "d"]
 
     steps:

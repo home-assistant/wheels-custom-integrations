@@ -1,0 +1,6 @@
+{
+    "name": "GCE IPX800V4",
+    "owner": ["Aohzan"],
+    "manifest": "https://raw.githubusercontent.com/Aohzan/ipx800/master/custom_components/ipx800v4/manifest.json",
+    "url": "https://github.com/Aohzan/ipx800"
+}

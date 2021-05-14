@@ -1,0 +1,6 @@
+{
+    "name": "heatmiser_wifi",
+    "owner": ["@midstar"],
+    "manifest": "https://raw.githubusercontent.com/midstar/heatmiser_wifi_ha/master/custom_components/heatmiser_wifi/manifest.json",
+    "url": "https://github.com/midstar/heatmiser_wifi_ha/"
+}

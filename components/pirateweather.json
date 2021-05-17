@@ -1,0 +1,6 @@
+{
+  "name": "PirateWeather",
+  "owner": ["@alexander0042"],
+  "manifest": "https://raw.githubusercontent.com/alexander0042/pirate-weather-hacs/master/custom_components/darksky/manifest.json",
+  "url": "https://github.com/alexander0042/pirate-weather-hacs"
+}

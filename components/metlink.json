@@ -1,0 +1,6 @@
+{
+    "name": "Metlink Wellington Transport",
+    "owner": ["@make-all"],
+    "manifest": "https://raw.githubusercontent.com/make-all/metlink-nz/main/custom_components/metlink/manifest.json",
+    "url": "https://github.com/make-all/metlink-nz"
+}

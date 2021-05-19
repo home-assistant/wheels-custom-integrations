@@ -1,0 +1,6 @@
+{
+  "name": "Warzone",
+  "owner": ["jacokok"],
+  "manifest": "https://raw.githubusercontent.com/jacokok/warzone/master/custom_components/warzone/manifest.json",
+  "url": "https://github.com/jacokok/warzone"
+}

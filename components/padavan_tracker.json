@@ -1,0 +1,6 @@
+{
+  "name": "Padavan Tracker",
+  "owner": ["@PaulAnnekov"],
+  "manifest": "https://raw.githubusercontent.com/PaulAnnekov/home-assistant-padavan-tracker/master/custom_components/padavan_tracker/manifest.json",
+  "url": "https://github.com/PaulAnnekov/home-assistant-padavan-tracker/"
+}

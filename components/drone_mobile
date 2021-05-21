@@ -1,0 +1,6 @@
+{	
+  "name": "drone_mobile",	
+  "owner": ["@bjhiltbrand"],	
+  "manifest": "https://github.com/bjhiltbrand/drone_mobile_home_assistant/blob/main/custom_components/drone_mobile/manifest.json",	
+  "url": "https://github.com/bjhiltbrand/drone_mobile_home_assistant"	
+}

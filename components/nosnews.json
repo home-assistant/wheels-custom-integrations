@@ -1,0 +1,6 @@
+{
+    "name": "NosNews",
+    "owner": ["eelcob"],
+    "manifest": "https://raw.githubusercontent.com/eelcob/nosnews/master/custom_components/nosnews/manifest.json",
+    "url": "https://github.com/eelcob/nosnews"
+}

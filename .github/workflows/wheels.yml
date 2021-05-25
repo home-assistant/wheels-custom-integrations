@@ -61,7 +61,7 @@ jobs:
   wheels:
     runs-on: ubuntu-latest
     needs: init
-    name: Prepare wheels for ${{ matrix.python }}-alpine${{ matrix.alpine }} with ${{ matrix.arch }}
+    name: Prepare wheels for ${{ matrix.tag }} with ${{ matrix.arch }}
     strategy:
       fail-fast: false
       matrix:

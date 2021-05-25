@@ -1,0 +1,6 @@
+{
+  "name": "WorldTidesInfoCustom",
+  "owner": ["@jugla"],
+  "manifest": "https://raw.githubusercontent.com/jugla/worldtidesinfocustom/main/custom_components/worldtidesinfocustom/manifest.json",
+  "url": "https://github.com/jugla/worldtidesinfocustom"
+}

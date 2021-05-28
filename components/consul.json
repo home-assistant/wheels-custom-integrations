@@ -1,0 +1,6 @@
+{
+  "name": "consul",
+  "owner": ["@jadson179"],
+  "manifest": "https://raw.githubusercontent.com/jadson179/consul/master/custom_components/consul/manifest.json",
+  "url": "https://github.com/jadson179/consul"
+}

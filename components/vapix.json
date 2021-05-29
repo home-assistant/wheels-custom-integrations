@@ -1,0 +1,7 @@
+
+{
+  "name": "vapix",
+  "owner": ["@jadson179"],
+  "manifest": "https://raw.githubusercontent.com/jadson179/vapix/master/custom_components/vapix/manifest.json",
+  "url": "https://github.com/jadson179/vapix"
+}

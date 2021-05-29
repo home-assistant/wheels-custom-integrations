@@ -1,0 +1,6 @@
+{
+  "name": "Multizone Controller",
+  "owner": ["@Petro31"],
+  "manifest": "https://raw.githubusercontent.com/Petro31/ha-integration-multizone-controller/main/custom_components/multizone_controller/manifest.json",
+  "url": "https://github.com/Petro31/ha-integration-multizone-controller"
+}

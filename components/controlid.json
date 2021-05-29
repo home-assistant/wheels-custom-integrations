@@ -1,6 +1,6 @@
 {
   "name": "controlid",
   "owner": ["@jadson179"],
-  "manifest": "https://raw.githubusercontent.com/jadson179/controlid/master/custom_components/controlid/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/jadson179/controlid/main/custom_components/controlid/manifest.json",
   "url": "https://github.com/jadson179/controlid"
 }

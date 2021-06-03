@@ -1,0 +1,6 @@
+{
+  "name": "Helium Blockchain",
+  "owner": ["@rsnodgrass"],
+  "manifest": "https://raw.githubusercontent.com/rsnodgrass/hass-helium/main/custom_components/helium/manifest.json",
+  "url": "https://github.com/rsnodgrass/hass-helium"
+}

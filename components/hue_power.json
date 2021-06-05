@@ -1,0 +1,6 @@
+{
+    "name": "Hue power consumption",
+    "owner": ["@bramstroker"],
+    "manifest": "https://raw.githubusercontent.com/bramstroker/homeassistant-huepower/master/custom_components/huepower/manifest.json",
+    "url": "https://github.com/bramstroker/homeassistant-huepower"
+}

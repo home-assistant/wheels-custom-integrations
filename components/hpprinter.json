@@ -1,6 +1,6 @@
 {
   "name": "HP Printer",
-  "owner": ["elad-bar"],
+  "owner": ["@elad-bar"],
   "manifest": "https://raw.githubusercontent.com/elad-bar/ha-hpprinter/master/custom_components/hpprinter/manifest.json",
   "url": "https://github.com/elad-bar/ha-hpprinter"
 }

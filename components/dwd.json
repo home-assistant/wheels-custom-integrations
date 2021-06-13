@@ -1,0 +1,6 @@
+{
+  "name": "Deutscher Wetterdienst",
+  "owner": ["@hg1337"],
+  "manifest": "https://raw.githubusercontent.com/hg1337/homeassistant-dwd/main/dwd/manifest.json",
+  "url": "https://github.com/hg1337/homeassistant-dwd"
+}

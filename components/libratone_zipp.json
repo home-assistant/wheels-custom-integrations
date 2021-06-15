@@ -1,0 +1,6 @@
+{
+  "name": "Libratone Zipp",
+  "owner": ["@chouffy"],
+  "manifest": "https://raw.githubusercontent.com/Chouffy/home_assistant_libratone_zipp/master/config/custom_components/libratone_zipp/manifest.json",
+  "url": "https://github.com/Chouffy/home_assistant_libratone_zipp"
+}

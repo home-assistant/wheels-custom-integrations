@@ -1,0 +1,6 @@
+{
+  "name": "Falcon Pi Player (FPP)",
+  "owner": ["@koolsb"],
+  "manifest": "https://github.com/koolsb/ha-fpp/blob/main/custom_components/falcon_pi_player/manifest.json",
+  "url": "https://github.com/koolsb/ha-fpp/"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Inter RAO Personal Cabinet",
+  "owner": ["@alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-lkcomu-interrao/main/custom_components/lkcomu_interrao/manifest.json",
+  "url": "https://github.com/alryaz/hass-lkcomu-interrao"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TNS Energo",
+  "owner": ["@alryaz"],
+  "manifest": "https://raw.githubusercontent.com/alryaz/hass-tns-energo/main/custom_components/tns_energo/manifest.json",
+  "url": "https://github.com/alryaz/hass-tns-energo"
+}

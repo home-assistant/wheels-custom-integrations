@@ -1,0 +1,6 @@
+{
+  "name": "Open Charge Point Protocol (OCPP)",
+  "owner": ["@lbbrhzn"],
+  "manifest": "https://github.com/lbbrhzn/ocpp/blob/main/custom_components/ocpp/manifest.json",
+  "url": "https://github.com/lbbrhzn/ocpp"
+}

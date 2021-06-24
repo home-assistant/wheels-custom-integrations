@@ -1,6 +1,6 @@
 {
   "name": "signalmessenger",
   "owner": ["@agileek"],
-  "manifest": "https://github.com/agileek/hassio-addons/blob/master/custom_components/signalmessenger/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/agileek/hassio-addons/master/custom_components/signalmessenger/manifest.json",
   "url": "https://github.com/agileek/hassio-addons/"
 }

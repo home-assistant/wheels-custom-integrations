@@ -1,0 +1,6 @@
+{	
+  "name": "iParcelBox",	
+  "owner": ["@gadget-man"],	
+  "manifest": "https://raw.githubusercontent.com/gadget-man/iparcelboxHA/main/manifest.json",	
+  "url": "https://github.com/gadget-man/iparcelboxHA"	
+}

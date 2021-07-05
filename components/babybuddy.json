@@ -1,0 +1,6 @@
+{
+  "name": "babybuddy",
+  "owner": ["@jcgoette"],
+  "manifest": "https://raw.githubusercontent.com/jcgoette/baby_buddy_homeassistant/master/custom_components/babybuddy/manifest.json",
+  "url": "https://github.com/jcgoette/baby_buddy_homeassistant"
+}

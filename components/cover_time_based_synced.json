@@ -1,0 +1,6 @@
+{
+  "name": "cover_time_based_synced",
+  "owner": ["@kotborealis"],
+  "manifest": "https://raw.githubusercontent.com/kotborealis/home-assistant-custom-components-cover-time-based-synced/master/custom_components/cover_time_based_synced/manifest.json",
+  "url": "https://github.com/kotborealis/home-assistant-custom-components-cover-time-based-synced"
+}

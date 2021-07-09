@@ -1,0 +1,6 @@
+{
+  "name": "Frigidaire Custom Integration",
+  "owner": ["@bm1549"],
+  "manifest": "https://raw.githubusercontent.com/bm1549/home-assistant-frigidaire/main/custom_components/frigidaire/manifest.json",
+  "url": "https://github.com/bm1549/home-assistant-frigidaire"
+}

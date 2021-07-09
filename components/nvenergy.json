@@ -1,0 +1,6 @@
+{
+  "name": "NV Energy Smart Thermostat",
+  "owner": ["@vegascom-jeff"],
+  "manifest": "https://raw.githubusercontent.com/vegascom-jeff/nvenergy/main/manifest.json",
+  "url": "https://github.com/vegascom-jeff/nvenergy"
+}

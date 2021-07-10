@@ -1,0 +1,8 @@
+{
+    "name": "Trakt",
+    "owner": [
+        "@dylandoamaral"
+    ],
+    "manifest": "https://github.com/dylandoamaral/trakt-integration/blob/main/custom_components/trakt_tv/manifest.json",
+    "url": "https://github.com/dylandoamaral/trakt-integration"
+}

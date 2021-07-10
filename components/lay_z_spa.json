@@ -1,0 +1,6 @@
+{
+  "name": "lay_z_spa",
+  "owner": ["@petecooney"],
+  "manifest": "https://raw.githubusercontent.com/PeteCooney/home_assistant_lay_z_spa/main/custom_components/lay_z_spa/manifest.json",
+  "url": "https://github.com/PeteCooney/home_assistant_lay_z_spa"
+}

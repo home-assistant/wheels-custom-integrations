@@ -1,0 +1,6 @@
+{
+  "name": "Sure Petcare",
+  "owner": ["@benleb"],
+  "manifest": "https://raw.githubusercontent.com/benleb/sureha/dev/manifest.json",
+  "url": "https://github.com/benleb/sureha"
+}

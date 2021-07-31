@@ -1,0 +1,6 @@
+{
+  "name": "Oppo UDP-20x",
+  "owner": ["@simbaja"],
+  "manifest": "https://raw.githubusercontent.com/simbaja/ha_oppoudp/master/custom_components/oppo_udp/manifest.json",
+  "url": "https://github.com/simbaja/ha_oppoudp/tree/master/custom_components/oppo_udp"
+}

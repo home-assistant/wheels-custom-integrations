@@ -1,0 +1,6 @@
+{
+    "name": "Adaptive Lighting",
+    "owner": ["@basnijholt", "@RubenKelevra"],
+    "manifest": "https://raw.githubusercontent.com/basnijholt/adaptive-lighting/master/custom_components/adaptive_lighting/manifest.json",
+    "url": "https://github.com/basnijholt/adaptive-lighting"
+}

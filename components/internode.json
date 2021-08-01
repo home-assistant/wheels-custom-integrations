@@ -1,0 +1,6 @@
+{
+  "name": "internode",
+  "owner": ["@LeighCurran"],
+  "manifest": "https://github.com/LeighCurran/InternodeHA/blob/main/custom_components/internode/manifest.json",
+  "url": "https://github.com/LeighCurran/InternodeHA"
+}

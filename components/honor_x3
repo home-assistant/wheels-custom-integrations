@@ -1,0 +1,6 @@
+{
+  "name": "honor_x3",
+  "owner": ["@juacas"],
+  "manifest": "https://raw.githubusercontent.com/juacas/honor_x3/master/custom_components/honor_x3/manifest.json",
+  "url": "https://github.com/juacas/honor_x3"
+}

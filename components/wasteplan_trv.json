@@ -1,0 +1,8 @@
+{
+    "name": "wasteplan_trv",
+    "owner": [
+        "@jonkristian"
+    ],
+    "manifest": "https://raw.githubusercontent.com/jonkristian/wasteplan_trv/master/custom_components/wasteplan_trv/manifest.json",
+    "url": "https://github.com/jonkristian/wasteplan_trv"
+}

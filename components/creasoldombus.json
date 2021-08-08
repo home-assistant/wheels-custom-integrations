@@ -1,0 +1,6 @@
+{
+    "name": "Creasol DomBus RS485 modules",
+    "owner": ["@CreasolTech"],
+    "manifest": "https://github.com/CreasolTech/home-assistant-creasol-dombus/raw/main/custom_components/creasoldombus/manifest.json",
+    "url": "https://github.com/CreasolTech/home-assistant-creasol-dombus"
+}

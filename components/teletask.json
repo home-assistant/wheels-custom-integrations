@@ -3,6 +3,6 @@
     "owner": [
         "@tiemooowh"
     ],
-    "manifest": "https://github.com/Tiemooowh/homeassistant-teletask/blob/main/custom_components/teletask/manifest.json",
+    "manifest": "https://raw.githubusercontent.com/Tiemooowh/homeassistant-teletask/main/custom_components/teletask/manifest.json",
     "url": "https://github.com/Tiemooowh/homeassistant-teletask"
 }

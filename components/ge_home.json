@@ -1,0 +1,6 @@
+{
+  "name": "GE Home (SmartHQ)",
+  "owner": ["@simbaja"],
+  "manifest": "https://raw.githubusercontent.com/simbaja/ha_gehome/master/custom_components/ge_home/manifest.json",
+  "url": "https://github.com/simbaja/ha_gehome/tree/master/custom_components/ge_home"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "casatunes",
+    "owner": [
+        "@jonkristian"
+    ],
+    "manifest": "https://raw.githubusercontent.com/jonkristian/casatunes/master/custom_components/casatunes/manifest.json",
+    "url": "https://github.com/jonkristian/casatunes"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Duke Energy Gateway",
+  "owner": ["@mjmeli"],
+  "manifest": "https://raw.githubusercontent.com/mjmeli/ha-duke-energy-gateway/main/custom_components/duke_energy_gateway/manifest.json",
+  "url": "https://github.com/mjmeli/ha-duke-energy-gateway"
+}

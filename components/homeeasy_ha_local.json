@@ -1,0 +1,8 @@
+{
+    "name": "Home Easy HVAC Local",
+    "owner": [
+        "@ki0ki0"
+    ],
+    "manifest": "https://raw.githubusercontent.com/ki0ki0/homeeasy_ha_local/master/custom_components/homeeasy_local/manifest.json",
+    "url": "https://github.com/ki0ki0/homeeasy_ha_local"
+}

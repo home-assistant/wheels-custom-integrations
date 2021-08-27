@@ -1,0 +1,6 @@
+{
+  "name": "barry",
+  "owner": ["@AntorFR"],
+  "manifest": "https://raw.githubusercontent.com/antorfr/hacs-barry/master/custom_components/barry/manifest.json",
+  "url": "https://github.com/AntorFr/hacs-barry"
+}

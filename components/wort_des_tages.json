@@ -1,1 +1,7 @@
 
+{
+  "name": "Wort des Tages",
+  "owner": ["@Ludy87"],
+  "manifest": "https://raw.githubusercontent.com/Ludy87/astra_germany_wort_des_tages/main/custom_components/wort_des_tages/manifest.json",
+  "url": "https://github.com/Ludy87/astra_germany_wort_des_tages"
+}

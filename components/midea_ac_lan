@@ -1,6 +1,6 @@
 {
   "name": "Midea AC on LAN",
   "owner": ["@wyapx"],
-  "manifest": "https://github.com/wyapx/hass_midea_acc/raw/master/custom_components/midea_lan/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/wyapx/hass_midea_acc/master/custom_components/midea_lan/manifest.json",
   "url": "https://github.com/wyapx/hass_midea_acc"
 }

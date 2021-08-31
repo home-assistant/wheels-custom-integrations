@@ -1,6 +1,6 @@
 {
-  "name": "Aria2",
-  "owner": ["@tdeblock"],
-  "manifest": "https://raw.githubusercontent.com/deblockt/hass-aria2/main/custom_components/aria2/manifest.json",
-  "url": "https://github.com/deblockt/hass-aria2"
+  "name": "Arris DCX960",
+  "owner": ["@Sholofly"],
+  "manifest": "https://raw.githubusercontent.com/Sholofly/arrisdcx960/dev/custom_components/arris_dcx960/manifest.json",
+  "url": "https://github.com/Sholofly/arrisdcx960"
 }

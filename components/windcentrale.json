@@ -1,0 +1,6 @@
+{	
+  "name": "Windcentrale",	
+  "owner": ["@jobvk"],	
+  "manifest": "https://raw.githubusercontent.com/jobvk/Home-Assistant-Windcentrale/master/custom_components/windcentrale/manifest.json",	
+  "url": "https://github.com/jobvk/Home-Assistant-Windcentrale"	
+}

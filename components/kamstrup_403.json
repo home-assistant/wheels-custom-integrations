@@ -1,0 +1,6 @@
+{
+  "name": "Kamstrup 403",
+  "owner": ["@golles"],
+  "manifest": "https://github.com/golles/ha-kamstrup_403/blob/main/custom_components/kamstrup_403/manifest.json",
+  "url": "https://github.com/golles/ha-kamstrup_403"
+}

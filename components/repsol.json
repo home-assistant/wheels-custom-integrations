@@ -1,0 +1,6 @@
+{
+  "name": "repsolluzygas",
+  "owner": ["@bzzoiro"],
+  "manifest": "https://raw.githubusercontent.com/tslpre/repsolluzygas/main/custom_components/repsolluzygas/manifest.json",
+  "url": "https://github.com/tslpre/repsolluzygas"
+}

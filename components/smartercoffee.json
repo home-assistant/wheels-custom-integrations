@@ -1,0 +1,6 @@
+{
+  "name": "smartercoffee",
+  "owner": ["@sergeymaysak"],
+  "manifest": "https://raw.githubusercontent.com/sergeymaysak/smartercoffee/main/custom_components/smartercoffee/manifest.json",
+  "url": "https://github.com/sergeymaysak/smartercoffee"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "WillyWeather",
+    "owner": ["@safepay"],
+    "manifest": "https://raw.githubusercontent.com/safepay/sensor.willyweather/master/custom_components/willyweather/manifest.json",
+    "url": "https://github.com/safepay/sensor.willyweather"
+}

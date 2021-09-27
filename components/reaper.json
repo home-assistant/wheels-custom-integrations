@@ -1,0 +1,6 @@
+{
+  "name": "Reaper DAW",
+  "owner": ["@kubawolanin"],
+  "manifest": "https://raw.githubusercontent.com/kubawolanin/ha-reaper-daw/main/custom_components/reaper/manifest.json",
+  "url": "https://github.com/kubawolanin/ha-reaper-daw"
+}

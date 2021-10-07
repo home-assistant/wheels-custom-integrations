@@ -1,0 +1,6 @@
+{
+  "name": "Damda Weather",
+  "owner": ["@GuGu927"],
+  "manifest": "https://raw.githubusercontent.com/GuGu927/damda_weather/main/custom_components/damda_weather/manifest.json",
+  "url": "https://github.com/GuGu927/damda_weather"
+}

@@ -2,5 +2,5 @@
   "name": "SVT Play",
   "owner": ["@lindell"],
   "manifest": "https://raw.githubusercontent.com/lindell/home-assistant-svt-play/master/custom_components/svt_play/manifest.json",
-  "url": "https://raw.githubusercontent.com/lindell/home-assistant-svt-play"
+  "url": "https://github.com/lindell/home-assistant-svt-play"
 }

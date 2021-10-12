@@ -1,0 +1,6 @@
+{
+    "name": "toshiba_ac",
+    "owner": ["@h4de5"],
+    "manifest": "https://raw.githubusercontent.com/h4de5/home-assistant-toshiba_ac/main/custom_components/toshiba_ac/manifest.json",
+    "url": "https://github.com/h4de5/home-assistant-toshiba_ac"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Aria2",
+  "owner": ["@tdeblock"],
+  "manifest": "https://raw.githubusercontent.com/deblockt/hass-aria2/main/custom_components/aria2/manifest.json",
+  "url": "https://github.com/deblockt/hass-aria2"
+}

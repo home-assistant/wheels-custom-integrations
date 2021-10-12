@@ -1,0 +1,6 @@
+{
+    "name": "Ecowater Softener",
+    "owner": ["@barleybobs"],
+    "manifest": "https://raw.githubusercontent.com/barleybobs/homeassistant-ecowater-softener/main/custom_components/ecowater_softener/manifest.json",
+    "url": "https://github.com/barleybobs/homeassistant-ecowater-softener/"
+}

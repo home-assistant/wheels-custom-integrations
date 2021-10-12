@@ -1,0 +1,6 @@
+{
+    "name": "Thermal Vision",
+    "owner": ["@TheRealWaldo"],
+    "manifest": "https://raw.githubusercontent.com/TheRealWaldo/thermal/main/custom_components/thermal_vision/manifest.json",
+    "url": "https://github.com/TheRealWaldo/thermal"
+}

@@ -1,6 +1,6 @@
 {
   "name": "skyq",
-  "owner": ["rogerselwyn"],
+  "owner": ["@rogerselwyn"],
   "manifest": "https://raw.githubusercontent.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer/master/custom_components/skyq/manifest.json",
   "url": "https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer"
 }

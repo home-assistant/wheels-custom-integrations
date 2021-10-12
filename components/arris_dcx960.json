@@ -1,0 +1,6 @@
+{
+  "name": "Arris DCX960",
+  "owner": ["@Sholofly"],
+  "manifest": "https://raw.githubusercontent.com/Sholofly/arrisdcx960/dev/custom_components/arris_dcx960/manifest.json",
+  "url": "https://github.com/Sholofly/arrisdcx960"
+}

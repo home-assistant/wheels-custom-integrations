@@ -13,6 +13,7 @@
         "git",
         "glib-dev",
         "gmp-dev",
+        "libdrm-dev",
         "libexecinfo-dev",
         "libffi-dev",
         "libjpeg-turbo-dev",

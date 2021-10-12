@@ -1,0 +1,6 @@
+{
+  "name": "uvFive MIoT device",
+  "owner": ["@vaughan-zeng"],
+  "manifest": "https://raw.githubusercontent.com/vaughan-zeng/uvfive_miot/master/custom_components/uvfive/manifest.json",
+  "url": "https://github.com/vaughan-zeng/uvfive_miot"
+}

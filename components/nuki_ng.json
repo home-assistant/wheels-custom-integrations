@@ -1,0 +1,6 @@
+{
+  "name": "Nuki Lock",
+  "owner": ["@kvj"],
+  "manifest": "https://raw.githubusercontent.com/kvj/hass_nuki_ng/main/custom_components/nuki_ng/manifest.json",
+  "url": "https://github.com/kvj/hass_nuki_ng"
+}

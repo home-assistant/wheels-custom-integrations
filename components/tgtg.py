@@ -1,0 +1,6 @@
+{
+  "name": "TooGoodToGo",
+  "owner": ["@chouffy"],
+  "manifest": "https://raw.githubusercontent.com/Chouffy/home_assistant_tgtg/main/custom_components/tgtg/manifest.json",
+  "url": "https://github.com/Chouffy/home_assistant_tgtg"
+}

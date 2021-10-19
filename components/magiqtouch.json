@@ -1,0 +1,6 @@
+{
+    "name": "Seeley Magiqtouch",
+    "owner": ["@calmelb"],
+    "manifest": "https://raw.githubusercontent.com/calmelb/ha-magiqtouch/main/custom_components/magiqtouch/manifest.json",
+    "url": "https://github.com/calmelb/ha-magiqtouch"
+  }

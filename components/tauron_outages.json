@@ -1,0 +1,6 @@
+{
+  "name": "Tauron Outages",
+  "owner": ["@kubawolanin"],
+  "manifest": "https://raw.githubusercontent.com/kubawolanin/ha-tauron-outages/master/custom_components/tauron_outages/manifest.json",
+  "url": "https://github.com/kubawolanin/ha-tauron-outages"
+}

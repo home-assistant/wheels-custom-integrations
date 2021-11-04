@@ -1,0 +1,6 @@
+  {
+  "name": "Legrand Home+ Control",
+  "owner": ["@vlebourl"],
+  "manifest": "https://raw.githubusercontent.com/vlebourl/custom_homepluscontrol/main/custom_components/custom_homepluscontrol/manifest.json",
+  "url": "ttps://github.com/vlebourl/custom_homepluscontrol"
+}

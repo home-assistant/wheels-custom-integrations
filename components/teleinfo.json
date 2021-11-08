@@ -1,0 +1,6 @@
+{
+  "name": "teleinfo",
+  "owner": ["@sberthelot"],
+  "manifest": "https://raw.githubusercontent.com/sberthelot/teleinfo-home-assistant/main/custom_components/teleinfo/manifest.json",
+  "url": "https://github.com/sberthelot/teleinfo-home-assistant"
+}

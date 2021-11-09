@@ -1,6 +1,6 @@
 {
-  "name": "Deebot for Home Assistant",
-  "owner": ["@And3rsL"],
-  "manifest": "https://raw.githubusercontent.com/And3rsL/Deebot-for-Home-Assistant/master/custom_components/deebot/manifest.json",
-  "url": "https://github.com/And3rsL/Deebot-for-Home-Assistant"
+  "name": "Deebot 4 Home Assistant",
+  "owner": ["@DeebotUniverse", "@edenhaus"],
+  "manifest": "https://raw.githubusercontent.com/DeebotUniverse/Deebot-4-Home-Assistant/main/custom_components/deebot/manifest.json",
+  "url": "https://github.com/DeebotUniverse/Deebot-4-Home-Assistant"
 }

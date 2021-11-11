@@ -1,0 +1,8 @@
+{
+    "name": "Formula Pro Advanced WiFi",
+    "owner": [
+        "@joncar"
+    ],
+    "manifest": "https://raw.githubusercontent.com/joncar/ha-fpa/main/manifest.json",
+    "url": "https://github.com/joncar/ha-fpa"
+}

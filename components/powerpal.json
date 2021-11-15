@@ -1,0 +1,6 @@
+{
+  "name": "powerpal",
+  "owner": ["@mindmelting"],
+  "manifest": "https://raw.githubusercontent.com/mindmelting/hass-powerpal/main/custom_components/powerpal/manifest.json",
+  "url": "https://github.com/mindmelting/hass-powerpal"
+}

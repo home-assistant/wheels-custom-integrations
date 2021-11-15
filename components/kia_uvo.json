@@ -1,0 +1,6 @@
+{
+    "name": "Kia UVO / Hyundai Bluelink",
+    "owner": ["@fuatakgun"],
+    "manifest": "https://raw.githubusercontent.com/fuatakgun/kia_uvo/master/custom_components/kia_uvo/manifest.json",
+    "url": "https://github.com/fuatakgun/kia_uvo"
+}

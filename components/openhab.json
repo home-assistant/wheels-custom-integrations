@@ -1,0 +1,6 @@
+{
+  "name": "openHAB",
+  "owner": ["@kubawolanin"],
+  "manifest": "https://raw.githubusercontent.com/kubawolanin/ha-openhab/master/custom_components/openhab/manifest.json",
+  "url": "https://github.com/kubawolanin/ha-openhab"
+}

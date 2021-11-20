@@ -1,0 +1,6 @@
+{
+  "name": "nea_sg_weather",
+  "owner": ["@liangleslie"],
+  "manifest": "https://raw.githubusercontent.com/liangleslie/nea_sg_weather/main/custom_components/nea_sg_weather/manifest.json",
+  "url": "https://github.com/liangleslie/nea_sg_weather"
+}

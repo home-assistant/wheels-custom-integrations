@@ -1,0 +1,6 @@
+{
+    "name": "SENZ WiFi",
+    "owner": ["@astrandb"],
+    "manifest": "https://raw.githubusercontent.com/astrandb/senz_hass/main/custom_components/senz/manifest.json",
+    "url": "https://github.com/astrandb/senz_hass"
+}

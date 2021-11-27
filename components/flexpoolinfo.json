@@ -1,0 +1,6 @@
+{
+  "name": "FlexpoolInfo",
+  "owner": ["@thomasrior"],
+  "manifest": "https://raw.githubusercontent.com/ThomasPrior/FlexpoolInfo/main/custom_components/flexpoolinfo/manifest.json",
+  "url": "https://github.com/ThomasPrior/FlexpoolInfo"
+}

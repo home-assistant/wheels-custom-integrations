@@ -1,0 +1,6 @@
+{
+  "name": "Thermia Genesis",
+  "owner": ["@CJNE"],
+  "manifest": "https://raw.githubusercontent.com/CJNE/thermiagenesis/master/custom_components/thermiagenesis/manifest.json",
+  "url": "https://github.com/CJNE/thermiagenesis"
+}

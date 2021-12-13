@@ -1,0 +1,6 @@
+{
+    "name": "Thermal Comfort",
+    "owner": ["@dolezsa"],
+    "manifest": "https://raw.githubusercontent.com/dolezsa/thermal_comfort/master/custom_components/thermal_comfort/manifest.json",
+    "url": "https://github.com/dolezsa/thermal_comfort"
+}

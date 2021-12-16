@@ -1,0 +1,6 @@
+{
+  "name": "Kia/Hyundai",
+  "owner": ["@dahlb"],
+  "manifest": "https://raw.githubusercontent.com/dahlb/ha_kia_hyundai/master/custom_components/ha_kia_hyundai/manifest.json",
+  "url": "https://github.com/dahlb/ha_kia_hyundai"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "NYC 311 Public Services Calendar",
+    "owner": ["@elahd"],
+    "manifest": "https://raw.githubusercontent.com/elahd/ha-nyc311/main/custom_components/nyc311/manifest.json",
+    "url": "https://github.com/elahd/ha-nyc311"
+  }

@@ -1,0 +1,6 @@
+{
+    "name": "Polish PSE Network Grid",
+    "owner": ["@mobrembski"],
+    "manifest": "https://raw.githubusercontent.com/mobrembski/ha-pse-grid-stat/main/manifest.json",
+    "url": "https://github.com/mobrembski/ha-pse-grid-stat"
+}

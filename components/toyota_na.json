@@ -1,0 +1,6 @@
+{
+  "name": "Toyota (North America)",
+  "owner": ["@widewing"],
+  "manifest": "https://raw.githubusercontent.com/widewing/ha-toyota-na/master/custom_components/toyota_na/manifest.json",
+  "url": "https://github.com/widewing/ha-toyota-na/"
+}

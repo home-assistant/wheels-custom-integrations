@@ -1,0 +1,6 @@
+{
+    "name": "Auto Areas",
+    "owner": ["@c-st"],
+    "manifest": "https://raw.githubusercontent.com/c-st/auto_areas/main/custom_components/auto_areas/manifest.json",
+    "url": "https://github.com/c-st/auto_areas"
+}

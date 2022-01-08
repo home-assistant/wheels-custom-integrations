@@ -1,0 +1,8 @@
+{
+    "name": "Samsung MDC Display",
+    "owner": [
+        "@matthijs2704"
+    ],
+    "manifest": "https://raw.githubusercontent.com/matthijs2704/homeassistant-samsungmdc/main/custom_components/samsungmdc/manifest.json",
+    "url": "https://github.com/matthijs2704/homeassistant-samsungmdc"
+}

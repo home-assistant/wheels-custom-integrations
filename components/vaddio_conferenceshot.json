@@ -1,0 +1,6 @@
+{
+  "name": "Vaddio Conferenceshot",
+  "owner": ["@rohankapoorcom"],
+  "manifest": "https://raw.githubusercontent.com/rohankapoorcom/vaddio_conferenceshot/master/custom_components/vaddio_conferenceshot/manifest.json",
+  "url": "https://github.com/rohankapoorcom/vaddio_conferenceshot"
+}

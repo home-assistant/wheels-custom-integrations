@@ -1,0 +1,6 @@
+{
+    "manifest": "https://raw.githubusercontent.com/ZacheryThomas/homeassistant-smartrent/main/custom_components/smartrent/manifest.json",
+    "name": "SmartRent",
+    "owner": ["@zacherythomas"],
+    "url": "https://github.com/ZacheryThomas/homeassistant-smartrent"
+}

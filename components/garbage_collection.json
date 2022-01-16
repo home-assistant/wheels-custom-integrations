@@ -1,0 +1,6 @@
+{
+    "name": "Garbage Collection",
+    "owner": ["@bruxy70"],
+    "manifest": "https://github.com/bruxy70/Garbage-Collection/blob/development/custom_components/garbage_collection/manifest.json",
+    "url": "https://github.com/bruxy70/Garbage-Collection"
+}

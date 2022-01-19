@@ -1,0 +1,6 @@
+{
+  "name": "Rental Control",
+  "owner": ["@tykeal"],
+  "manifest": "https://raw.githubusercontent.com/tykeal/homeassistant-rental-control/main/custom_components/rental_control/manifest.json",
+  "url": "https://github.com/tykeal/homeassistant-rental-control"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "TP-Link Deco",
+    "owner": ["@amosyuen"],
+    "manifest": "https://raw.githubusercontent.com/amosyuen/ha-tplink-deco/master/custom_components/tplink_deco/manifest.json",
+    "url": "https://github.com/amosyuen/ha-tplink-deco"
+}

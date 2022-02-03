@@ -1,0 +1,6 @@
+{
+    "name": "enasolar",
+    "owner": ["@geustace"],
+    "manifest": "https://raw.githubusercontent.com/geustace/home-assistant-enasolar/main/custom_components/enasolar/manifest.json"
+    "url": "https://github.com/geustace/home-assistant-enasolar/"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "mypv",
+    "owner": ["@zaubererty"],
+    "manifest": "https://github.com/zaubererty/homeassistant-4heat/custom_components/4heat/manifest.json",
+    "url": "https://github.com/zaubererty/homeassistant-4heat"
+}

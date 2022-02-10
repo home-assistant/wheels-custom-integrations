@@ -1,0 +1,7 @@
+
+{
+    "name": "mypv",
+    "owner": ["@zaubererty"],
+    "manifest": "https://github.com/zaubererty/homeassistant-mvpv/custom_components/mypv/manifest.json",
+    "url": "https://github.com/zaubererty/homeassistant-mvpv"
+  }

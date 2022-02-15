@@ -1,6 +1,6 @@
 {
     "name": "Holidays",
     "owner": ["@bruxy70"],
-    "manifest": "https://raw.githubusercontent.com/bruxy70/Holidays/development/custom_components/holidays/manifest.json",
+    "manifest": "https://raw.githubusercontent.com/bruxy70/Holidays/master/custom_components/holidays/manifest.json",
     "url": "https://github.com/bruxy70/Holidays"
 }

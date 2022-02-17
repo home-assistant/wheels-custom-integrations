@@ -1,0 +1,6 @@
+{
+  "name": "swemail",
+  "owner": ["@DSorlov"],
+  "manifest": "https://raw.githubusercontent.com/DSorlov/swemail/master/custom_components/swemail/manifest.json",
+  "url": "https://github.com/DSorlov/swemail"
+}

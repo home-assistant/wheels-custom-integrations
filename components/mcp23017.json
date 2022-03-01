@@ -1,0 +1,6 @@
+{
+    "name": "mcp23017",
+    "owner": ["@jpcornil-git"],
+    "manifest": "https://github.com/jpcornil-git/HA-mcp23017/blob/main/custom_components/mcp23017/manifest.json",
+    "url": "https://github.com/jpcornil-git/HA-mcp23017"
+}

@@ -17,7 +17,7 @@ jobs:
       apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
 
       - name: Generate requirements.txt
         run: |
@@ -73,7 +73,7 @@ jobs:
 
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
 
       - name: Download requirements.txt
         uses: actions/download-artifact@v2

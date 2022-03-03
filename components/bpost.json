@@ -1,6 +1,0 @@
-{
-    "name": "bpost",
-    "owner": ["@sdebruyn"],
-    "manifest": "https://raw.githubusercontent.com/sdebruyn/homeassistant-bpost-integration/main/custom_components/bpost/manifest.json",
-    "url": "https://github.com/sdebruyn/homeassistant-bpost-integration"
-}

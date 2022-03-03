@@ -1,6 +1,0 @@
-{
-  "name": "weight_gurus",
-  "owner": ["@jcgoette"],
-  "manifest": "https://raw.githubusercontent.com/jcgoette/weight_gurus_homeassistant/master/custom_components/weight_gurus/manifest.json",
-  "url": "https://github.com/jcgoette/weight_gurus_homeassistant"
-}

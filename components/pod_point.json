@@ -1,0 +1,6 @@
+{
+  "name": "Pod Point",
+  "owner": ["@mattrayner"],
+  "manifest": "https://raw.githubusercontent.com/mattrayner/pod-point-home-assistant-component/master/custom_components/pod_point/manifest.json",
+  "url": "https://github.com/mattrayner/pod-point-home-assistant-component"
+}

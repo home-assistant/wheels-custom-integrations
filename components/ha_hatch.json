@@ -1,0 +1,6 @@
+{
+  "name": "ha_hatch",
+  "owner": ["@dahlb"],
+  "manifest": "https://raw.githubusercontent.com/dahlb/ha_hatch/master/custom_components/ha_hatch/manifest.json",
+  "url": "https://github.com/dahlb/ha_hatch"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Rinnai Touch",
+  "owner": ["@funtastix"],
+  "manifest": "https://raw.githubusercontent.com/funtastix/rinnaitouch/master/manifest.json",
+  "url": "https://github.com/funtastix/rinnaitouch"
+}

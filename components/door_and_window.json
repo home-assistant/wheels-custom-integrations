@@ -1,0 +1,6 @@
+{
+  "name": "Door and window",
+  "owner": ["@laszlojakab"],
+  "manifest": "https://raw.githubusercontent.com/laszlojakab/homeassistant-door-and-window/master/custom_components/door_and_window/manifest.json",
+  "url": "https://github.com/laszlojakab/homeassistant-door-and-window"
+}

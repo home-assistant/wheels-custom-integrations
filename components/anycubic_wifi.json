@@ -1,0 +1,6 @@
+{
+    "name": "Anycubic 3D Printer",
+    "owner": ["@adamoutler"],
+    "manifest": "https://raw.githubusercontent.com/adamoutler/anycubic-python/master/custom_components/anycubic_wifi/manifest.json",
+    "url": "https://github.com/adamoutler/anycubic-python"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MiWiFi",
+  "owner": ["@dmamontov"],
+  "manifest": "https://raw.githubusercontent.com/dmamontov/hass-miwifi/main/custom_components/miwifi/manifest.json",
+  "url": "https://github.com/dmamontov/hass-miwifi"
+}

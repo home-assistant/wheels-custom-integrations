@@ -1,0 +1,6 @@
+{
+  "name": "Wevolor controller for Levolor blinds",
+  "owner": ["@timstallmann"],
+  "manifest": "https://raw.githubusercontent.com/timstallmann/home-assistant-wevolor/main/custom_components/wevolor/manifest.json",
+  "url": "https://github.com/timstallmann/home-assistant-wevolor"
+}

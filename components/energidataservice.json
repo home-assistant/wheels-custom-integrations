@@ -1,0 +1,6 @@
+{
+  "name": "Energi Data Service",
+  "owner": ["@mtrab"],
+  "manifest": "https://raw.githubusercontent.com/MTrab/energidataservice/main/custom_components/energidataservice/manifest.json",
+  "url": "https://github.com/MTrab/energidataservice"
+}

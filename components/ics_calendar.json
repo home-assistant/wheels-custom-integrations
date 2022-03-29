@@ -1,0 +1,6 @@
+{
+  "name": "ics_calendar",
+  "owner": ["@franc6"],
+  "manifest": "https://raw.githubusercontent.com/franc6/ics_calendar/master/custom_components/ics_calendar/manifest.json",
+  "url": "https://github.com/franc6/ics_calendar"
+}

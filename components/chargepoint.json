@@ -1,0 +1,6 @@
+{
+    "name": "ChargePoint",
+    "owner": ["@mbillow"],
+    "manifest": "https://raw.githubusercontent.com/mbillow/ha-chargepoint/main/custom_components/ha-chargepoint/manifest.json",
+    "url": "https://github.com/mbillow/ha-chargepoint"
+}

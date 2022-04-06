@@ -1,0 +1,6 @@
+{
+  "name": "La Crosse View",
+  "owner": ["@regulad"],
+  "manifest": "https://raw.githubusercontent.com/regulad/hass-lacrosseview/master/custom_components/lacrosseview/manifest.json",
+  "url": "https://github.com/regulad/hass-lacrosseview"
+}

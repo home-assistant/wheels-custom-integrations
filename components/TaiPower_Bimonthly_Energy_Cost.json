@@ -1,0 +1,6 @@
+{
+  "name": "TaiPower Bimonthly Energy Cost",
+  "owner": ["@cnstudio"],
+  "manifest": "https://github.com/cnstudio/Taipower-Bimonthly-Energy-Cost-homeassistant/blob/main/custom_components/taipower_bimonthly_cost/manifest.json",
+  "url": "https://github.com/cnstudio/Taipower-Bimonthly-Energy-Cost-homeassistant"
+}

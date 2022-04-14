@@ -1,0 +1,6 @@
+{
+  "name": "Lektrico Charging Station",
+  "owner": ["@mtarjoianu"],
+  "manifest": "https://github.com/mtarjoianu/ha_lektrico/blob/d2324b208b722f3b5637365db50c7378f012937d/custom_components/lektrico/manifest.json",
+  "url": "https://github.com/mtarjoianu/ha_lektrico"
+}

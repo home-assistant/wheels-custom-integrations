@@ -1,0 +1,6 @@
+{
+  "name": "rpi_gpio",
+  "owner": ["@thecode"],
+  "manifest": "https://github.com/thecode/ha-rpi_gpio/blob/main/custom_components/rpi_gpio/manifest.json",
+  "url": "https://github.com/thecode/ha-rpi_gpio"
+}

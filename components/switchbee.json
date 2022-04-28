@@ -1,0 +1,6 @@
+{
+  "name": "switchbee",
+  "owner": ["@jafar-atili"],
+  "manifest": "https://raw.githubusercontent.com/jafar-atili/home-assistant-switchbee/main/switchbee/manifest.json",
+  "url": "https://github.com/jafar-atili/home-assistant-switchbee"
+}

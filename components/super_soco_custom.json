@@ -1,0 +1,6 @@
+{
+  "name": "Super Soco Custom",
+  "owner": ["@drakhart"],
+  "manifest": "https://raw.githubusercontent.com/drakhart/ha-super-soco-custom/master/custom_components/super_soco_custom/manifest.json",
+  "url": "https://github.com/drakhart/ha-super-soco-custom"
+}

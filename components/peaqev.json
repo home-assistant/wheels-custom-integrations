@@ -1,0 +1,6 @@
+{
+  "name": "Peaq ev",
+  "owner": ["@elden1337"],
+  "manifest": "https://raw.githubusercontent.com/elden1337/hass-peaq/main/custom_components/peaqev/manifest.json",
+  "url": "https://github.com/elden1337/hass-peaq"
+}

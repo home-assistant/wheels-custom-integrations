@@ -1,6 +1,6 @@
 {
   "name": "SolarEdge Modbus Multi-Inverter",
   "owner": ["@WillCodeForCats"],
-  "manifest": "https://raw.githubusercontent.com/WillCodeForCats/solaredge-modbus-multi/main/custom_components/solaredge_modbus_multi/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/WillCodeForCats/solaredge-modbus-multi/rename/custom_components/solaredge_modbus_multi/manifest.json",
   "url": "https://github.com/WillCodeForCats/solaredge-modbus-multi"
 }

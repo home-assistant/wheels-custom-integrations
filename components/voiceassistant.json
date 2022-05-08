@@ -1,0 +1,7 @@
+{
+  "name": "Voice Assistant",
+  "owner": ["@vadimtitov"],
+  "manifest": "https://raw.githubusercontent.com/AlexxIT/SonoffLAN/master/custom_components/sonoff/manifest.json",
+  "manifest": "https://raw.githubusercontent.com/voice-assistant-org/voiceassistant-for-homeassistant/master/custom_components/voiceassistant/manifest.json"
+  "url": "https://github.com/voice-assistant-org/voiceassistant-for-homeassistant"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Uponor Smatrix Wave PLUS Smart Home Gateway, R-167",
+  "owner": ["@almirdelkic", "@dave-code-ruiz", "@LordMike"],
+  "manifest": "https://raw.githubusercontent.com/dave-code-ruiz/uhomeuponor/master/custom_components/uhomeuponor/manifest.json",
+  "url": "https://github.com/dave-code-ruiz/uhomeuponor"
+}

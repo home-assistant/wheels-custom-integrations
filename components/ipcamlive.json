@@ -1,0 +1,6 @@
+{
+  "name": "IPCamLive",
+  "owner": ["@ddanssaert"],
+  "manifest": "https://raw.githubusercontent.com/ddanssaert/home-assistant-ipcamlive/main/custom_components/ipcamlive/manifest.json",
+  "url": "https://github.com/ddanssaert/home-assistant-ipcamlive"
+}

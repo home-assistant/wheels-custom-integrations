@@ -1,0 +1,6 @@
+{
+  "name": "Tekmar Gateway 482",
+  "owner": ["@WillCodeForCats"],
+  "manifest": "https://raw.githubusercontent.com/WillCodeForCats/tekmar-482/main/custom_components/tekmar_482/manifest.json",
+  "url": "https://github.com/WillCodeForCats/tekmar-482"
+}

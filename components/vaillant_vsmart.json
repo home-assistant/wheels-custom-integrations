@@ -1,0 +1,6 @@
+{
+    "name": "Vaillant vSMART",
+    "owner": ["@MislavMandaric"],
+    "manifest": "https://raw.githubusercontent.com/MislavMandaric/home-assistant-vaillant-vsmart/master/custom_components/vaillant_vsmart/manifest.json",
+    "url": "https://github.com/MislavMandaric/home-assistant-vaillant-vsmart"
+  }

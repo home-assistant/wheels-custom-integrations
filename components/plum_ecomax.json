@@ -1,0 +1,6 @@
+{
+  "name": "Plum ecoMAX",
+  "owner": ["@denpamusic"],
+  "manifest": "https://raw.githubusercontent.com/denpamusic/homeassistant-plum-ecomax/main/custom_components/plum_ecomax/manifest.json",
+  "url": "https://github.com/denpamusic/homeassistant-plum-ecomax"
+}

@@ -71,14 +71,14 @@ jobs:
 
       - name: Upload requirements.txt
         if: steps.requirements.outputs.exist == 'true'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: requirements
           path: ./requirements.txt
 
       - name: Upload constraints.txt
         if: steps.requirements.outputs.exist == 'true'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: constraints
           path: ./constraints.txt

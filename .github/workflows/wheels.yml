@@ -37,13 +37,13 @@ jobs:
         run: wget -O constraints.txt https://raw.githubusercontent.com/home-assistant/core/dev/homeassistant/package_constraints.txt
 
       - name: Upload requirements.txt
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: requirements
           path: ./requirements.txt
 
       - name: Upload constraints.txt
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: constraints
           path: ./constraints.txt

@@ -1,0 +1,6 @@
+{
+  "name": "Escea Fires",
+  "owner": ["@snikch"],
+  "manifest": "https://raw.githubusercontent.com/snikch/climate.escea/master/custom_components/escea/manifest.json",
+  "url": "https://github.com/snikch/climate.escea"
+}

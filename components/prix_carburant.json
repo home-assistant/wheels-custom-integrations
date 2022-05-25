@@ -1,0 +1,6 @@
+{
+    "name": "Prix Carburant",
+    "owner": ["@Aohzan"],
+    "manifest": "https://raw.githubusercontent.com/Aohzan/hass-prixcarburant/master/custom_components/prix_carburant/manifest.json",
+    "url": "https://github.com/Aohzan/hass-prixcarburant"
+}

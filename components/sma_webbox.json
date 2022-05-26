@@ -1,0 +1,6 @@
+{
+    "name": SMA Webbox",
+    "owner": ["@jpcornil-git"],
+    "manifest": "https://raw.githubusercontent.com/jpcornil-git/HA-sma/master/custom_components/sma_webbox/manifest.json",
+    "url": "https://github.com/jpcornil-git/HA-sma"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Yamaha (YNCA)",
+    "owner": ["@mvdwetering"],
+    "manifest": "https://raw.githubusercontent.com/mvdwetering/yamaha_ynca/master/custom_components/yamaha_ynca/manifest.json",
+    "url": "https://github.com/mvdwetering/yamaha_ynca"
+}

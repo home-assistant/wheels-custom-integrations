@@ -17,7 +17,7 @@ jobs:
       apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
 
       - name: Generate requirements.txt
         run: |
@@ -37,13 +37,13 @@ jobs:
         run: wget -O constraints.txt https://raw.githubusercontent.com/home-assistant/core/dev/homeassistant/package_constraints.txt
 
       - name: Upload requirements.txt
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: requirements
           path: ./requirements.txt
 
       - name: Upload constraints.txt
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: constraints
           path: ./constraints.txt
@@ -73,7 +73,7 @@ jobs:
 
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
 
       - name: Download requirements.txt
         uses: actions/download-artifact@v2

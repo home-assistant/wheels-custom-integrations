@@ -1,0 +1,7 @@
+{
+    "name": "Omnilogic",
+    "owner": ["@djtimca"],
+    "manifest": "https://raw.githubusercontent.com/djtimca/haomnilogic/master/custom_components/omnilogic/manifest.json",
+    "url": "https://github.com/djtimca/haomnilogic"
+  }
+  

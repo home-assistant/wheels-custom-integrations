@@ -1,0 +1,6 @@
+{
+  "name": "Aerogarden",
+  "owner": ["@jacobdonenfeld"],
+  "manifest": "https://github.com/jacobdonenfeld/homeassistant-aerogarden/blob/master/custom_components/aerogarden/manifest.json",
+  "url": "https://github.com/jacobdonenfeld/homeassistant-aerogarden"
+}

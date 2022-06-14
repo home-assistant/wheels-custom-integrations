@@ -1,0 +1,6 @@
+{
+  "name": "Senertec Energy Systems",
+  "owner": ["@Kleinrotti"],
+  "manifest": "https://raw.githubusercontent.com/Kleinrotti/hass-senertec/main/custom_components/senertec/manifest.json",
+  "url": "https://github.com/Kleinrotti/hass-senertec"
+}

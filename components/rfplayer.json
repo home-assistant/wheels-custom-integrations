@@ -1,0 +1,6 @@
+{
+  "name": "GCE RFPlayer",
+  "owner": ["@Aohzan", "@gce-electronics"],
+  "manifest": "https://raw.githubusercontent.com/gce-electronics/HA_RFPlayer/main/custom_components/rfplayer/manifest.json",
+  "url": "https://github.com/gce-electronics/HA_RFPlayer"
+}

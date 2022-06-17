@@ -1,0 +1,6 @@
+{
+    "name": "eStudna",
+    "owner": ["@nijel"],
+    "manifest": "https://raw.githubusercontent.com/nijel/hass-estudna/main/custom_components/estudna/manifest.json",
+    "url": "https://github.com/nijel/hass-estudna"
+}

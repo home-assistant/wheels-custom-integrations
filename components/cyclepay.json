@@ -1,0 +1,6 @@
+{
+  "name": "CyclePay",
+  "owner": ["@elahd"],
+  "manifest": "https://raw.githubusercontent.com/elahd/ha-cyclepay/main/custom_components/cyclepay/manifest.json",
+  "url": "https://github.com/elahd/ha-cyclepay"
+}

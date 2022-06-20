@@ -1,6 +1,0 @@
-{
-  "name": "HomeWizard Energy",
-  "owner": ["@DCSBL", "@unsigus"],
-  "manifest": "https://raw.githubusercontent.com/DCSBL/ha-homewizard-energy/main/custom_components/homewizard_energy/manifest.json",
-  "url": "https://github.com/DCSBL/ha-homewizard-energy"
-}

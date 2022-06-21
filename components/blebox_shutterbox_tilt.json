@@ -1,0 +1,6 @@
+{
+  "name": "blebox_shutterbox_tilt",
+  "owner": ["@andrzejchm"],
+  "manifest": "https://raw.githubusercontent.com/andrzejchm/blebox_shutterbox_tilt/master/custom_components/blebox_shutterbox_tilt/manifest.json",
+  "url": "https://github.com/andrzejchm/blebox_shutterbox_tilt"
+}

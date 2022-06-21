@@ -1,0 +1,7 @@
+{
+  "name": "Dremel 3D Printer",
+  "owner": ["@godely"],
+  "manifest": "https://raw.githubusercontent.com/godely/ha-dremel-3d-printer/master/custom_components/dremel_3d_printer/manifest.json",
+  "url": "https://github.com/godely/ha-dremel-3d-printer"
+}
+

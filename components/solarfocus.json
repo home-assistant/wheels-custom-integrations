@@ -1,0 +1,6 @@
+{
+    "name": "Solarfocus eco manager-touch",
+    "owner": ["@lavermanjj"],
+    "manifest": "https://raw.githubusercontent.com/LavermanJJ/home-assistant-solarfocus/master/custom_components/solarfocus/manifest.json",
+    "url": "https://github.com/LavermanJJ/home-assistant-solarfocus"
+}

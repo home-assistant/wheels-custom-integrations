@@ -1,0 +1,6 @@
+{
+  "name": "nhc2",
+  "owner": ["@filipvh"],
+  "manifest": "https://raw.githubusercontent.com/filipvh/hass-nhc2/master/custom_components/nhc2/manifest.json",
+  "url": "https://github.com/filipvh/hass-nhc2"
+}

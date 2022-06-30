@@ -1,0 +1,6 @@
+{
+  "name": "Avanza Stock",
+  "owner": ["@claha"],
+  "manifest": "https://raw.githubusercontent.com/custom-components/sensor.avanza_stock/master/custom_components/avanza_stock/manifest.json",
+  "url": "https://github.com/custom-components/sensor.avanza_stock"
+}

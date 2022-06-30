@@ -1,0 +1,6 @@
+{
+  "name": "Satellite Tracker (N2YO)",
+  "owner": ["@djtimca"],
+  "manifest": "https://raw.githubusercontent.com/djtimca/hasatellitetracker/main/custom_components/satellitetracker/manifest.json",
+  "url": "https://github.com/djtimca/satellitetracker"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "securifi",
+  "owner": ["@9rpp"],
+  "manifest": "https://raw.githubusercontent.com/9rpp/securifi/master/custom_components/securifi/manifest.json",
+  "url": "https://github.com/9rpp/securifi"
+}

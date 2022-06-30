@@ -1,0 +1,6 @@
+{
+    "name": "Ecowitt Weather Station",
+    "owner": ["@garbled1"],
+    "manifest": "https://raw.githubusercontent.com/garbled1/homeassistant_ecowitt/master/custom_components/ecowitt/manifest.json",
+    "url": "https://github.com/garbled1/homeassistant_ecowitt"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "edge_tts",
+  "owner": ["@al-one"],
+  "manifest": "https://raw.githubusercontent.com/hasscc/hass-edge-tts/main/custom_components/edge_tts/manifest.json",
+  "url": "https://github.com/hasscc/hass-edge-tts"
+}

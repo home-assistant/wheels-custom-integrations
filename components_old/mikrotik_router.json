@@ -1,0 +1,6 @@
+{
+  "name": "Mikrotik Router",
+  "owner": ["@tomaae"],
+  "manifest": "https://raw.githubusercontent.com/tomaae/homeassistant-mikrotik_router/master/custom_components/mikrotik_router/manifest.json",
+  "url": "https://github.com/tomaae/homeassistant-mikrotik_router"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "USR-R16",
+    "owner": ["@blindlight"],
+    "manifest": "https://raw.githubusercontent.com/blindlight86/HA_USR-R16/master/custom_components/usr_r16/manifest.json",
+    "url": "https://github.com/blindlight86/HA_USR-R16"
+  }

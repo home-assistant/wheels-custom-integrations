@@ -1,0 +1,8 @@
+{
+    "name": "Rollease Acmeda Automate Pulse Hub v2",
+    "owner": [
+        "@sillyfrog"
+    ],
+    "manifest": "https://raw.githubusercontent.com/sillyfrog/Automate-Pulse-v2/master/custom_components/automate/manifest.json",
+    "url": "https://github.com/sillyfrog/Automate-Pulse-v2"
+}

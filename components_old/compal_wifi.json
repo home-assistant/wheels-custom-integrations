@@ -1,0 +1,8 @@
+{
+    "name": "Compal WiFi",
+    "owner": [
+        "@frimtec"
+    ],
+    "manifest": "https://raw.githubusercontent.com/frimtec/hass-compal-wifi/main/custom_components/compal_wifi/manifest.json",
+    "url": "https://github.com/frimtec/hass-compal-wifi"
+}

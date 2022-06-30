@@ -1,0 +1,6 @@
+{
+  "name": "auroraplus",
+  "owner": ["@LeighCurran"],
+  "manifest": "https://raw.githubusercontent.com/LeighCurran/AuroraPlusHA/main/custom_components/auroraplus/manifest.json",
+  "url": "https://github.com/LeighCurran/AuroraPlusHA"
+}

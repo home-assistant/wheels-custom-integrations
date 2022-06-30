@@ -1,0 +1,6 @@
+{
+  "name": "aarlo",
+  "owner": ["@twrecked"],
+  "manifest": "https://raw.githubusercontent.com/twrecked/hass-aarlo/master/custom_components/aarlo/manifest.json",
+  "url": "https://github.com/twrecked/hass-aarlo"
+}

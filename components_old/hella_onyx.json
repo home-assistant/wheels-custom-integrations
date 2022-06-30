@@ -1,0 +1,6 @@
+{
+  "name": "Hella ONYX.CENTER",
+  "owner": ["@muhlba91"],
+  "manifest": "https://raw.githubusercontent.com/muhlba91/onyx-homeassistant-integration/next/custom_components/hella_onyx/manifest.json",
+  "url": "https://github.com/muhlba91/onyx-homeassistant-integration"
+}

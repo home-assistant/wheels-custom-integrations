@@ -1,0 +1,6 @@
+{
+    "name": "Abalin Name Day API",
+    "owner": ["@viktak"],
+    "manifest": "https://raw.githubusercontent.com/viktak/ha-cc-abalin-nameday/main/custom_components/abalin_nameday/manifest.json",
+    "url": "https://github.com/viktak/ha-cc-abalin-nameday"
+}

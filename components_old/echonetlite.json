@@ -1,0 +1,6 @@
+{
+    "name": "ECHONETLite",
+    "owner": ["@scottyphillips"],
+    "manifest": "https://raw.githubusercontent.com/scottyphillips/echonetlite_homeassistant/master/custom_components/echonetlite/manifest.json",
+    "url": "https://github.com/scottyphillips/echonetlite_homeassistant"
+}

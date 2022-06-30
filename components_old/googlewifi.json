@@ -1,0 +1,6 @@
+{
+  "name": "Google WiFi",
+  "owner": ["@djtimca"],
+  "manifest": "https://raw.githubusercontent.com/djtimca/hagooglewifi/main/custom_components/googlewifi/manifest.json",
+  "url": "https://github.com/djtimca/hagooglewifi"
+}

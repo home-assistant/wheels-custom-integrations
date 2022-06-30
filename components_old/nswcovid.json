@@ -1,0 +1,8 @@
+{
+    "name": "NSW Covid",
+    "owner": [
+        "@troykelly"
+    ],
+    "manifest": "https://raw.githubusercontent.com/troykelly/homeassistant-au-nsw-covid/main/custom_components/nswcovid/manifest.json",
+    "url": "https://github.com/troykelly/homeassistant-au-nsw-covid"
+}

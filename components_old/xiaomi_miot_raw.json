@@ -1,0 +1,6 @@
+{
+  "name": "xiaomi_miot_raw",
+  "owner": ["@ha0y"],
+  "manifest": "https://raw.githubusercontent.com/ha0y/xiaomi_miot_raw/master/custom_components/xiaomi_miot_raw/manifest.json",
+  "url": "https://github.com/ha0y/xiaomi_miot_raw"
+}

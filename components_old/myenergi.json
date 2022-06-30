@@ -1,0 +1,6 @@
+{
+  "name": "myenergi",
+  "owner": ["@CJNE"],
+  "manifest": "https://raw.githubusercontent.com/CJNE/ha-myenergi/main/custom_components/myenergi/manifest.json",
+  "url": "https://github.com/CJNE/ha-myenergi"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "INGV Centro Nazionale Terremoti",
+  "owner": ["@exxamalte", "@caiosweet"],
+  "manifest": "https://raw.githubusercontent.com/caiosweet/Home-Assistant-custom-components-INGV/main/custom_components/ingv_centro_nazionale_terremoti/manifest.json",
+  "url": "https://github.com/caiosweet/Home-Assistant-custom-components-INGV"
+}

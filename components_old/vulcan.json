@@ -1,0 +1,6 @@
+{
+    "name": "Uonet+ Vulcan",
+    "owner": ["@Antoni-Czaplicki"],
+    "manifest": "https://raw.githubusercontent.com/Antoni-Czaplicki/vulcan-for-hassio/master/custom_components/vulcan/manifest.json",
+    "url": "https://github.com/Antoni-Czaplicki/vulcan-for-hassio"
+}

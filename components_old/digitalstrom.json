@@ -1,0 +1,7 @@
+{
+    "name": "digitalstrom",
+    "owner": ["@lociii"],
+    "manifest": "https://raw.githubusercontent.com/lociii/homeassistant-digitalstrom/master/custom_components/digitalstrom/manifest.json",
+    "url": "https://github.com/lociii/homeassistant-digitalstrom"
+  }
+  

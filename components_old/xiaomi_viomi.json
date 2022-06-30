@@ -1,0 +1,6 @@
+{
+    "name": "Xiaomi Viomi",
+    "owner": ["@nergal"],
+    "manifest": "https://raw.githubusercontent.com/nergal/homeassistant-vacuum-viomi/master/custom_components/xiaomi_viomi/manifest.json",
+    "url": "https://github.com/nergal/homeassistant-vacuum-viomi"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FPL Api",
+  "owner": ["@Hojland"],
+  "manifest": "https://raw.githubusercontent.com/Hojland/hass-fpl/main/custom_components/fpl_api/manifest.json",
+  "url": "https://github.com/Hojland/hass-fpl"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "erse",
+  "owner": ["@dgomes"],
+  "manifest": "https://raw.githubusercontent.com/dgomes/ha_erse/master/custom_components/erse/manifest.json",
+  "url": "https://github.com/dgomes/ha_erse"
+}

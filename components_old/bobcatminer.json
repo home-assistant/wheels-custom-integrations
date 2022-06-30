@@ -1,0 +1,6 @@
+{
+  "name": "Bobcat Miner",
+  "owner": ["@ardevd"],
+  "manifest": "https://raw.githubusercontent.com/ardevd/ha-bobcatminer/main/custom_components/bobcatminer/manifest.json",
+  "url": "https://github.com/ardevd/ha-bobcatminer/"
+}

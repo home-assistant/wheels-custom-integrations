@@ -1,0 +1,6 @@
+{
+  "name": "Wavin Sentio",
+  "owner": ["@djerik"],
+  "manifest": "https://raw.githubusercontent.com/djerik/wavinsentio-ha/master/custom_components/wavinsentio/manifest.json",
+  "url": "https://github.com/djerik/wavinsentio-ha"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "nuvo_serial",
+  "owner": ["@sprocket-9"],
+  "manifest": "https://raw.githubusercontent.com/sprocket-9/hacs-nuvo-serial/main/custom_components/nuvo_serial/manifest.json",
+  "url": "https://github.com/sprocket-9/hacs-nuvo-serial"
+}

@@ -18,7 +18,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    name: Lint
+    name: init
     outputs:
       requirements: ${{ steps.requirements.outputs.exist }}
       apk: ${{ steps.apk.outputs.packages }}

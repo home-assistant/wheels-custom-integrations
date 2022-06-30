@@ -68,9 +68,7 @@ jobs:
       - name: Write env-file
         shell: bash
         run: |
-          (
-            # Keep it for future
-          ) > .env_file
+          touch .env_file
 
       - name: Build wheels
         uses: home-assistant/wheels@2022.06.7

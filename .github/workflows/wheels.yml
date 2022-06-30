@@ -11,6 +11,7 @@ on:
       - master
     paths:
       - requirements.txt
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
 

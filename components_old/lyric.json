@@ -1,6 +1,0 @@
-{
-  "name": "lyric",
-  "owner": ["@bramkragten"],
-  "manifest": "https://raw.githubusercontent.com/bramkragten/lyric/master/custom_components/lyric/manifest.json",
-  "url": "https://github.com/bramkragten/lyric"
-}

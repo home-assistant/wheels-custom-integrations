@@ -1,6 +1,0 @@
-{
-    "name": "OpenRGB",
-    "owner": ["@bahorn", "@koying"],
-    "manifest": "https://raw.githubusercontent.com/koying/openrgb_ha/master/custom_components/openrgb/manifest.json",
-    "url": "https://github.com/koying/openrgb_ha"
-}

@@ -1,6 +1,0 @@
-{
-    "name": "RedPocket Mobile",
-    "owner": ["@mbillow"],
-    "manifest": "https://raw.githubusercontent.com/mbillow/ha-redpocket/master/custom_components/ha-redpocket/manifest.json",
-    "url": "https://github.com/mbillow/ha-redpocket"
-}

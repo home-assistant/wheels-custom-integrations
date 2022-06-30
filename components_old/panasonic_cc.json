@@ -1,6 +1,0 @@
-{
-    "name": "Panasonic Comfort Cloud",
-    "owner": ["@sockless-coding"],
-    "manifest": "https://raw.githubusercontent.com/sockless-coding/panasonic_cc/master/custom_components/panasonic_cc/manifest.json",
-    "url": "https://github.com/sockless-coding/panasonic_cc"
-}

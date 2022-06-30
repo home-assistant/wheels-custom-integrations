@@ -1,6 +1,0 @@
-{
-  "name": "PR Custom Component",
-  "owner": ["@alandtse"],
-  "manifest": "https://raw.githubusercontent.com/alandtse/pr_custom_component/main/custom_components/pr_custom_component/manifest.json",
-  "url": "https://github.com/alandtse/pr_custom_component"
-}

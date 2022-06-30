@@ -1,6 +1,0 @@
-{
-  "name": "Eskom Loadshedding Interface",
-  "owner": ["@swartjean"],
-  "manifest": "https://raw.githubusercontent.com/swartjean/ha-eskom-loadshedding/master/custom_components/eskom_loadshedding/manifest.json",
-  "url": "https://github.com/swartjean/ha-eskom-loadshedding"
-}

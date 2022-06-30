@@ -1,6 +1,0 @@
-{
-  "name": "foldingathomecontrol",
-  "owner": ["@eifinger"],
-  "manifest": "https://raw.githubusercontent.com/eifinger/hass-foldingathomecontrol/master/custom_components/foldingathomecontrol/manifest.json",
-  "url": "https://github.com/eifinger/hass-foldingathomecontrol"
-}

@@ -1,6 +1,0 @@
-{
-    "name": "Elasticsearch",
-    "owner": ["@legrego"],
-    "manifest": "https://raw.githubusercontent.com/legrego/homeassistant-elasticsearch/master/custom_components/elasticsearch/manifest.json",
-    "url": "https://github.com/legrego/homeassistant-elasticsearch"
-}

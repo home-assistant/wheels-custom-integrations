@@ -1,6 +1,0 @@
-{
-  "name": "Lobe",
-  "owner": ["@KTibow"],
-  "manifest": "https://raw.githubusercontent.com/KTibow/lobe-home-assistant/main/custom_components/lobe/manifest.json",
-  "url": "https://github.com/KTibow/lobe-home-assistant"
-}

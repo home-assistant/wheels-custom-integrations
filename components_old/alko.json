@@ -1,8 +1,0 @@
-{
-    "name": "alko",
-    "owner": [
-        "@jonkristian"
-    ],
-    "manifest": "https://raw.githubusercontent.com/jonkristian/alko/master/custom_components/alko/manifest.json",
-    "url": "https://github.com/jonkristian/alko"
-}

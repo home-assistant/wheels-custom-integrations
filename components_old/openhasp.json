@@ -1,8 +1,0 @@
-{
-  "name": "openHASP",
-  "owner": [
-    "@dgomes"
-  ],
-  "manifest": "https://raw.githubusercontent.com/HASwitchPlate/openHASP-custom-component/main/custom_components/openhasp/manifest.json",
-  "url": "https://github.com/HASwitchPlate/openHASP-custom-component/"
-}

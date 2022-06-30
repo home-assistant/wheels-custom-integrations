@@ -1,6 +1,0 @@
-{
-  "name": "Proof Dashcam Integration",
-  "owner": ["@dimagoltsman"],
-  "manifest": "https://raw.githubusercontent.com/dimagoltsman/ha-proof-dashcam-integration/main/custom_components/proof/manifest.json",
-  "url": "https://github.com/dimagoltsman/ha-proof-dashcam-integration"
-}

@@ -1,6 +1,0 @@
-{
-    "name": "meteobridge",
-    "owner": ["@briis"],
-    "manifest": "https://raw.githubusercontent.com/briis/meteobridge/master/custom_components/meteobridge/manifest.json",
-    "url": "https://github.com/briis/meteobridge"
-}

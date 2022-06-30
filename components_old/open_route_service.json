@@ -1,6 +1,0 @@
-{
-  "name": "open_route_service",
-  "owner": ["@eifinger"],
-  "manifest": "https://raw.githubusercontent.com/eifinger/open_route_service/master/custom_components/open_route_service/manifest.json",
-  "url": "https://github.com/eifinger/open_route_service"
-}

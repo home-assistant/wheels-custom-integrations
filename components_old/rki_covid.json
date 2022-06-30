@@ -1,6 +1,0 @@
-{
-  "name": "RKI Covid numbers",
-  "owner": ["@thebino"],
-  "manifest": "https://raw.githubusercontent.com/thebino/rki_covid/master/custom_components/rki_covid/manifest.json",
-  "url": "https://github.com/thebino/rki_covid"
-}

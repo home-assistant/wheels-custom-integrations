@@ -1,8 +1,0 @@
-{
-  "name": "sp110e",
-  "owner": [
-    "@roslovets"
-  ],
-  "manifest": "https://raw.githubusercontent.com/roslovets/SP110E-HASS/main/custom_components/sp110e/manifest.json",
-  "url": "https://github.com/roslovets/SP110E-HASS"
-}

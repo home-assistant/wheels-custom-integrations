@@ -1,6 +1,0 @@
-{
-  "name": "Volkswagen WeConnect",
-  "owner": ["@robinostlund"],
-  "manifest": "https://raw.githubusercontent.com/robinostlund/homeassistant-volkswagencarnet/master/custom_components/volkswagencarnet/manifest.json",
-  "url": "https://github.com/robinostlund/homeassistant-volkswagencarnet"
-}

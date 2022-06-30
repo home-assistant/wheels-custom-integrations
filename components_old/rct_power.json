@@ -1,8 +1,0 @@
-{
-  "name": "RCT Power",
-  "owner": [
-    "@weltenwort"
-  ],
-  "manifest": "https://raw.githubusercontent.com/weltenwort/home-assistant-rct-power-integration/main/custom_components/rct_power/manifest.json",
-  "url": "https://github.com/weltenwort/home-assistant-rct-power-integration"
-}

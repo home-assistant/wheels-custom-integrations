@@ -1,6 +1,0 @@
-{
-    "name": "Garmin Connect",
-    "owner": ["@cyberjunky"],
-    "manifest": "https://raw.githubusercontent.com/cyberjunky/home-assistant-garmin_connect/main/custom_components/garmin_connect/manifest.json",
-    "url": "https://github.com/cyberjunky/home-assistant-garmin_connect"
-}

@@ -1,6 +1,0 @@
-{
-    "name": "Omnik Inverter",
-    "owner": ["@klaasnicolaas","@robbinjanssen"],
-    "manifest": "https://raw.githubusercontent.com/robbinjanssen/home-assistant-omnik-inverter/master/custom_components/omnik_inverter/manifest.json",
-    "url": "https://github.com/robbinjanssen/home-assistant-omnik-inverter"
-}

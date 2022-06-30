@@ -1,6 +1,0 @@
-{
-    "name": "OpenWeatherMap All",
-    "owner": ["@viktak"],
-    "manifest": "https://raw.githubusercontent.com/viktak/ha-cc-openweathermap_all/main/custom_components/openweathermap_all/manifest.json",
-    "url": "https://github.com/viktak/ha-cc-openweathermap_all"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "redfin",
-  "owner": ["@dreed47"],
-  "manifest": "https://raw.githubusercontent.com/dreed47/redfin/main/custom_components/redfin/manifest.json",
-  "url": "https://github.com/dreed47/redfin"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Candy Simply-Fi",
-  "owner": ["@ofalvai"],
-  "manifest": "https://raw.githubusercontent.com/ofalvai/home-assistant-candy/main/custom_components/candy/manifest.json",
-  "url": "https://github.com/ofalvai/home-assistant-candy"
-}

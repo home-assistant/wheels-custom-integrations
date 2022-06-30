@@ -1,6 +1,0 @@
-{
-    "name": "Nordigen",
-    "owner": ["@dogmatic69"],
-    "manifest": "https://raw.githubusercontent.com/dogmatic69/nordigen-homeassistant/master/manifest.json",
-    "url": "https://github.com/dogmatic69/nordigen-homeassistant"
-}

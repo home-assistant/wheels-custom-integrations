@@ -1,1 +1,6 @@
+pyamdgpuinfo
+pybase64
+rapidfuzz
 RPi.GPIO
+rrdtool
+smbus_cffi

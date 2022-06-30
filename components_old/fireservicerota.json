@@ -1,6 +1,0 @@
-{
-  "name": "fireservicerota",
-  "owner": ["@cyberjunky"],
-  "manifest": "https://raw.githubusercontent.com/cyberjunky/home-assistant-fireservicerota/master/custom_components/fireservicerota/manifest.json",
-  "url": "https://github.com/cyberjunky/home-assistant-fireservicerota"
-}

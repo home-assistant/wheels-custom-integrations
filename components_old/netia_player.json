@@ -1,6 +1,0 @@
-{
-  "name": "Netia Player",
-  "owner": ["@korasinski"],
-  "manifest": "https://raw.githubusercontent.com/korasinski/ha-netia/master/custom_components/netia_player/manifest.json",
-  "url": "https://github.com/korasinski/ha-netia"
-}

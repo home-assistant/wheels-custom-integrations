@@ -82,3 +82,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
+          apk: "libffi-dev;librrd-dev"

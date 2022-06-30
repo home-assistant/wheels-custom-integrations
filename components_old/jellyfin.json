@@ -1,6 +1,0 @@
-{
-    "name": "Jellyfin",
-    "owner": ["@koying"],
-    "manifest": "https://raw.githubusercontent.com/koying/jellyfin_ha/main/custom_components/jellyfin/manifest.json",
-    "url": "https://github.com/koying/jellyfin_ha"
-}

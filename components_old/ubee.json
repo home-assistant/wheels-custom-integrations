@@ -1,6 +1,0 @@
-{
-  "name": "Ubee Router",
-  "owner": ["@mzdrale", "@kevinhaendel"],
-  "manifest": "https://raw.githubusercontent.com/kevinhaendel/ha-ubee/main/custom_components/ubee/manifest.json",
-  "url": "https://github.com/kevinhaendel/ha-ubee"
-}

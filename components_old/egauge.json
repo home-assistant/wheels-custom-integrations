@@ -1,6 +1,0 @@
-{
-  "name": "eGauge",
-  "owner": ["@neggert"],
-  "manifest": "https://raw.githubusercontent.com/neggert/hass-egauge/master/custom_components/egauge/manifest.json",
-  "url": "https://github.com/neggert/hass-egauge"
-}

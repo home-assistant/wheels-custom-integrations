@@ -9,8 +9,6 @@ on:
   pull_request:
     branches:
       - master
-    paths:
-      - requirements.txt
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"

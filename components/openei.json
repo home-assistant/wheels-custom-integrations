@@ -1,6 +1,0 @@
-{
-    "name": "OpenEI",
-    "owner": ["@firstof9"],
-    "manifest": "https://raw.githubusercontent.com/firstof9/ha-openei/master/custom_components/openei/manifest.json",
-    "url": "https://github.com/firstof9/ha-openei"
-  }

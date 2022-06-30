@@ -1,6 +1,0 @@
-{
-  "name": "Porsche Connect",
-  "owner": ["@CJNE"],
-  "manifest": "https://raw.githubusercontent.com/CJNE/ha-porscheconnect/main/custom_components/porscheconnect/manifest.json",
-  "url": "https://github.com/CJNE/ha-porscheconnect"
-}

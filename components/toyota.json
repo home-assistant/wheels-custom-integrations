@@ -1,6 +1,0 @@
-{
-  "name": "Toyota",
-  "owner": ["@DurgNomis-drol"],
-  "manifest": "https://raw.githubusercontent.com/DurgNomis-drol/ha_toyota/master/custom_components/toyota/manifest.json",
-  "url": "https://github.com/DurgNomis-drol/ha_toyota"
-}

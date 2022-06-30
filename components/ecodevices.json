@@ -1,6 +1,0 @@
-{
-  "name": "GCE Eco-Devices",
-  "owner": ["@Aohzan"],
-  "manifest": "https://raw.githubusercontent.com/Aohzan/ecodevices/master/custom_components/ecodevices/manifest.json",
-  "url": "https://github.com/Aohzan/ecodevices"
-}

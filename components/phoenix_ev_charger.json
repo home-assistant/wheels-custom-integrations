@@ -1,6 +1,0 @@
-{
-  "name": "Phoenix EV Charger",
-  "owner": ["@abrlox"],
-  "manifest": "https://raw.githubusercontent.com/abrlox/home-assistant-phoenix-ev-charger/main/custom_components/phoenix_ev_charger/manifest.json",
-  "url": "https://github.com/abrlox/home-assistant-phoenix-ev-charger"
-}

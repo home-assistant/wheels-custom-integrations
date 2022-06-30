@@ -1,6 +1,0 @@
-{
-  "name": "AMDGPU sensors",
-  "owner": ["@deadended"],
-  "manifest": "https://raw.githubusercontent.com/DeadEnded/ha-pyamdgpuinfo/main/custom_components/ha-pyamdgpuinfo/manifest.json",
-  "url": "https://github.com/DeadEnded/ha-pyamdgpuinfo"
-}

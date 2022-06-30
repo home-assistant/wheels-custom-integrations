@@ -1,6 +1,0 @@
-{
-  "name": "hacs",
-  "owner": ["@travisghansen"],
-  "manifest": "https://raw.githubusercontent.com/travisghansen/hass-pfsense/main/custom_components/pfsense/manifest.json",
-  "url": "https://github.com/travisghansen/hass-pfsense"
-}

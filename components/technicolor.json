@@ -1,6 +1,0 @@
-{
-  "name": "Technicolor Custom Integration",
-  "owner": ["@shaiu"],
-  "manifest": "https://raw.githubusercontent.com/shaiu/technicolor/main/custom_components/technicolor/manifest.json",
-  "url": "https://github.com/shaiu/technicolor"
-}

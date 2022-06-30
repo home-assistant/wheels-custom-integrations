@@ -1,6 +1,0 @@
-{
-  "name": "xiaomi_miio_plug",
-  "owner": ["@syssi"],
-  "manifest": "https://raw.githubusercontent.com/syssi/xiaomiplug/develop/custom_components/xiaomi_miio_plug/manifest.json",
-  "url": "https://github.com/syssi/xiaomiplug"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Powercalc",
-  "owner": ["@bramstroker"],
-  "manifest": "https://raw.githubusercontent.com/bramstroker/homeassistant-powercalc/master/custom_components/powercalc/manifest.json",
-  "url": "https://github.com/bramstroker/homeassistant-powercalc"
-}

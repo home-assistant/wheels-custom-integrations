@@ -1,8 +1,0 @@
-{
-    "name": "Amber Electric",
-    "owner": [
-        "@madpilot"
-    ],
-    "manifest": "https://raw.githubusercontent.com/madpilot/hass-amber-electric/master/custom_components/amberelectric/manifest.json",
-    "url": "https://github.com/madpilot/hass-amber-electric"
-}

@@ -1,7 +1,0 @@
-{
-    "name": "here_weather",
-    "owner": ["@eifinger"],
-    "manifest": "https://raw.githubusercontent.com/eifinger/hass-here-weather/master/custom_components/here_weather/manifest.json",
-    "url": "https://github.com/eifinger/hass-here-weather"
-  }
-  

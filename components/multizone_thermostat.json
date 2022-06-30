@@ -1,6 +1,0 @@
-{
-    "name": "MultiZone thermostat",
-    "owner": ["@vindaalex"],
-    "manifest": "https://raw.githubusercontent.com/vindaalex/multizone-thermostat/master/custom_components/multizone_thermostat/manifest.json",
-    "url": "https://github.com/vindaalex/multizone-thermostat"
-  }

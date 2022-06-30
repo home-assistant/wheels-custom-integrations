@@ -1,6 +1,0 @@
-{
-  "name": "Damda EV",
-  "owner": ["@GuGu927"],
-  "manifest": "https://raw.githubusercontent.com/GuGu927/damda_evcharger/main/custom_components/damda_evcharger/manifest.json",
-  "url": "https://github.com/GuGu927/damda_evcharger"
-}

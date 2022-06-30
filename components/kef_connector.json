@@ -1,6 +1,0 @@
-{
-  "name": "Kef Connector",
-  "owner": ["@n0ciple"],
-  "manifest": "https://raw.githubusercontent.com/N0ciple/hass-kef-connector/main/custom_components/kef_connector/manifest.json",
-  "url": "https://github.com/N0ciple/hass-kef-connector"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Paul Novus 300 RS-485 Bus",
-  "owner": ["@BenPru"],
-  "manifest": "https://raw.githubusercontent.com/BenPru/novus300_Rs485/main/custom_components/novus300bus/manifest.json",
-  "url": "https://github.com/BenPru/novus300_Rs485"
-}

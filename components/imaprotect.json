@@ -1,6 +1,0 @@
-{
-  "name": "IMA Protect Alarm",
-  "owner": ["@pcourbin"],
-  "manifest": "https://raw.githubusercontent.com/pcourbin/imaprotect/master/custom_components/imaprotect/manifest.json",
-  "url": "https://github.com/pcourbin/imaprotect"
-}

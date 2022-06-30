@@ -68,14 +68,6 @@ jobs:
         run: |
           touch .env_file
 
-      - name: Adjust build env
-        run: |
-          (
-            # cmake > 3.22.2 have issue on arm
-            # Tested until 3.22.5
-            echo "cmake==3.22.2"
-          ) >> constraints.txt
-
       - name: Build wheels
         uses: home-assistant/wheels@2022.06.7
         with:

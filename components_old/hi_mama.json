@@ -1,6 +1,0 @@
-{
-  "name": "hi_mama",
-  "owner": ["@jcgoette"],
-  "manifest": "https://raw.githubusercontent.com/jcgoette/hi_mama_homeassistant/main/custom_components/hi_mama/manifest.json",
-  "url": "https://github.com/jcgoette/hi_mama_homeassistant"
-}

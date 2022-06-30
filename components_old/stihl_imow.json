@@ -1,6 +1,0 @@
-{
-  "name": "stihl_imow",
-  "owner": ["@ChrisHaPunkt"],
-  "manifest": "https://raw.githubusercontent.com/ChrisHaPunkt/ha-stihl-imow/main/custom_components/stihl_imow/manifest.json",
-  "url": "https://github.com/ChrisHaPunkt/ha-stihl-imow"
-}

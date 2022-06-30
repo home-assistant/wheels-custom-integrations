@@ -1,6 +1,0 @@
-{
-  "name": "PiJuice UPS HAT",
-  "owner": ["@racailloux"],
-  "manifest": "https://raw.githubusercontent.com/Racailloux/home-assistant-pijuice/main/custom_components/pijuice/manifest.json",
-  "url": "https://github.com/Racailloux/home-assistant-pijuice"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Daikin Altherma",
-  "owner": ["@tadasdanielius"],
-  "manifest": "https://raw.githubusercontent.com/tadasdanielius/daikin_altherma/main/custom_components/daikin_altherma/manifest.json",
-  "url": "https://github.com/tadasdanielius/daikin_altherma"
-}

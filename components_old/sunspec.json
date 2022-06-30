@@ -1,6 +1,0 @@
-{
-  "name": "SunSpec",
-  "owner": ["@CJNE"],
-  "manifest": "https://raw.githubusercontent.com/CJNE/ha-sunspec/main/custom_components/sunspec/manifest.json",
-  "url": "https://github.com/CJNE/ha-sunspec"
-}

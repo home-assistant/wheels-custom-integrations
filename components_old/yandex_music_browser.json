@@ -1,6 +1,0 @@
-{
-  "name": "Yandex Music Browser",
-  "owner": ["@alryaz"],
-  "manifest": "https://raw.githubusercontent.com/alryaz/hass-yandex-music-browser/main/custom_components/yandex_music_browser/manifest.json",
-  "url": "https://github.com/alryaz/hass-yandex-music-browser"
-}

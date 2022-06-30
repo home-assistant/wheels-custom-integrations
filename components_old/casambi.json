@@ -1,6 +1,0 @@
-{
-  "name": "casambi",
-  "owner": ["@hellqvio86"],
-  "manifest": "https://raw.githubusercontent.com/hellqvio86/home_assistant_casambi/master/custom_components/casambi/manifest.json",
-  "url": "https://github.com/hellqvio86/home_assistant_casambi"
-}

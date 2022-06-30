@@ -1,6 +1,0 @@
-{
-  "name": "MOOX Track",
-  "owner": ["@moox-it"],
-  "manifest": "https://raw.githubusercontent.com/moox-it/hass-moox-track/master/custom_components/moox_track/manifest.json",
-  "url": "https://github.com/moox-it/hass-moox-track"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "denonavr3806",
-    "owner": [
-        "@troykelly"
-    ],
-    "manifest": "https://raw.githubusercontent.com/troykelly/hacs-denonavr3806/main/custom_components/denonavr3806/manifest.json",
-    "url": "https://github.com/troykelly/hacs-denonavr3806"
-}

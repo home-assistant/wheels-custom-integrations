@@ -1,6 +1,0 @@
-{
-    "name": "motionEye",
-    "owner": ["@dermotduffy"],
-    "manifest": "https://raw.githubusercontent.com/dermotduffy/hass-motioneye/master/custom_components/motioneye/manifest.json",
-    "url": "https://github.com/dermotduffy/hass-motioneye"
-}

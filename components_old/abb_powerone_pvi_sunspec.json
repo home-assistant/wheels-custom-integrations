@@ -1,6 +1,0 @@
-{
-  "name": "ABB Power-One PVI SunSpec",
-  "owner": ["@alexdelprete"],
-  "manifest": "https://raw.githubusercontent.com/alexdelprete/ha-abb-powerone-pvi-sunspec/master/custom_components/abb_powerone_pvi_sunspec/manifest.json",
-  "url": "https://github.com/alexdelprete/ha-abb-powerone-pvi-sunspec"
-}

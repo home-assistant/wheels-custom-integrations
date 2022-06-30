@@ -1,6 +1,0 @@
-{
-  "name": "PyLoxone",
-  "owner": ["@JoDehli"],
-  "manifest": "https://raw.githubusercontent.com/JoDehli/PyLoxone/master/custom_components/loxone/manifest.json",
-  "url": "https://github.com/JoDehli/PyLoxone"
-}

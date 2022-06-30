@@ -1,6 +1,0 @@
-{
-    "name": "Airscape Whole House Fan",
-    "owner": ["@quielb"],
-    "manifest": "https://raw.githubusercontent.com/quielb/hass-airscape/master/custom_components/airscape/manifest.json",
-    "url": "https://github.com/quielb/hass-airscape"
-}

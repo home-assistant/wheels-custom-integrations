@@ -1,9 +1,0 @@
-{
-  "manifest": "https://raw.githubusercontent.com/GeorgeSG/ha-slack-user/master/custom_components/slack_user/manifest.json",
-  "name": "slack_user",
-  "owner": [
-    "@GeorgeSG"
-  ],
-  "url": "https://github.com/GeorgeSG/ha-slack-user"
-}
-

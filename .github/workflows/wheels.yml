@@ -9,8 +9,6 @@ on:
   pull_request:
     branches:
       - master
-    paths:
-      - requirements.txt
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
@@ -82,3 +80,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
+          apk: "libffi-dev;rrdtool-dev"

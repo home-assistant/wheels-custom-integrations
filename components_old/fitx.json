@@ -1,7 +1,0 @@
-{
-  "name": "FitX Gym Usage",
-  "owner": ["@Raukze"],
-  "manifest": "https://raw.githubusercontent.com/Raukze/home-assistant-fitx/main/custom_components/fitx/manifest.json",
-  "url": "https://github.com/Raukze/home-assistant-fitx/"
-}
-  

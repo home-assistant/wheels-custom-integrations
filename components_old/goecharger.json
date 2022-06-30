@@ -1,6 +1,0 @@
-{
-  "name": "go-eCharger",
-  "owner": ["@cathiele"],
-  "manifest": "https://raw.githubusercontent.com/cathiele/homeassistant-goecharger/master/custom_components/goecharger/manifest.json",
-  "url": "https://github.com/cathiele/homeassistant-goecharger"
-}

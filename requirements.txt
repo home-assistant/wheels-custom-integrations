@@ -1,1 +1,4 @@
+pybase64
 RPi.GPIO
+rrdtool
+smbus_cffi

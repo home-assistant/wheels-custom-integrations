@@ -1,6 +1,0 @@
-{
-  "name": "Hik-Connect",
-  "owner": ["@tomasbedrich"],
-  "manifest": "https://raw.githubusercontent.com/tomasbedrich/home-assistant-hikconnect/master/custom_components/hikconnect/manifest.json",
-  "url": "https://github.com/tomasbedrich/home-assistant-hikconnect"
-}

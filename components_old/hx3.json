@@ -1,6 +1,0 @@
-{
-  "name": "hx3",
-  "owner": ["@jaredhobbs"],
-  "manifest": "https://raw.githubusercontent.com/jaredhobbs/home-assistant-hx3/master/custom_components/hx3/manifest.json",
-  "url": "https://github.com/jaredhobbs/home-assistant-hx3"
-}

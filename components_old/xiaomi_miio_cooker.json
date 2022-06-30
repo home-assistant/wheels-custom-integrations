@@ -1,6 +1,0 @@
-{
-  "name": "xiaomi_miio_cooker",
-  "owner": ["@syssi"],
-  "manifest": "https://raw.githubusercontent.com/syssi/xiaomi_cooker/develop/custom_components/xiaomi_miio_cooker/manifest.json",
-  "url": "https://github.com/syssi/xiaomi_cooker"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "osrm_travel_time",
-  "owner": ["@edekeijzer"],
-  "manifest": "https://raw.githubusercontent.com/edekeijzer/osrm_travel_time/master/custom_components/osrm_travel_time/manifest.json",
-  "url": "https://github.com/edekeijzer/osrm_travel_time"
-}

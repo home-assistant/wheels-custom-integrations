@@ -1,7 +1,0 @@
-{
-  "name": "AbfallPlus",
-  "owner": ["@bouni"],
-  "manifest": "https://raw.githubusercontent.com/Bouni/abfallplus/master/custom_components/abfallplus/manifest.json",
-  "url": "https://github.com/Bouni/abfallplus"
-}
-

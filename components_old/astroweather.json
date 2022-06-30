@@ -1,6 +1,0 @@
-{
-    "name": "AstroWeather",
-    "owner": ["@mawinkler"],
-    "manifest": "https://raw.githubusercontent.com/mawinkler/astroweather/main/custom_components/astroweather/manifest.json",
-    "url": "https://github.com/mawinkler/astroweather"
-}

@@ -38,6 +38,7 @@ jobs:
 
   wheels:
     runs-on: ubuntu-latest
+    needs: lint
     name: Prepare musllinux for ${{ matrix.abi }} with ${{ matrix.arch }}
     strategy:
       fail-fast: false

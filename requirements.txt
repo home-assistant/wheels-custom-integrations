@@ -1,4 +1,3 @@
-pyamdgpuinfo
 pybase64
 rapidfuzz
 RPi.GPIO

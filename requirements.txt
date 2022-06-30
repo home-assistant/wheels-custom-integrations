@@ -1,4 +1,5 @@
 pybase64
 RPi.GPIO
 rrdtool
+shapely
 smbus_cffi

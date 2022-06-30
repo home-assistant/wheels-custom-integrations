@@ -80,4 +80,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
-          apk: "libffi-dev;rrdtool-dev"
+          apk: "libffi-dev;rrdtool-dev;geos-dev"

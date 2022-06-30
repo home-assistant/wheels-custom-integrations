@@ -38,13 +38,12 @@ jobs:
 
   wheels:
     runs-on: ubuntu-latest
-    needs: init
     name: Prepare musllinux for ${{ matrix.abi }} with ${{ matrix.arch }}
     strategy:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        abi: cp310
+        abi: ["cp310"]
 
     steps:
       - name: Check out code from GitHub
@@ -59,7 +58,7 @@ jobs:
         id: test
         shell: bash
         run: |
-          if [ "${{ github.event_name = "pull_request" ]; then
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
             echo '::set-output name=is_test::True'
           else
             echo '::set-output name=is_test::False'

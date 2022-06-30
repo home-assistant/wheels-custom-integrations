@@ -5,42 +5,30 @@ on:
     branches:
       - master
     paths:
-      - "components/*"
+      - requirements.txt
+  pull_request:
+    branches:
+      - master
+    paths:
+      - requirements.txt
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
-  init:
+
+  lint:
     runs-on: ubuntu-latest
-    name: Init
+    name: init
     outputs:
+      requirements: ${{ steps.requirements.outputs.exist }}
       apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v3
 
-      - name: Generate requirements.txt
-        run: |
-          for component in components/*; do
-            manifest=$(jq --raw-output ".manifest" "${component}")
-
-            echo "Process: ${component} -> ${manifest}"
-            curl -sSL -f "${manifest}" | jq --raw-output '.requirements | join("\n")' >> ./requirements_raw.txt
-          done
-
-          sort -u ./requirements_raw.txt > ./requirements.txt
-
-          echo "List:"
-          cat ./requirements.txt
-
       - name: Get constraints
         run: wget -O constraints.txt https://raw.githubusercontent.com/home-assistant/core/dev/homeassistant/package_constraints.txt
-
-      - name: Upload requirements.txt
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          name: requirements
-          path: ./requirements.txt
 
       - name: Upload constraints.txt
         uses: actions/upload-artifact@v3.1.0
@@ -48,66 +36,51 @@ jobs:
           name: constraints
           path: ./constraints.txt
 
-      - name: Setup tempio
-        uses: home-assistant/tempio@main
-
-      - name: Generate APK list
-        id: apk
-        run: |
-          tempio -conf requirements.json  -template templates/builder.template -out apk.list
-          packages=$(cat apk.list)
-          echo "::set-output name=packages::${packages}"
-
   wheels:
     runs-on: ubuntu-latest
     needs: init
-    name: Prepare wheels for ${{ matrix.tag }} with ${{ matrix.arch }}
+    name: Prepare musllinux for ${{ matrix.abi }} with ${{ matrix.arch }}
     strategy:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        tag:
-          - "3.9-alpine3.13"
-          - "3.9-alpine3.14"
-        group: ["a", "b", "c", "d"]
+        abi: cp310
 
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v3
-
-      - name: Download requirements.txt
-        uses: actions/download-artifact@v2
-        with:
-          name: requirements
-
+      
       - name: Download constraints.txt
         uses: actions/download-artifact@v2
         with:
           name: constraints
-
-      - name: Limit requirements
-        run: split -n l/4 requirements.txt -a 1 requirements.
       
+      - name: Pull-Request test
+        id: test
+        shell: bash
+        run: |
+          if [ "${{ github.event_name = "pull_request" ]; then
+            echo '::set-output name=is_test::True'
+          else
+            echo '::set-output name=is_test::False'
+          fi
+
       - name: Write env-file
         shell: bash
         run: |
           (
-            echo "GRPC_BUILD_WITH_BORING_SSL_ASM=false"
-            echo "GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true"
-            echo "GRPC_PYTHON_BUILD_WITH_CYTHON=true"
-            echo "GRPC_PYTHON_DISABLE_LIBC_COMPATIBILITY=true"
+            # Keep it for future
           ) > .env_file
 
       - name: Build wheels
-        uses: home-assistant/wheels@2021.05.3
+        uses: home-assistant/wheels@2022.06.7
         with:
-          tag: ${{ matrix.tag }}
+          abi: ${{ matrix.abi }}
+          tag: musllinux_1_2
           arch: ${{ matrix.arch }}
           wheels-key: ${{ secrets.WHEELS_KEY }}
-          apk: ${{ needs.init.outputs.apk }}
-          pip: "Cython;numpy"
-          env-file: true
-          skip-binary: aiohttp
+          env-file: True
           single: True
+          test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
-          requirements: "requirements.${{ matrix.group }}"
+          requirements: "requirements.txt"

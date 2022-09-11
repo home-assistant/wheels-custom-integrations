@@ -1,3 +1,4 @@
+awscrt
 pybase64
 RPi.GPIO
 rrdtool

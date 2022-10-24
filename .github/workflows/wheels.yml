@@ -31,7 +31,7 @@ jobs:
           sed -i "/numpy/d" constraints.txt
 
       - name: Upload constraints.txt
-        uses: actions/upload-artifact@v3.1.0
+        uses: actions/upload-artifact@v3.1.1
         with:
           name: constraints
           path: ./constraints.txt

@@ -1,0 +1,6 @@
+{
+    "name": "Mobile Vikings",
+    "owner": ["@geertmeersman"],
+    "manifest": "https://raw.githubusercontent.com/geertmeersman/mobile_vikings/main/custom_components/mobile_vikings/manifest.json",
+    "url": "https://github.com/geertmeersman/mobile_vikings"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Telenet",
+    "owner": ["@geertmeersman"],
+    "manifest": "https://raw.githubusercontent.com/geertmeersman/telenet/main/custom_components/telenet/manifest.json",
+    "url": "https://github.com/geertmeersman/telenet"
+}

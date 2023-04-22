@@ -71,7 +71,7 @@ jobs:
           touch .env_file
 
       - name: Build wheels
-        uses: home-assistant/wheels@2022.10.1
+        uses: home-assistant/wheels@2023.04.0
         with:
           abi: ${{ matrix.abi }}
           tag: musllinux_1_2

@@ -4,3 +4,4 @@ rrdtool
 Shapely
 smbus_cffi
 spidev
+hidapi

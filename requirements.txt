@@ -1,3 +1,4 @@
+ctranslate2
 pybase64
 RPi.GPIO
 rrdtool

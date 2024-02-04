@@ -69,6 +69,13 @@ jobs:
         run: |
           touch .env_file
 
+      - name: (Un)comment packages
+        run: |
+          # Some packages are not buildable on armhf anymore
+          if [ "${{ matrix.arch }}" = "armhf" ]; then
+            sed -i "s|Shapely|# Shapely|g" requirements.txt
+          fi
+
       - name: Build wheels
         uses: home-assistant/wheels@2024.01.0
         with:

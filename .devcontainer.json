@@ -1,0 +1,4 @@
+{
+	"name": "home-assistant/wheels-custom-integrations",
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye"
+}

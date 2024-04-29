@@ -1,7 +1,0 @@
-{
-	"name": "Custom Integration Wheels",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"remoteUser": "vscode"
-}

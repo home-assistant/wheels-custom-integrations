@@ -1,4 +1,5 @@
 aiortc
+marisa-trie
 pybase64
 RPi.GPIO
 rrdtool

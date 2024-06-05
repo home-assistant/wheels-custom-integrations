@@ -7,3 +7,4 @@ Shapely
 smbus_cffi
 spidev
 uvloop
+scikit-learn

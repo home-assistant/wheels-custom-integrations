@@ -77,7 +77,7 @@ jobs:
           fi
 
       - name: Build wheels
-        uses: home-assistant/wheels@2024.01.0
+        uses: home-assistant/wheels@2024.07.1
         with:
           abi: ${{ matrix.abi }}
           tag: musllinux_1_2

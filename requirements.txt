@@ -1,3 +1,4 @@
+aiogithubapi
 aiortc
 marisa-trie
 pybase64

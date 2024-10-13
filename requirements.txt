@@ -1,6 +1,7 @@
 aiogithubapi
 aiortc
 marisa-trie
+onnxruntime
 pybase64
 RPi.GPIO
 rrdtool

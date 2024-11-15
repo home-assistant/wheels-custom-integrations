@@ -5,6 +5,7 @@ on:
     branches:
       - master
     paths:
+      - .github/workflows/wheels.yml
       - requirements.txt
   pull_request:
     branches:
@@ -43,7 +44,7 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        abi: ["cp312"]
+        abi: ["cp312", "cp313"]
 
     steps:
       - name: Check out code from GitHub

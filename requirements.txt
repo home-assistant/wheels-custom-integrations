@@ -8,3 +8,4 @@ Shapely
 smbus_cffi
 spidev
 uvloop
+stream-inflate

@@ -9,3 +9,4 @@ smbus_cffi
 spidev
 uvloop
 questdb
+tiktoken

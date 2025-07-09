@@ -1,4 +1,4 @@
-aiogithubapi
+aiogithubapi==25.5.0
 aiortc
 marisa-trie
 pybase64

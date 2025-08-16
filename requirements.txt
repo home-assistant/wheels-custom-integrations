@@ -1,6 +1,7 @@
 aiogithubapi
 aiortc
 marisa-trie
+ortools
 pybase64
 RPi.GPIO
 rrdtool

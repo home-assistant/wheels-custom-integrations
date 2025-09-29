@@ -89,4 +89,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
-          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev"
+          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja"

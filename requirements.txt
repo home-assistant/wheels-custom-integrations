@@ -10,3 +10,4 @@ spidev
 uvloop
 questdb
 tiktoken
+pypredict

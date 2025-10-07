@@ -10,3 +10,7 @@ spidev
 uvloop
 questdb
 tiktoken
+llvmlite
+numba
+soxr
+scikit-learn

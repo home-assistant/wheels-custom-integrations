@@ -68,7 +68,7 @@ jobs:
       - name: Write env-file
         shell: bash
         run: |
-          touch .env_file
+          echo "LLVM_CONFIG=/usr/bin/llvm-config-15" > .env_file
 
       - name: (Un)comment packages
         run: |
@@ -89,4 +89,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
-          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja;llvm15-dev;openblas-dev;soxr-dev;libxml2-dev;libsndfile-dev"
+          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja;llvm15-dev;llvm15-static;openblas-dev;soxr-dev;libxml2-dev;libsndfile-dev"

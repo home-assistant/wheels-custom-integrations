@@ -10,8 +10,7 @@ spidev
 uvloop
 questdb
 tiktoken
-llvmlite
+llvmlite==0.44.0
 numba
 soxr
 scikit-learn
-librosa

@@ -14,3 +14,4 @@ llvmlite
 numba
 soxr
 scikit-learn
+librosa

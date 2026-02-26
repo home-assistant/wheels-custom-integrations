@@ -8,3 +8,4 @@ smbus_cffi
 spidev
 questdb
 tiktoken
+pypredict

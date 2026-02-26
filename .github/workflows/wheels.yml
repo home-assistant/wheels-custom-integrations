@@ -44,7 +44,7 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        abi: ["cp313", "cp314"]
+        abi: ["cp314"]
 
     steps:
       - name: Check out code from GitHub

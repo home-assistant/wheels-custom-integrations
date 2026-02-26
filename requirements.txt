@@ -6,5 +6,4 @@ RPi.GPIO
 Shapely
 smbus_cffi
 spidev
-questdb
 tiktoken

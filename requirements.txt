@@ -1,9 +1,7 @@
 aiogithubapi
 aiortc
-pybase64
 RPi.GPIO
 Shapely
 smbus_cffi
 spidev
 questdb
-tiktoken

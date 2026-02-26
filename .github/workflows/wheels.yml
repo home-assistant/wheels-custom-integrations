@@ -23,7 +23,7 @@ jobs:
       apk: ${{ steps.apk.outputs.packages }}
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Get constraints
         run: |
@@ -31,27 +31,31 @@ jobs:
           sed -i "/numpy/d" constraints.txt
 
       - name: Upload constraints.txt
-        uses: actions/upload-artifact@v4.6.2
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         with:
           name: constraints
           path: ./constraints.txt
 
   wheels:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     needs: lint
     name: Prepare musllinux for ${{ matrix.abi }} with ${{ matrix.arch }}
     strategy:
       fail-fast: false
       matrix:
-        arch: ["aarch64", "armhf", "armv7", "amd64", "i386"]
-        abi: ["cp313"]
-
+        arch: ["aarch64", "amd64"]
+        abi: ["cp314"]
+        include:
+          - arch: amd64
+            os: ubuntu-latest
+          - arch: aarch64
+            os: ubuntu-24.04-arm
     steps:
       - name: Check out code from GitHub
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Download constraints.txt
-        uses: actions/download-artifact@v5.0.0
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
         with:
           name: constraints
 
@@ -72,13 +76,13 @@ jobs:
 
       - name: (Un)comment packages
         run: |
-          # Some packages are not buildable on armhf anymore
-          if [ "${{ matrix.arch }}" = "armhf" ]; then
-            sed -i "s|Shapely|# Shapely|g" requirements.txt
+          # Disable questdb for aarch64
+          if [ "${{ matrix.arch }}" = "aarch64" ]; then
+            sed -i "s|^questdb$|# questdb|g" requirements.txt
           fi
 
       - name: Build wheels
-        uses: home-assistant/wheels@2025.07.0
+        uses: home-assistant/wheels@e5742a69d69f0e274e2689c998900c7d19652c21 # 2025.12.0
         with:
           abi: ${{ matrix.abi }}
           tag: musllinux_1_2
@@ -89,4 +93,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
-          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev"
+          apk: "libffi-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja"

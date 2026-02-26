@@ -44,7 +44,7 @@ jobs:
       fail-fast: false
       matrix:
         arch: ["aarch64", "amd64"]
-        abi: ["cp313"]
+        abi: ["cp314"]
         include:
           - arch: amd64
             os: ubuntu-latest
@@ -74,6 +74,13 @@ jobs:
         run: |
           touch .env_file
 
+      - name: (Un)comment packages
+        run: |
+          # Disable questdb for aarch64
+          if [ "${{ matrix.arch }}" = "aarch64" ]; then
+            sed -i "s|^questdb$|# questdb|g" requirements.txt
+          fi
+
       - name: Build wheels
         uses: home-assistant/wheels@e5742a69d69f0e274e2689c998900c7d19652c21 # 2025.12.0
         with:
@@ -86,4 +93,4 @@ jobs:
           test: ${{ steps.test.outputs.is_test }}
           constraints: "constraints.txt"
           requirements: "requirements.txt"
-          apk: "libffi-dev;rrdtool-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja"
+          apk: "libffi-dev;geos-dev;opus-dev;libvpx-dev;ffmpeg-dev;libsrtp-dev;libressl-dev;ninja"

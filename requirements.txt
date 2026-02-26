@@ -7,6 +7,5 @@ rrdtool
 Shapely
 smbus_cffi
 spidev
-uvloop
 questdb
 tiktoken

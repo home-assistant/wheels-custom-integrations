@@ -1,7 +1,6 @@
 aiogithubapi
 aiortc
 marisa-trie
-pybase64
 RPi.GPIO
 Shapely
 smbus_cffi

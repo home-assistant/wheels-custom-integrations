@@ -37,7 +37,7 @@ jobs:
           path: ./constraints.txt
 
   wheels:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     needs: lint
     name: Prepare musllinux for ${{ matrix.abi }} with ${{ matrix.arch }}
     strategy:
@@ -45,7 +45,11 @@ jobs:
       matrix:
         arch: ["aarch64", "amd64"]
         abi: ["cp314"]
-
+        include:
+          - arch: amd64
+            os: ubuntu-latest
+          - arch: aarch64
+            os: ubuntu-24.04-arm
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v6
@@ -71,7 +75,7 @@ jobs:
           touch .env_file
 
       - name: Build wheels
-        uses: home-assistant/wheels@2025.10.0
+        uses: home-assistant/wheels@e5742a69d69f0e274e2689c998900c7d19652c21 # 2025.12.0
         with:
           abi: ${{ matrix.abi }}
           tag: musllinux_1_2

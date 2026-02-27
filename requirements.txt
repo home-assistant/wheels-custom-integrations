@@ -1,6 +1,5 @@
 aiogithubapi
 aiortc
-marisa-trie
 RPi.GPIO
 smbus_cffi
 spidev

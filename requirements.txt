@@ -1,4 +1,3 @@
-aiogithubapi
 aiortc
 RPi.GPIO
 smbus_cffi

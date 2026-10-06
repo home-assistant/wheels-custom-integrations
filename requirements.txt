@@ -1,3 +1,4 @@
 RPi.GPIO
 smbus_cffi
 spidev
+lightgbm
